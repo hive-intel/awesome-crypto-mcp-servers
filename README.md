@@ -16,6 +16,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 
 ## Multi-Chain & Infrastructure
 
+- **Hive Intelligence** - [hive-crypto-mcp](https://github.com/hive-intel/hive-crypto-mcp) - Ultimate cryptocurrency MCP for AI assistants with unified access to crypto, DeFi, and Web3 analytics. [Remote server guide](https://hiveintelligence.xyz/crypto-mcp)
 - **Nodit Labs** - [nodit-mcp-server](https://github.com/noditlabs/nodit-mcp-server) - Multi-chain blockchain data via Nodit's Web3 APIs with zero blockchain-specific logic
 - **EVM MCP** - [evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) - Tools for interacting with multiple EVM networks including Ethereum, Arbitrum, Base, Polygon
 - **Blockscout** - [mcp-server](https://github.com/blockscout/mcp-server) - Wraps Blockscout APIs to expose blockchain data, balances, tokens, NFTs via MCP
