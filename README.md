@@ -24,6 +24,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 - **Strangelove Ventures** - [web3-mcp](https://github.com/strangelove-ventures/web3-mcp) - Interact with Solana, Ethereum, THORChain, XRP, TON, Cardano, and UTXO chains
 
 ## DeFi & Trading
+- **OBSD LaunchPad** - [obsd-launchpad](https://github.com/thryxagi/obsd-launchpad) - Full token lifecycle MCP for AI agents on Base. 12 tools: deploy, buy, sell, claim fees, quotes, referral program, earnings analytics via `npx obsd-launchpad-mcp`. Treasury-backed IV floor, 37.5% passive OBSD income
 
 - **Uniswap Monad** - [Monad-Testnet-Uniswap-MCP-Server](https://github.com/K115DuyBowl/Monad-Testnet-Uniswap-MCP-Server) - Uniswap V2 integration on Monad Testnet for token trading
 - **DefiLlama** - [mcp-server-defillama](https://github.com/dcSpark/mcp-server-defillama) - Access DeFi data via DefiLlama API including TVL, token prices, stablecoin info
