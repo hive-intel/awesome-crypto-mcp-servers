@@ -24,6 +24,10 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 - **Strangelove Ventures** - [web3-mcp](https://github.com/strangelove-ventures/web3-mcp) - Interact with Solana, Ethereum, THORChain, XRP, TON, Cardano, and UTXO chains
 
 ## DeFi & Trading
+n- **Base Flash Arb** - [base-flash-arb-mcp](https://github.com/lordbasilaiassistant-sudo/base-flash-arb-mcp) - Arbitrage detection across DEXes on Base. 7 tools
+- **Base Multi-Wallet** - [base-multi-wallet-mcp](https://github.com/lordbasilaiassistant-sudo/base-multi-wallet-mcp) - Coordinated multi-wallet trading on Base. 8 tools
+- **Base Gasless Deploy** - [base-gasless-deploy-mcp](https://github.com/lordbasilaiassistant-sudo/base-gasless-deploy-mcp) - Gasless ERC-20 deployment on Base via CDP Paymaster. 5 tools
+- **Base Price Oracle** - [base-price-oracle-mcp](https://github.com/lordbasilaiassistant-sudo/base-price-oracle-mcp) - On-chain price feeds from Base DEX pools. 7 tools
 
 - **Uniswap Monad** - [Monad-Testnet-Uniswap-MCP-Server](https://github.com/K115DuyBowl/Monad-Testnet-Uniswap-MCP-Server) - Uniswap V2 integration on Monad Testnet for token trading
 - **DefiLlama** - [mcp-server-defillama](https://github.com/dcSpark/mcp-server-defillama) - Access DeFi data via DefiLlama API including TVL, token prices, stablecoin info
@@ -54,6 +58,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 - **Armor Wallet** - [armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) - Wallet management, swaps, DCA, stop loss/take profit for Solana (more chains coming)
 
 ## Security & Smart Contracts
+n- **Base Security Scanner** - [base-security-scanner-mcp](https://github.com/lordbasilaiassistant-sudo/base-security-scanner-mcp) - Smart contract security scanner for Base. Detect honeypots, rug pulls, hidden mints. 8 tools
 
 - **Web3 Assistant** - [web3-assistant-mcp](https://github.com/EmanuelJr/web3-mcp-server) - ABI analysis and secure contract method invocation
 
