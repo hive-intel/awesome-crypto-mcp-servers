@@ -22,6 +22,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 - **Blockscout** - [mcp-server](https://github.com/blockscout/mcp-server) - Wraps Blockscout APIs to expose blockchain data, balances, tokens, NFTs via MCP
 - **Web3 Assistant** - [web3-mcp-server](https://github.com/EmanuelJr/web3-mcp-server) - Secure interaction with blockchain smart contracts across multiple chains
 - **Strangelove Ventures** - [web3-mcp](https://github.com/strangelove-ventures/web3-mcp) - Interact with Solana, Ethereum, THORChain, XRP, TON, Cardano, and UTXO chains
+- **WAIaaS** - [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted wallet daemon for AI agents. 59+ MCP tools for wallet management, DeFi, NFT, x402 across EVM + Solana. Default-deny policy engine, spending limits, kill switch
 
 ## DeFi & Trading
 
