@@ -49,6 +49,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 - **Bitcoin MCP** - [bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network interactions for key generation, validation, and queries
 
 ## Analytics & Data
+- **EruditePay** - [EruditePay](https://bridge.eruditepay.com) - 168 MCP tools for blockchain analytics across Base, Tron, BTC, XRP, and Kaspa. Token prices, whale tracking, DeFi analytics, gas forecasting, NFT data, and security scanning. x402 pay-per-call with USDC/USDT. ([GitHub](https://github.com/EruditeIntelligence))
 
 - **Heurist Network** - [heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Specialized web3 AI agents for blockchain analysis and smart contract security
 - **Armor Wallet** - [armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) - Wallet management, swaps, DCA, stop loss/take profit for Solana (more chains coming)
