@@ -47,6 +47,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 ## Bitcoin & Lightning
 
 - **Bitcoin MCP** - [bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network interactions for key generation, validation, and queries
+- **Bitcoin MCP (Bortlesboat)** - [bitcoin-mcp](https://github.com/Bortlesboat/bitcoin-mcp) - 49 Bitcoin tools for AI agents — fee intelligence, mempool analysis, blocks, transactions, mining, price. Zero config with 116 tests
 
 ## Analytics & Data
 
