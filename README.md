@@ -50,6 +50,8 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 
 ## Analytics & Data
 
+- **CoinPaprika** - [coinpaprika-mcp](https://github.com/coinpaprika/coinpaprika-mcp) - Crypto market data for 12,000+ coins and 350+ exchanges. Tickers, OHLCV, historical prices, contract lookups. Free, no API key. Hosted at mcp.coinpaprika.com
+- **DexPaprika** - [dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp) - Real-time DEX data across 34 blockchains. 30M+ pools, 27M+ tokens, OHLCV, trades. Free, no API key. Hosted at mcp.dexpaprika.com
 - **Heurist Network** - [heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Specialized web3 AI agents for blockchain analysis and smart contract security
 - **Armor Wallet** - [armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) - Wallet management, swaps, DCA, stop loss/take profit for Solana (more chains coming)
 
