@@ -47,6 +47,7 @@ A curated list of Model Context Protocol (MCP) servers for cryptocurrency, block
 ## Bitcoin & Lightning
 
 - **Bitcoin MCP** - [bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network interactions for key generation, validation, and queries
+- **SatoshiData Wallet Intelligence** - [satoshidata-wallet-intel](https://smithery.ai/server/@wrbtc/satoshidata-wallet-intel) - Bitcoin wallet intelligence with 20 MCP tools — entity labels, trust scores, on-chain analytics across 33M+ labeled addresses. L402 Lightning payments, no signup required. [API](https://satoshidata.ai)
 
 ## Analytics & Data
 
