@@ -18,6 +18,7 @@ Last curated: 2026-06-01.
 - [Bitcoin and Lightning](#bitcoin-and-lightning)
 - [Layer-1 and Cross-Chain](#layer-1-and-cross-chain)
 - [DeFi, Markets, and Trading](#defi-markets-and-trading)
+- [NFTs and Marketplaces](#nfts-and-marketplaces)
 - [Prediction Markets](#prediction-markets)
 - [Security and Risk](#security-and-risk)
 - [News, Sentiment, and Research Signals](#news-sentiment-and-research-signals)
@@ -52,6 +53,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Enterprise on-chain data and SQL:** Start with Allium MCP when the agent needs hosted access to Explorer SQL, saved queries, schemas, docs, and real-time Blockchain data across many chains.
 
 **Web3 account, token, and NFT data:** Start with Chainbase MCP when the agent needs HTTP access to token balances, holders, metadata, NFT ownership, transaction history, block details, and on-chain analytics.
+
+**NFT marketplace data and actions:** Start with OpenSea MCP when the agent needs OpenSea collection stats, NFT metadata, ownership, listings, offers, drops, portfolio data, token swaps, or ready-to-sign marketplace actions across supported chains.
 
 **Smart-money and wallet labels:** Start with Nansen MCP when the agent needs institutional on-chain intelligence, smart-money labels, token flows, wallet PnL, or multi-chain research workflows.
 
@@ -132,6 +135,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Enterprise on-chain SQL and real-time data:** Allium MCP.
 
 **Token, wallet, NFT, and block-level API data:** Chainbase MCP.
+
+**NFT marketplace analytics and actions:** OpenSea MCP.
 
 **On-chain SQL analytics and dashboards:** Dune MCP.
 
@@ -268,6 +273,10 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [Crypto Indicators MCP](https://github.com/kukapay/crypto-indicators-mcp) - Technical-analysis indicators and strategy signals for cryptocurrency agents.
 - [CryptoQuant MCP](https://github.com/CryptoQuantOfficial/cryptoquant-mcp) - Official on-chain and market intelligence workflows from CryptoQuant.
 - [Chainlink Feeds MCP](https://github.com/kukapay/chainlink-feeds-mcp) - Chainlink price-feed MCP for decentralized on-chain market data.
+
+## NFTs and Marketplaces
+
+- [OpenSea MCP](https://docs.opensea.io/reference/mcp) - Official OpenSea MCP for AI access to NFTs, tokens, collections, accounts, portfolio analytics, marketplace listings, offers, drops, swaps, and ready-to-sign trading actions across supported chains.
 
 ## Prediction Markets
 
