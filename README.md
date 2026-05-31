@@ -41,6 +41,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Blockchain node and endpoint operations:** Start with Chainstack MCP or Quicknode MCP when the agent needs remote node deployment, endpoint management, platform status, docs search, or live RPC workflows.
 
+**Self-hosted Ethereum node intelligence:** Start with Erigon MCP Server when the agent needs read-only Ethereum node data, logs, metrics, traces, resources, or prompts from a local Erigon node.
+
 **Multi-network RPC access:** Start with dRPC Agent Skills when the agent needs RPC access across many networks through a single provider-backed interface.
 
 **Multi-package Blockchain API suite:** Start with Crypto APIs MCP Servers for hosted HTTP or package-level stdio access to balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
@@ -105,6 +107,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Node, RPC, endpoint, or infrastructure operations:** Alchemy MCP Server, Chainstack MCP Server, or Quicknode MCP.
 
+**Self-hosted Ethereum node analysis:** Erigon MCP Server.
+
 **Smart-money labels and institutional on-chain research:** Nansen MCP.
 
 **Enterprise on-chain SQL and real-time data:** Allium MCP.
@@ -154,6 +158,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 - [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
 - [dRPC Agent Skills](https://github.com/drpcorg/drpc-agent-skills) - dRPC-maintained Blockchain RPC skill and MCP surface for agent access across 200+ networks.
+- [Erigon MCP Server](https://docs.erigon.tech/fundamentals/mcp) - Official Erigon MCP for read-only Ethereum node data, JSON-RPC tools, Otterscan traces, logs, metrics, resources, prompts, and stdio or SSE setup against local Erigon nodes.
 - [Nodit MCP Server](https://github.com/noditlabs/nodit-mcp-server) - Structured multi-chain Blockchain data through Nodit's Web3 Data and Node APIs.
 - [Subgraph MCP Server](https://github.com/graphops/subgraph-mcp) - The Graph Network MCP for subgraph search, schema discovery, GraphQL query execution, query-volume signals, hosted SSE, and local Rust setup.
 - [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
