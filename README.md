@@ -32,6 +32,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Official crypto market data:** Start with CoinGecko MCP Server for public keyless access, authenticated Pro access, local npm setup, prices, historical data, DEX pools, NFTs, and metadata.
 
+**Market cap, narratives, and x402:** Start with CoinMarketCap MCP when the agent needs CMC quotes, technical analysis, global metrics, crypto news, semantic search, or pay-per-call x402 access.
+
 **Exchange order books and candles:** Start with Cryptohopper MCP when the agent needs live market data, order-book depth, and candle analysis through a remote MCP endpoint.
 
 **Official Blockchain API access:** Start with Alchemy MCP Server for hosted OAuth access to token prices, multichain balances, transfers, NFTs, smart accounts, and swaps.
@@ -43,6 +45,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Multi-package Blockchain API suite:** Start with Crypto APIs MCP Servers for hosted HTTP or package-level stdio access to balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 
 **Blockchain trading datasets:** Start with Bitquery MCP Server when the agent needs hosted access to Bitquery's Blockchain, DEX, token, and trading datasets.
+
+**Smart-money and wallet labels:** Start with Nansen MCP when the agent needs institutional on-chain intelligence, smart-money labels, token flows, wallet PnL, or multi-chain research workflows.
 
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
@@ -92,6 +96,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Chainstack MCP Server](https://docs.chainstack.com/docs/chainstack-mcp-server) - Official remote Streamable HTTP MCP for documentation search, platform status, live RPC queries, node deployment, faucet requests, pricing, and Chainstack project management across 70+ chains.
 - [Quicknode MCP](https://www.quicknode.com/docs/build-with-ai/quicknode-mcp) - Official remote OAuth MCP for Quicknode account operations, endpoint management, usage monitoring, security settings, billing review, and API-aware agent workflows.
 - [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for Blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
+- [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 - [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
 - [dRPC Agent Skills](https://github.com/drpcorg/drpc-agent-skills) - dRPC-maintained Blockchain RPC skill and MCP surface for agent access across 200+ networks.
@@ -143,6 +148,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 - [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
 - [CoinGecko MCP Server](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server) - Official CoinGecko MCP for prices, historical market data, DEX pools, NFT collections, metadata, keyless public access, authenticated Pro access, and local npm setup.
+- [CoinMarketCap MCP](https://coinmarketcap.com/api/mcp/) - Official CoinMarketCap hosted MCP for quotes, technical analysis, on-chain metrics, global market data, trending narratives, news, semantic search, and x402 pay-per-call access.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
 - [Dune Analytics MCP](https://github.com/kukapay/dune-analytics-mcp) - Dune API MCP for running query IDs and returning latest query results as CSV for agent research workflows.
