@@ -155,6 +155,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Related Lists and Directories
 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Large cross-category MCP server directory.
+- [TensorBlock Awesome MCP Servers](https://github.com/TensorBlock/awesome-mcp-servers) - Broad MCP directory with a Finance & Crypto section and high-volume MCP discovery surface.
 - [Awesome Blockchain MCPs](https://github.com/royyannick/awesome-blockchain-mcps) - Blockchain and crypto MCP list with broad Web3 coverage.
 - [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
 - [Kukapay MCP Servers](https://github.com/kukapay/kukapay-mcp-servers) - Crypto MCP suite index covering DeFi, DEX, market data, news, on-chain analysis, bridges, NFTs, and utilities.
