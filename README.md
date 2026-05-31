@@ -33,6 +33,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Multi-package Blockchain API suite:** Start with Crypto APIs MCP Servers for hosted HTTP or package-level stdio access to balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 
+**Blockchain trading datasets:** Start with Bitquery MCP Server when the agent needs hosted access to Bitquery's blockchain, DEX, token, and trading datasets.
+
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
 **Multi-chain app development:** Start with thirdweb MCP Server for contract analysis, on-chain data, wallets, storage, and agent execution across thirdweb services.
@@ -68,7 +70,9 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Blockchain Data Infrastructure
 
 - [Alchemy MCP Server](https://github.com/alchemyplatform/alchemy-mcp-server) - Official Alchemy MCP with hosted Streamable HTTP/OAuth and local stdio for token prices, multichain balances, transfers, NFTs, smart accounts, and swaps.
+- [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
+- [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
 - [Nodit MCP Server](https://github.com/noditlabs/nodit-mcp-server) - Structured multi-chain Blockchain data through Nodit's Web3 Data and Node APIs.
 - [Subgraph MCP Server](https://github.com/graphops/subgraph-mcp) - The Graph Network MCP for subgraph search, schema discovery, GraphQL query execution, query-volume signals, hosted SSE, and local Rust setup.
 - [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
@@ -146,6 +150,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Agent Wallets and On-chain Actions
 
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
+- [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
 - [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted EVM and Solana wallet daemon with MCP, policy controls, spending limits, approval tiers, and kill-switch controls for agent transactions.
 - [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge MCP for cross-chain and same-chain swaps, fee estimation, hosted Streamable HTTP, local proxy support, and workflow skills.
