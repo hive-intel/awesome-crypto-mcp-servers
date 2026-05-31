@@ -31,9 +31,11 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Official Blockchain API access:** Start with Alchemy MCP Server for hosted OAuth access to token prices, multichain balances, transfers, NFTs, smart accounts, and swaps.
 
+**Blockchain node and endpoint operations:** Start with Chainstack MCP or Quicknode MCP when the agent needs remote node deployment, endpoint management, platform status, docs search, or live RPC workflows.
+
 **Multi-package Blockchain API suite:** Start with Crypto APIs MCP Servers for hosted HTTP or package-level stdio access to balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 
-**Blockchain trading datasets:** Start with Bitquery MCP Server when the agent needs hosted access to Bitquery's blockchain, DEX, token, and trading datasets.
+**Blockchain trading datasets:** Start with Bitquery MCP Server when the agent needs hosted access to Bitquery's Blockchain, DEX, token, and trading datasets.
 
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
@@ -44,6 +46,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Subgraph intelligence:** Start with Subgraph MCP Server when the agent needs to discover schemas and query The Graph Network subgraphs.
 
 **Official Solana developer help:** Start with Solana MCP Official for documentation, expert help, and developer workflows.
+
+**Production Solana APIs:** Start with Helius MCP Server for Solana RPC, DAS, transfers, webhooks, streaming, wallet analysis, priority fees, onboarding, and docs.
 
 **BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
@@ -70,7 +74,9 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Blockchain Data Infrastructure
 
 - [Alchemy MCP Server](https://github.com/alchemyplatform/alchemy-mcp-server) - Official Alchemy MCP with hosted Streamable HTTP/OAuth and local stdio for token prices, multichain balances, transfers, NFTs, smart accounts, and swaps.
-- [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
+- [Chainstack MCP Server](https://docs.chainstack.com/docs/chainstack-mcp-server) - Official remote Streamable HTTP MCP for documentation search, platform status, live RPC queries, node deployment, faucet requests, pricing, and Chainstack project management across 70+ chains.
+- [Quicknode MCP](https://www.quicknode.com/docs/build-with-ai/quicknode-mcp) - Official remote OAuth MCP for Quicknode account operations, endpoint management, usage monitoring, security settings, billing review, and API-aware agent workflows.
+- [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for Blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 - [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
 - [Nodit MCP Server](https://github.com/noditlabs/nodit-mcp-server) - Structured multi-chain Blockchain data through Nodit's Web3 Data and Node APIs.
@@ -93,6 +99,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Solana
 
 - [Solana MCP Official](https://github.com/solana-foundation/solana-mcp-official) - Official Solana developer MCP for documentation search, expert help, and program autofix workflows.
+- [Helius MCP Server](https://www.helius.dev/docs/helius-mcp) - Official Helius MCP with 60+ Solana tools across DAS, RPC, transfers, webhooks, streaming, wallet analysis, priority fees, onboarding, and docs.
 - [SendAI Solana MCP](https://github.com/sendaifun/solana-mcp) - Solana Agent Kit powered MCP for interacting with the Solana Blockchain.
 - [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
 - [Jupiter MCP](https://github.com/kukapay/jupiter-mcp) - Solana swap MCP using Jupiter's Ultra API.

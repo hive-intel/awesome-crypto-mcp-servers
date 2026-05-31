@@ -1,0 +1,96 @@
+name: Nominate a crypto MCP server
+description: Suggest a maintained MCP server, adapter, or MCP-compatible crypto tool surface.
+title: "Add: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for suggestions that are not ready as a pull request yet. This list is intentionally selective, so include enough evidence for maintainers to verify the MCP surface and agent use case.
+  - type: input
+    id: project_url
+    attributes:
+      label: Project URL
+      description: Link to the official repository, documentation, package, or hosted MCP page.
+      placeholder: https://github.com/org/project
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best category
+      options:
+        - Broad Crypto Intelligence
+        - Blockchain Data Infrastructure
+        - EVM and Smart Contracts
+        - Solana
+        - Bitcoin and Lightning
+        - Layer-1 and Cross-Chain
+        - DeFi, Markets, and Trading
+        - Prediction Markets
+        - Security and Risk
+        - News, Sentiment, and Research Signals
+        - Agent Wallets and On-chain Actions
+        - Related Lists and Directories
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: mcp_evidence
+    attributes:
+      label: MCP evidence
+      description: Link to the MCP docs, server entrypoint, package, hosted endpoint, client config, or tool catalog.
+      placeholder: "Example: npm package, server.json, docs page, transport mode, tool list."
+    validations:
+      required: true
+  - type: textarea
+    id: agent_use_case
+    attributes:
+      label: Agent use case
+      description: What should an AI agent use this server for?
+      placeholder: "Example: query Solana wallet activity, deploy nodes, inspect DEX pools, fetch security labels."
+    validations:
+      required: true
+  - type: input
+    id: install_or_connect
+    attributes:
+      label: Install or connection path
+      description: Include the safest known install command, hosted URL, or client configuration path.
+      placeholder: "npx package@latest, https://example.com/mcp, Docker image, or docs URL."
+    validations:
+      required: false
+  - type: textarea
+    id: maintenance_signals
+    attributes:
+      label: Maintenance signals
+      description: Recent commits, official provider ownership, docs quality, adoption, package status, or security posture.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk_surface
+    attributes:
+      label: Risk surface
+      options:
+        - Read-only data or documentation
+        - API key required
+        - Wallet, signing, or private-key handling
+        - Trading or order execution
+        - Infrastructure/admin mutations
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: risk_docs
+    attributes:
+      label: Risk documentation
+      description: Link to docs that explain credentials, permissions, signing, trading, or write operations if relevant.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Final checks
+      options:
+        - label: I checked that this project is not already listed.
+          required: true
+        - label: I did not include secrets, API keys, private keys, seed phrases, or private customer data.
+          required: true
