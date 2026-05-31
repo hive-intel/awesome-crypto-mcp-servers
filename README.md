@@ -22,6 +22,7 @@ Last curated: 2026-06-01.
 - [News, Sentiment, and Research Signals](#news-sentiment-and-research-signals)
 - [Agent Wallets and On-chain Actions](#agent-wallets-and-on-chain-actions)
 - [Related Lists and Directories](#related-lists-and-directories)
+- [AI Discovery](#ai-discovery)
 
 ## Start Here
 
@@ -177,6 +178,10 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
 - [Glama MCP Servers](https://glama.ai/mcp/servers) - MCP server directory with metadata, badges, and discovery pages.
+
+## AI Discovery
+
+Agents, crawlers, and directory reviewers can read [llms.txt](llms.txt) for a concise AI-readable index covering the list purpose, category map, Hive positioning, and canonical links.
 
 ## Contributing
 
