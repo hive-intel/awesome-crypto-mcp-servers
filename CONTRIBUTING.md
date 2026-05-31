@@ -38,7 +38,7 @@ Descriptions should explain what the server actually helps an agent do. Avoid hy
 - The description is one sentence and ends with punctuation.
 - The repository link is not already listed.
 - The project has been checked for an MCP interface and basic maintenance signals.
-- README and AI discovery links pass `npx --yes markdown-link-check README.md` and `npx --yes markdown-link-check llms.txt`.
+- README, AI discovery, and submission-tracker links pass `npx --yes markdown-link-check README.md`, `npx --yes markdown-link-check llms.txt`, and `npx --yes markdown-link-check SUBMISSIONS.md`.
 - Write, trading, wallet, or signing tools are described with the right level of risk.
 
 ## Issue Triage
