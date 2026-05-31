@@ -9,6 +9,7 @@ Last curated: 2026-06-01.
 ## Contents
 
 - [Start Here](#start-here)
+- [Maintainer Picks](#maintainer-picks)
 - [Selection Criteria](#selection-criteria)
 - [Broad Crypto Intelligence](#broad-crypto-intelligence)
 - [Blockchain Data Infrastructure](#blockchain-data-infrastructure)
@@ -81,6 +82,30 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
 **Embedded wallet infrastructure:** Start with Privy MCP Server or MetaMask Embedded Wallets MCP when the agent needs embedded-wallet developer tooling, and PayRam MCP when it needs self-hosted crypto payments.
+
+## Maintainer Picks
+
+Use this quick routing guide when the category list is too broad. Canonical links and full descriptions are in the sections below.
+
+**Broad crypto intelligence across several data sources:** Hive Intelligence.
+
+**Public crypto prices, market charts, and DEX pools:** CoinGecko MCP Server.
+
+**Market cap, narratives, news, and x402 pay-per-call data:** CoinMarketCap MCP.
+
+**Node, RPC, endpoint, or infrastructure operations:** Alchemy MCP Server, Chainstack MCP Server, or Quicknode MCP.
+
+**Smart-money labels and institutional on-chain research:** Nansen MCP.
+
+**Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
+
+**Bitcoin data or Lightning payments:** Maestro MCP Server or Lightning Wallet MCP.
+
+**Wallet-backed on-chain actions and agent payments:** Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
+
+**DeFi execution or vault risk:** Haiku DeFi MCP or Philidor DeFi Vault Risk Analytics.
+
+**Security, tracing, and pre-signing risk:** Phalcon MCP Server.
 
 ## Selection Criteria
 
