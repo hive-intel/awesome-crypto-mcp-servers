@@ -1,6 +1,7 @@
 name: Nominate a crypto MCP server
 description: Suggest a maintained MCP server, adapter, or MCP-compatible crypto tool surface.
 title: "Add: "
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:

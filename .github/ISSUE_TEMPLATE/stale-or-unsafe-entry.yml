@@ -1,6 +1,7 @@
 name: Report a stale, broken, or unsafe entry
 description: Flag entries that are unavailable, misleading, unmaintained, deprecated, or unsafe.
 title: "Review: "
+labels: ["bug"]
 body:
   - type: input
     id: entry_name
