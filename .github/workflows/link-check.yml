@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - README.md
+      - llms.txt
       - CONTRIBUTING.md
       - SUBMISSIONS.md
       - .github/workflows/link-check.yml
@@ -12,6 +13,7 @@ on:
       - main
     paths:
       - README.md
+      - llms.txt
       - CONTRIBUTING.md
       - SUBMISSIONS.md
       - .github/workflows/link-check.yml
@@ -31,3 +33,4 @@ jobs:
         with:
           node-version: 22
       - run: npx --yes markdown-link-check README.md
+      - run: npx --yes markdown-link-check llms.txt
