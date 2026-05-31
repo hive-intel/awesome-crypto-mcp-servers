@@ -73,6 +73,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Base Account and x402 actions:** Start with Base MCP when the agent needs approved Base Account wallet actions, swaps, signatures, contract calls, or x402 payments through a remote MCP.
 
+**USDC, CCTP, and Circle app codegen:** Start with Circle MCP Server when the agent needs Circle Wallets, Contracts, Cross-Chain Transfer Protocol, or Gateway integration guidance inside an MCP-compatible IDE.
+
 **Subgraph intelligence:** Start with Subgraph MCP Server when the agent needs to discover schemas and query The Graph Network subgraphs.
 
 **Official Solana developer help:** Start with Solana MCP Official for documentation, expert help, and developer workflows.
@@ -152,6 +154,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Bitcoin data or Lightning payments:** Maestro MCP Server or Lightning Wallet MCP.
 
 **Wallet-backed on-chain actions and agent payments:** Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
+
+**Circle Wallets, CCTP, Contracts, and Gateway codegen:** Circle MCP Server.
 
 **Enterprise custody and Fireblocks workspace data:** Fireblocks MCP Server.
 
@@ -288,6 +292,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 ## Agent Wallets and On-chain Actions
 
 - [Base MCP](https://docs.base.org/ai-agents) - Official remote MCP at `https://mcp.base.org` for Base Account wallets, balances, token sends, swaps, signatures, contract calls, and x402 payments with user approval.
+- [Circle MCP Server](https://developers.circle.com/ai/mcp) - Official Circle hosted MCP at `https://api.circle.com/v1/codegen/mcp` for AI-assisted code generation and fixes across Circle Wallets, Contracts, CCTP, Gateway, and crypto app integrations.
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
