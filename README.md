@@ -89,6 +89,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Omnichain messaging docs:** Start with LayerZero Docs MCP when the agent needs current LayerZero documentation, OApp, OFT, DVN, endpoint, or cross-chain messaging guidance through a hosted Streamable HTTP MCP.
 
+**Cross-chain swap routing:** Start with LI.FI MCP Server when the agent needs read-only quotes, routes, token and chain discovery, balances, allowances, gas suggestions, or transfer status without signing or broadcasting.
+
 **Sei chain actions:** Start with Sei MCP Server when the agent needs Sei account, token, NFT, block, transaction, or smart-contract operations with explicit wallet-safety controls.
 
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
@@ -142,6 +144,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Cross-chain bridge docs, fees, and SDK examples:** Across MCP Server.
 
 **LayerZero omnichain messaging docs:** LayerZero Docs MCP.
+
+**Cross-chain swaps, routes, and status tracking:** LI.FI MCP Server.
 
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
 
@@ -241,6 +245,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [CoinGecko MCP Server](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server) - Official CoinGecko MCP for prices, historical market data, DEX pools, NFT collections, metadata, keyless public access, authenticated Pro access, and local npm setup.
 - [CoinMarketCap MCP](https://coinmarketcap.com/api/mcp/) - Official CoinMarketCap hosted MCP for quotes, technical analysis, on-chain metrics, global market data, trending narratives, news, semantic search, and x402 pay-per-call access.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
+- [LI.FI MCP Server](https://docs.li.fi/mcp-server/overview) - Official hosted LI.FI MCP at `https://mcp.li.quest/mcp` for read-only cross-chain swap quotes, routes, chain and token discovery, allowance and balance checks, gas suggestions, and transfer status tracking; returns unsigned transaction requests for external wallet signing.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
 - [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official CoinPaprika MCP for prices, tickers, exchanges, OHLCV, historical market data, and hosted or local setup.
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
