@@ -1,0 +1,33 @@
+name: Link Check
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - CONTRIBUTING.md
+      - SUBMISSIONS.md
+      - .github/workflows/link-check.yml
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - CONTRIBUTING.md
+      - SUBMISSIONS.md
+      - .github/workflows/link-check.yml
+  schedule:
+    - cron: "23 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  readme-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx --yes markdown-link-check README.md
