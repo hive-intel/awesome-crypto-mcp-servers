@@ -57,6 +57,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **On-chain analytics and dashboards:** Start with Dune MCP when the agent needs DuneSQL query creation, execution, results, visualizations, dashboards, and dataset-aware on-chain research.
 
+**The Graph token and subgraph data:** Start with The Graph Token API MCP or Subgraph MCP Server when the agent needs token metadata, balances, transfers, holder statistics, subgraph discovery, schemas, or GraphQL query execution.
+
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
 **Secure smart-contract templates:** Start with OpenZeppelin MCP Servers when the agent needs production-oriented Solidity, Cairo, Stylus, Stellar, confidential contract, or Uniswap Hooks templates grounded in OpenZeppelin standards.
@@ -66,6 +68,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Multi-chain app development:** Start with thirdweb MCP Server for contract analysis, on-chain data, wallets, storage, and agent execution across thirdweb services.
 
 **On-chain wallets for agents:** Start with Coinbase AgentKit when the agent needs wallet-backed payments, testnet funding, and on-chain actions through Coinbase Developer Platform.
+
+**Enterprise custody operations:** Start with Fireblocks MCP Server when the agent needs vault accounts, assets, transaction history, policies, exchange accounts, external wallets, or internal workspace-user data from Fireblocks.
 
 **Base Account and x402 actions:** Start with Base MCP when the agent needs approved Base Account wallet actions, swaps, signatures, contract calls, or x402 payments through a remote MCP.
 
@@ -117,6 +121,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **On-chain SQL analytics and dashboards:** Dune MCP.
 
+**The Graph token and subgraph workflows:** The Graph Token API MCP or Subgraph MCP Server.
+
 **Secure smart-contract generation:** OpenZeppelin MCP Servers.
 
 **Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
@@ -126,6 +132,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Bitcoin data or Lightning payments:** Maestro MCP Server or Lightning Wallet MCP.
 
 **Wallet-backed on-chain actions and agent payments:** Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
+
+**Enterprise custody and Fireblocks workspace data:** Fireblocks MCP Server.
 
 **DeFi execution or vault risk:** Haiku DeFi MCP or Philidor DeFi Vault Risk Analytics.
 
@@ -160,6 +168,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [dRPC Agent Skills](https://github.com/drpcorg/drpc-agent-skills) - dRPC-maintained Blockchain RPC skill and MCP surface for agent access across 200+ networks.
 - [Erigon MCP Server](https://docs.erigon.tech/fundamentals/mcp) - Official Erigon MCP for read-only Ethereum node data, JSON-RPC tools, Otterscan traces, logs, metrics, resources, prompts, and stdio or SSE setup against local Erigon nodes.
 - [Nodit MCP Server](https://github.com/noditlabs/nodit-mcp-server) - Structured multi-chain Blockchain data through Nodit's Web3 Data and Node APIs.
+- [The Graph Token API MCP](https://thegraph.com/docs/en/ai-suite/token-api-mcp/introduction/) - Official Token API MCP from The Graph for ERC-20 and NFT metadata, balances, transfers, top-holder statistics, natural-language token analysis, and hosted Token API access.
 - [Subgraph MCP Server](https://github.com/graphops/subgraph-mcp) - The Graph Network MCP for subgraph search, schema discovery, GraphQL query execution, query-volume signals, hosted SSE, and local Rust setup.
 - [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
 - [Tatum Blockchain MCP](https://github.com/tatumio/blockchain-mcp) - Tatum-backed Blockchain MCP for multi-chain data and infrastructure workflows.
@@ -257,6 +266,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
+- [Fireblocks MCP Server](https://github.com/fireblocks/fireblocks-mcp) - Official Fireblocks MCP for vault accounts, assets, transactions, exchange accounts, network connections, policies, whitelisted IPs, wallets, and workspace users, with explicit controls for write operations.
 - [Privy MCP Server](https://github.com/privy-io/privy-mcp-server) - Official Privy MCP for embedded wallet infrastructure and wallet-enabled application workflows.
 - [MetaMask Embedded Wallets MCP](https://github.com/Web3Auth/web3auth-mcp) - Official Web3Auth MCP for helping agents integrate MetaMask Embedded Wallets with live SDK docs, examples, and type lookup.
 - [PayRam MCP](https://github.com/PayRam/payram-mcp) - Self-hosted crypto payments, hosted endpoints, and agent payment workflows.
