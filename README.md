@@ -82,6 +82,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 - [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
+- [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official CoinPaprika MCP for prices, tickers, exchanges, OHLCV, historical market data, and hosted or local setup.
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
@@ -114,6 +115,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Agent Wallets and On-chain Actions
 
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
+- [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted EVM and Solana wallet daemon with MCP, policy controls, spending limits, approval tiers, and kill-switch controls for agent transactions.
 - [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge MCP for cross-chain and same-chain swaps, fee estimation, hosted Streamable HTTP, local proxy support, and workflow skills.
 - [Agenti](https://github.com/nirholas/agenti) - Wallet-enabled AI agent framework for EVM, Solana, x402 payments, and MCP-compatible agents.
 - [MCP Crypto Wallet EVM](https://github.com/dcSpark/mcp-cryptowallet-evm) - EVM crypto wallet MCP from dcSpark.
