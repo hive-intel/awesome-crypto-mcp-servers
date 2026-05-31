@@ -82,6 +82,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 - [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
+- [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
 - [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
@@ -113,6 +114,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Agent Wallets and On-chain Actions
 
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
+- [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge MCP for cross-chain and same-chain swaps, fee estimation, hosted Streamable HTTP, local proxy support, and workflow skills.
 - [Agenti](https://github.com/nirholas/agenti) - Wallet-enabled AI agent framework for EVM, Solana, x402 payments, and MCP-compatible agents.
 - [MCP Crypto Wallet EVM](https://github.com/dcSpark/mcp-cryptowallet-evm) - EVM crypto wallet MCP from dcSpark.
 
@@ -121,7 +123,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Large cross-category MCP server directory.
 - [Awesome Blockchain MCPs](https://github.com/royyannick/awesome-blockchain-mcps) - Blockchain and crypto MCP list with broad Web3 coverage.
 - [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
-- [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official MCP server examples and reference implementations.
+- [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
+- [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
 - [Glama MCP Servers](https://glama.ai/mcp/servers) - MCP server directory with metadata, badges, and discovery pages.
 
