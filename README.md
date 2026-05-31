@@ -81,6 +81,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
+**Avalanche builder workflows:** Start with Avalanche MCP Server when the agent needs Avalanche docs, code search, RPC lookup, CLI guidance, ACPs, or public network data through a hosted read-only endpoint.
+
 **Sei chain actions:** Start with Sei MCP Server when the agent needs Sei account, token, NFT, block, transaction, or smart-contract operations with explicit wallet-safety controls.
 
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
@@ -126,6 +128,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Secure smart-contract generation:** OpenZeppelin MCP Servers.
 
 **Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
+
+**Avalanche docs, RPC, CLI, and ACP lookup:** Avalanche MCP Server.
 
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
 
@@ -207,6 +211,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 ## Layer-1 and Cross-Chain
 
+- [Avalanche MCP Server](https://build.avax.network/docs/tooling/ai-llm/mcp-server) - Official hosted read-only Avalanche Builder Hub MCP for documentation search, GitHub code lookup, RPC and CLI task lookup, ACPs, public network data, resources, and `https://build.avax.network/api/mcp`.
 - [VeChain MCP Server](https://github.com/vechain/vechain-mcp-server) - Official VeChain MCP for ecosystem resources and VeChain developer workflows.
 - [Mina MCP Server](https://github.com/MinaProtocol/mina-mcp-server) - Official Mina Protocol MCP for Mina Blockchain tooling and developer workflows.
 - [Celo MCP](https://github.com/celo-org/celo-mcp) - Official Celo MCP for Celo ecosystem, chain, and developer workflows.
@@ -292,7 +297,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [MCP Toplist](https://mcptoplist.com/) - Continuously updated MCP server index and ranking dataset aggregating the Official MCP Registry, Glama, Smithery, mcp.so, and other MCP discovery sources.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
-- [Glama MCP Servers](https://glama.ai/mcp/servers) - MCP server directory with metadata, badges, and discovery pages.
+- Glama MCP Servers - MCP server directory with metadata, badges, and discovery pages.
 
 ## AI Discovery
 
