@@ -81,6 +81,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
+**Aptos app development:** Start with Aptos MCP when the agent needs Aptos APIs, Move app scaffolding, prompts, resources, Cursor or Claude Code setup, and Geomi-backed app-building workflows.
+
 **Avalanche builder workflows:** Start with Avalanche MCP Server when the agent needs Avalanche docs, code search, RPC lookup, CLI guidance, ACPs, or public network data through a hosted read-only endpoint.
 
 **Sei chain actions:** Start with Sei MCP Server when the agent needs Sei account, token, NFT, block, transaction, or smart-contract operations with explicit wallet-safety controls.
@@ -128,6 +130,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Secure smart-contract generation:** OpenZeppelin MCP Servers.
 
 **Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
+
+**Aptos APIs, Move apps, and Geomi workflows:** Aptos MCP.
 
 **Avalanche docs, RPC, CLI, and ACP lookup:** Avalanche MCP Server.
 
@@ -211,6 +215,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 ## Layer-1 and Cross-Chain
 
+- [Aptos MCP](https://aptos.dev/build/ai/aptos-mcp) - Official Aptos MCP at `npx @aptos-labs/aptos-mcp` with tools, prompts, resources, Cursor and Claude Code setup, Aptos API access, and Geomi-backed app-building workflows using `APTOS_BOT_KEY`.
 - [Avalanche MCP Server](https://build.avax.network/docs/tooling/ai-llm/mcp-server) - Official hosted read-only Avalanche Builder Hub MCP for documentation search, GitHub code lookup, RPC and CLI task lookup, ACPs, public network data, resources, and `https://build.avax.network/api/mcp`.
 - [VeChain MCP Server](https://github.com/vechain/vechain-mcp-server) - Official VeChain MCP for ecosystem resources and VeChain developer workflows.
 - [Mina MCP Server](https://github.com/MinaProtocol/mina-mcp-server) - Official Mina Protocol MCP for Mina Blockchain tooling and developer workflows.
