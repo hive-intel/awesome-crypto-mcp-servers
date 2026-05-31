@@ -109,7 +109,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
-**Embedded wallet infrastructure:** Start with Privy MCP Server or MetaMask Embedded Wallets MCP when the agent needs embedded-wallet developer tooling, and PayRam MCP when it needs self-hosted crypto payments.
+**Embedded wallet infrastructure:** Start with Privy Docs MCP for Privy integration guidance, Privy MCP Server for wallet operations, MetaMask Embedded Wallets MCP for Web3Auth/MetaMask Embedded Wallets docs, and PayRam MCP for self-hosted crypto payments.
 
 ## Maintainer Picks
 
@@ -297,7 +297,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
 - [Fireblocks MCP Server](https://github.com/fireblocks/fireblocks-mcp) - Official Fireblocks MCP for vault accounts, assets, transactions, exchange accounts, network connections, policies, whitelisted IPs, wallets, and workspace users, with explicit controls for write operations.
-- [Privy MCP Server](https://github.com/privy-io/privy-mcp-server) - Official Privy MCP for embedded wallet infrastructure and wallet-enabled application workflows.
+- [Privy Docs MCP](https://docs.privy.io/basics/get-started/using-llms) - Official hosted docs MCP at `https://docs.privy.io/mcp` for Privy auth, embedded wallet, policy, and integration guidance in Cursor, Claude Desktop, and other MCP clients.
+- [Privy MCP Server](https://github.com/privy-io/privy-mcp-server) - Official Privy MCP server for creating wallets, checking balances, signing Ethereum and Solana transactions, managing policies, and wallet-enabled agent operations.
 - [MetaMask Embedded Wallets MCP](https://github.com/Web3Auth/web3auth-mcp) - Official Web3Auth MCP for helping agents integrate MetaMask Embedded Wallets with live SDK docs, examples, and type lookup.
 - [PayRam MCP](https://github.com/PayRam/payram-mcp) - Self-hosted crypto payments, hosted endpoints, and agent payment workflows.
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
