@@ -30,6 +30,10 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Production crypto intelligence:** Start with Hive Intelligence for broad hosted coverage plus local stdio, SDK, and agent skills.
 
+**Official crypto market data:** Start with CoinGecko MCP Server for public keyless access, authenticated Pro access, local npm setup, prices, historical data, DEX pools, NFTs, and metadata.
+
+**Exchange order books and candles:** Start with Cryptohopper MCP when the agent needs live market data, order-book depth, and candle analysis through a remote MCP endpoint.
+
 **Official Blockchain API access:** Start with Alchemy MCP Server for hosted OAuth access to token prices, multichain balances, transfers, NFTs, smart accounts, and swaps.
 
 **Blockchain node and endpoint operations:** Start with Chainstack MCP or Quicknode MCP when the agent needs remote node deployment, endpoint management, platform status, docs search, or live RPC workflows.
@@ -50,7 +54,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Official Solana developer help:** Start with Solana MCP Official for documentation, expert help, and developer workflows.
 
-**Production Solana APIs:** Start with Helius MCP Server for Solana RPC, DAS, transfers, webhooks, streaming, wallet analysis, priority fees, onboarding, and docs.
+**Production Solana APIs:** Start with Helius MCP Server or Solana MCP by Vybe when the agent needs Solana RPC, DAS, transfers, webhooks, streaming, wallet analysis, priority fees, live API calls, schemas, and OAuth-backed remote access.
 
 **BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
@@ -108,6 +112,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 - [Solana MCP Official](https://github.com/solana-foundation/solana-mcp-official) - Official Solana developer MCP for documentation search, expert help, and program autofix workflows.
 - [Helius MCP Server](https://www.helius.dev/docs/helius-mcp) - Official Helius MCP with 60+ Solana tools across DAS, RPC, transfers, webhooks, streaming, wallet analysis, priority fees, onboarding, and docs.
+- [Solana MCP by Vybe](https://github.com/vybenetwork/solana-mcp-vybe) - Vybe Network remote Solana MCP for schema browsing and live API calls across Solana wallets, trades, markets, PnL, transfers, on-chain data, and swaps.
 - [SendAI Solana MCP](https://github.com/sendaifun/solana-mcp) - Solana Agent Kit powered MCP for interacting with the Solana Blockchain.
 - [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
 - [Jupiter MCP](https://github.com/kukapay/jupiter-mcp) - Solana swap MCP using Jupiter's Ultra API.
@@ -131,6 +136,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## DeFi, Markets, and Trading
 
 - [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
+- [CoinGecko MCP Server](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server) - Official CoinGecko MCP for prices, historical market data, DEX pools, NFT collections, metadata, keyless public access, authenticated Pro access, and local npm setup.
+- [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
 - [Dune Analytics MCP](https://github.com/kukapay/dune-analytics-mcp) - Dune API MCP for running query IDs and returning latest query results as CSV for agent research workflows.
 - [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official CoinPaprika MCP for prices, tickers, exchanges, OHLCV, historical market data, and hosted or local setup.
@@ -191,6 +198,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
 - [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [MCP Catalogs](https://mcpcatalogs.com/en) - Independent bilingual MCP directory with AI-evaluated server pages and side-by-side comparison.
+- [MCP Toplist](https://mcptoplist.com/) - Continuously updated MCP server index and ranking dataset aggregating the Official MCP Registry, Glama, Smithery, mcp.so, and other MCP discovery sources.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
 - [Glama MCP Servers](https://glama.ai/mcp/servers) - MCP server directory with metadata, badges, and discovery pages.
