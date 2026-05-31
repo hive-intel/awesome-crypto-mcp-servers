@@ -1,62 +1,136 @@
-# Awesome Crypto MCP Servers
+# Awesome Crypto MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A maintained list of Model Context Protocol (MCP) servers for cryptocurrency, blockchain, and Web3 applications.
+A curated, maintained list of the best Model Context Protocol servers for crypto, Web3, DeFi, wallets, trading, on-chain data, Blockchain development, and AI agents.
 
-Maintained by [Hive Intelligence](https://hiveintelligence.xyz). The official Hive MCP developer surface is [`hive-intel/hive-sdk`](https://github.com/hive-intel/hive-sdk): one hosted crypto intelligence MCP, a TypeScript SDK, and agent skills for market data, DeFi, wallets, security, DEX, NFTs, Solana, network infrastructure, and prediction markets.
+Maintained by [Hive Intelligence](https://hiveintelligence.xyz), the crypto intelligence layer for AI agents. This list is intentionally selective: it favors maintained projects with clear MCP interfaces, useful coverage, and safe setup paths over every experimental repo with "MCP" in the name.
+
+Last curated: 2026-05-31.
 
 ## Contents
 
-- [Multi-Chain & Infrastructure](#multi-chain--infrastructure)
-- [DeFi & Trading](#defi--trading)
-- [Ethereum & EVM](#ethereum--evm)
+- [Start Here](#start-here)
+- [Selection Criteria](#selection-criteria)
+- [Broad Crypto Intelligence](#broad-crypto-intelligence)
+- [Blockchain Data Infrastructure](#blockchain-data-infrastructure)
+- [EVM and Smart Contracts](#evm-and-smart-contracts)
 - [Solana](#solana)
-- [Bitcoin & Lightning](#bitcoin--lightning)
-- [Analytics & Data](#analytics--data)
-- [Security & Smart Contracts](#security--smart-contracts)
+- [Bitcoin and Lightning](#bitcoin-and-lightning)
+- [DeFi, Markets, and Trading](#defi-markets-and-trading)
+- [Prediction Markets](#prediction-markets)
+- [Security and Risk](#security-and-risk)
+- [News, Sentiment, and Research Signals](#news-sentiment-and-research-signals)
+- [Agent Wallets and On-chain Actions](#agent-wallets-and-on-chain-actions)
+- [Related Lists and Directories](#related-lists-and-directories)
 
----
+## Start Here
 
-## Multi-Chain & Infrastructure
+If you are building an AI agent that needs crypto intelligence, start with the smallest surface that can answer the task safely.
 
-- **Hive Intelligence** - [hive-sdk](https://github.com/hive-intel/hive-sdk) - Managed crypto market infrastructure for AI agents: one hosted MCP server with normalized access to market data, DeFi, wallets, security, DEX flows, NFTs, Solana, network infrastructure, and prediction markets. [Remote server guide](https://hiveintelligence.xyz/crypto-mcp)
-- **Nodit Labs** - [nodit-mcp-server](https://github.com/noditlabs/nodit-mcp-server) - Multi-chain blockchain data via Nodit's Web3 APIs with zero blockchain-specific logic
-- **EVM MCP** - [evm-mcp-server](https://github.com/mcpdotdirect/evm-mcp-server) - Tools for interacting with multiple EVM networks including Ethereum, Arbitrum, Base, Polygon
-- **Blockscout** - [mcp-server](https://github.com/blockscout/mcp-server) - Wraps Blockscout APIs to expose blockchain data, balances, tokens, NFTs via MCP
-- **Web3 Assistant** - [web3-mcp-server](https://github.com/EmanuelJr/web3-mcp-server) - Secure interaction with blockchain smart contracts across multiple chains
-- **Strangelove Ventures** - [web3-mcp](https://github.com/strangelove-ventures/web3-mcp) - Interact with Solana, Ethereum, THORChain, XRP, TON, Cardano, and UTXO chains
+**Production crypto intelligence:** Start with Hive Intelligence for broad hosted coverage plus local stdio, SDK, and agent skills.
 
-## DeFi & Trading
+**Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
-- **Uniswap Monad** - [Monad-Testnet-Uniswap-MCP-Server](https://github.com/K115DuyBowl/Monad-Testnet-Uniswap-MCP-Server) - Uniswap V2 integration on Monad Testnet for token trading
-- **DefiLlama** - [mcp-server-defillama](https://github.com/dcSpark/mcp-server-defillama) - Access DeFi data via DefiLlama API including TVL, token prices, stablecoin info
-- **DexScreener** - [dexscreener-mcp-server](https://github.com/opensvm/dexscreener-mcp-server) - Real-time DEX pair data and market statistics across multiple blockchains
-- **Chainlink** - [chainlink-feeds-mcp](https://github.com/kukapay/chainlink-feeds-mcp) - Real-time access to Chainlink's decentralized on-chain price feeds
-- **Whale Tracker** - [whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp) - Track cryptocurrency whale transactions on Hyperliquid
-- **Jupiter** - [jupiter-mcp](https://github.com/kukapay/jupiter-mcp) - Execute token swaps on Solana using Jupiter's Ultra API
+**Official Solana developer help:** Start with Solana MCP Official for documentation, expert help, and developer workflows.
 
-## Ethereum & EVM
+**Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
 
-- **Ethereum MCP** - [eth-mcp-server](https://github.com/qingfengzxr/eth-mcp-server) - Ethereum blockchain capabilities with ETH balances, prices, and transaction details
-- **Etherscan** - [mcp-etherscan-server](https://github.com/crazyrabbitLTC/mcp-etherscan-server) - Ethereum blockchain data tools via Etherscan's API
-- **Web3 MCP** - [web3-mcp](https://github.com/tumf/web3-mcp) - Web3 interactions for Ethereum and EVM chains
+**Block explorer data:** Start with Blockscout MCP Server for balances, tokens, NFTs, contracts, and explorer data.
+
+## Selection Criteria
+
+- The project must expose or document a real MCP server, adapter, or MCP-compatible tool surface.
+- The project must be directly useful for crypto, Web3, DeFi, wallets, exchanges, Blockchain development, market data, security, or on-chain actions.
+- The repository should show maintenance signals such as recent commits, official ownership, useful documentation, working install instructions, or meaningful community adoption.
+- Read-only tools are preferred for research tasks. Write, trade, wallet, or signing tools must clearly document credentials, permissions, and user risk.
+- Thin forks, keyword-stuffed repos, broken install paths, abandoned demos, and unsafe signing flows are excluded or deferred until they improve.
+
+## Broad Crypto Intelligence
+
+- [Hive Intelligence](https://github.com/hive-intel/hive-sdk) - Managed crypto market infrastructure for AI agents, combining hosted MCP, local stdio, SDKs, and skills across multiple providers and crypto workflows.
+- [Universal Crypto MCP](https://github.com/nirholas/universal-crypto-mcp) - Multi-chain crypto MCP with swaps, bridges, gas, staking, lending, and plugin-based Blockchain interactions.
+- [Heurist Mesh MCP Server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Web3 agent and analytics MCP surface for Heurist's mesh of specialized agents.
+
+## Blockchain Data Infrastructure
+
+- [Nodit MCP Server](https://github.com/noditlabs/nodit-mcp-server) - Structured multi-chain Blockchain data through Nodit's Web3 Data and Node APIs.
+- [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
+- [Tatum Blockchain MCP](https://github.com/tatumio/blockchain-mcp) - Tatum-backed Blockchain MCP for multi-chain data and infrastructure workflows.
+- [Boar Blockchain MCP](https://github.com/boar-network/blockchain-mcp) - Blockchain infrastructure MCP with setup guides and free access paths.
+
+## EVM and Smart Contracts
+
+- [EVM MCP Server](https://github.com/mcpdotdirect/evm-mcp-server) - EVM MCP for balances, transactions, contract calls, ENS resolution, and 60+ EVM-compatible networks.
+- [Universal Contract AI Interface](https://github.com/nirholas/UCAI) - ABI-to-MCP generator for smart contracts, DeFi protocols, ERC-20s, and NFTs.
+- [Web3 MCP Server](https://github.com/EmanuelJr/web3-mcp-server) - EVM smart-contract interaction MCP for developer-oriented Web3 workflows.
+- [Strangelove Web3 MCP](https://github.com/strangelove-ventures/web3-mcp) - Multi-chain MCP spanning Solana, Ethereum, THORChain, XRP, TON, Cardano, and UTXO chains.
+- [Etherscan MCP](https://github.com/xiaok/etherscan-mcp) - Etherscan API MCP for Ethereum account, transaction, contract, token, and explorer data.
 
 ## Solana
 
-- **Solana MCP Servers** - [awesome-solana-mcp-servers](https://github.com/sendaifun/awesome-solana-mcp-servers) - Collection of Solana-specific MCP servers
-- **Solana Dev** - [solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp) - Simple MCP server for Solana development
-- **Solana MCP** - [solana-mcp](https://github.com/tony-42069/solana-mcp) - Analyze memecoins, track trends, and provide AI-powered insights
+- [Solana MCP Official](https://github.com/solana-foundation/solana-mcp-official) - Official Solana developer MCP for documentation search, expert help, and program autofix workflows.
+- [SendAI Solana MCP](https://github.com/sendaifun/solana-mcp) - Solana Agent Kit powered MCP for interacting with the Solana Blockchain.
+- [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
+- [Jupiter MCP](https://github.com/kukapay/jupiter-mcp) - Solana swap MCP using Jupiter's Ultra API.
+- [Solana MCP Directory](https://github.com/sendaifun/awesome-solana-mcp-servers) - Solana-specific MCP list for deeper Solana ecosystem discovery.
 
-## Bitcoin & Lightning
+## Bitcoin and Lightning
 
-- **Bitcoin MCP** - [bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network interactions for key generation, validation, and queries
+- [Bitcoin MCP](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network MCP for keys, validation, queries, and Bitcoin-native workflows.
+- [Bitcoin Blockchain Data MCP](https://github.com/JamesANZ/bitcoin-mcp) - Bitcoin data MCP for real-time Blockchain information.
 
-## Analytics & Data
+## DeFi, Markets, and Trading
 
-- **Heurist Network** - [heurist-mesh-mcp-server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Specialized web3 AI agents for blockchain analysis and smart contract security
-- **Armor Wallet** - [armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp) - Wallet management, swaps, DCA, stop loss/take profit for Solana (more chains coming)
+- [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
+- [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
+- [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
+- [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
+- [Binance MCP Server](https://github.com/AnalyticAce/binance-mcp-server) - Unofficial Binance MCP for exchange data and trading-agent workflows.
+- [Crypto Indicators MCP](https://github.com/kukapay/crypto-indicators-mcp) - Technical-analysis indicators and strategy signals for cryptocurrency agents.
+- [CryptoQuant MCP](https://github.com/CryptoQuantOfficial/cryptoquant-mcp) - Official on-chain and market intelligence workflows from CryptoQuant.
+- [Chainlink Feeds MCP](https://github.com/kukapay/chainlink-feeds-mcp) - Chainlink price-feed MCP for decentralized on-chain market data.
 
-## Security & Smart Contracts
+## Prediction Markets
 
-- **Web3 Assistant** - [web3-assistant-mcp](https://github.com/EmanuelJr/web3-mcp-server) - ABI analysis and secure contract method invocation
+- [Polymarket MCP Server](https://github.com/caiovicentino/polymarket-mcp-server) - Polymarket MCP with market data, monitoring, and trading-oriented tools.
+- [Polymarket MCP](https://github.com/berlinbra/polymarket-mcp) - Python MCP server for the Polymarket API.
+- [Polymarket Rust MCP](https://github.com/ozgureyilmaz/polymarket-mcp) - Rust implementation for Polymarket market access.
 
----
+## Security and Risk
+
+- [Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp) - Wallet and swap workflows with strategic planning and risk-aware interactions.
+- [SolanaShield MCP](https://github.com/ElromEvedElElyon/solanashield-mcp) - Solana smart-contract security MCP with vulnerability-pattern checks.
+- [Sperax Crypto MCP](https://github.com/Sperax/sperax-crypto-mcp) - Protocol-specific MCP for USDs, SPA, veSPA, and Demeter workflows on Arbitrum and BNB Chain.
+
+## News, Sentiment, and Research Signals
+
+- [CryptoPanic MCP Server](https://github.com/kukapay/cryptopanic-mcp-server) - Crypto news MCP using CryptoPanic data.
+- [Crypto Sentiment MCP](https://github.com/kukapay/crypto-sentiment-mcp) - Sentiment-analysis MCP for cryptocurrency agents.
+- [Crypto Fear and Greed MCP](https://github.com/kukapay/crypto-feargreed-mcp) - Real-time and historical Crypto Fear and Greed Index data.
+- [Crypto Orderbook MCP](https://github.com/kukapay/crypto-orderbook-mcp) - Order-book depth and imbalance analysis across major crypto exchanges.
+- [Crypto Whitepapers MCP](https://github.com/kukapay/crypto-whitepapers-mcp) - Structured whitepaper knowledge base for crypto research agents.
+
+## Agent Wallets and On-chain Actions
+
+- [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
+- [Agenti](https://github.com/nirholas/agenti) - Wallet-enabled AI agent framework for EVM, Solana, x402 payments, and MCP-compatible agents.
+- [MCP Crypto Wallet EVM](https://github.com/dcSpark/mcp-cryptowallet-evm) - EVM crypto wallet MCP from dcSpark.
+
+## Related Lists and Directories
+
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Large cross-category MCP server directory.
+- [Awesome Blockchain MCPs](https://github.com/royyannick/awesome-blockchain-mcps) - Blockchain and crypto MCP list with broad Web3 coverage.
+- [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
+- [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official MCP server examples and reference implementations.
+- [Smithery](https://smithery.ai) - MCP server registry and installation directory.
+- [Glama MCP Servers](https://glama.ai/mcp/servers) - MCP server directory with metadata, badges, and discovery pages.
+
+## Contributing
+
+Pull requests are welcome, but this is a curated list rather than a catalog. Additions should be notable, maintained, and clearly useful to crypto or Web3 agents.
+
+Before submitting:
+
+- Read [CONTRIBUTING.md](CONTRIBUTING.md).
+- Include the repository link, supported chains or data sources, transport mode, install path, and whether the server can sign or trade.
+- Prefer official providers, maintained community projects, and servers with clear docs over thin forks.
+- Keep descriptions factual, concise, and useful to builders choosing an MCP server.

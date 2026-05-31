@@ -1,14 +1,45 @@
 # Contributing
 
-To add a new MCP server:
+Thanks for improving Awesome Crypto MCP Servers. This repository is curated for builders choosing crypto MCP infrastructure, so quality matters more than list size.
 
-1. Fork this repository
-2. Add your entry in the format: `**Project Name** - [repo-name](link) - Short description`
-3. Place it in the appropriate category
-4. Submit a Pull Request
+## What We Accept
 
-## Format Example
+Good additions usually have:
+
+- A working MCP server, adapter, or documented MCP-compatible tool surface.
+- Direct relevance to crypto, Web3, DeFi, trading, wallets, Blockchain development, security, or market intelligence.
+- Clear installation instructions for at least one MCP client or runtime.
+- Recent maintenance activity, official provider backing, meaningful usage, or strong documentation.
+- Safe handling of private keys, API keys, trading permissions, wallet signing, and write operations.
+
+## What We Reject
+
+Please do not submit:
+
+- Thin forks with no meaningful changes.
+- Keyword-stuffed repos without a clear MCP interface.
+- Abandoned demos with broken install paths.
+- Trading or signing tools that do not explain credential and execution risk.
+- Repos that require users to paste secrets into public chats, issues, screenshots, or logs.
+
+## Entry Format
+
+Use this format:
 
 ```markdown
-**DefiLlama** - [mcp-server-defillama](https://github.com/dcSpark/mcp-server-defillama) - Access DeFi data via DefiLlama API
+- [Hive Intelligence](https://github.com/hive-intel/hive-sdk) - Managed crypto market infrastructure for AI agents across market data, DeFi, wallets, security, DEX flows, NFTs, Solana, network infrastructure, and prediction markets.
 ```
+
+Descriptions should explain what the server actually helps an agent do. Avoid hype, ranking claims, and copied marketing copy.
+
+## Pull Request Checklist
+
+- The project is placed in the most specific category.
+- The description is one sentence and ends with punctuation.
+- The repository link is not already listed.
+- The project has been checked for an MCP interface and basic maintenance signals.
+- Write, trading, wallet, or signing tools are described with the right level of risk.
+
+## Maintenance Notes
+
+Maintainers may reorder entries by usefulness, official backing, maintenance quality, and category fit. Projects can be removed if they become stale, unsafe, unavailable, or misleading.
