@@ -136,6 +136,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
 - [Kukapay MCP Servers](https://github.com/kukapay/kukapay-mcp-servers) - Crypto MCP suite index covering DeFi, DEX, market data, news, on-chain analysis, bridges, NFTs, and utilities.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
+- [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
 - [Glama MCP Servers](https://glama.ai/mcp/servers) - MCP server directory with metadata, badges, and discovery pages.
