@@ -34,6 +34,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Blockchain node and endpoint operations:** Start with Chainstack MCP or Quicknode MCP when the agent needs remote node deployment, endpoint management, platform status, docs search, or live RPC workflows.
 
+**Multi-network RPC access:** Start with dRPC Agent Skills when the agent needs RPC access across many networks through a single provider-backed interface.
+
 **Multi-package Blockchain API suite:** Start with Crypto APIs MCP Servers for hosted HTTP or package-level stdio access to balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 
 **Blockchain trading datasets:** Start with Bitquery MCP Server when the agent needs hosted access to Bitquery's Blockchain, DEX, token, and trading datasets.
@@ -54,9 +56,13 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
 
+**Exchange API agents:** Start with Crypto.com CDCX CLI when the agent needs Crypto.com Exchange API access through a CLI/MCP workflow.
+
 **Block explorer data:** Start with Blockscout MCP Server for balances, tokens, NFTs, contracts, and explorer data.
 
 **Bitcoin hosted data:** Start with Maestro MCP Server for Bitcoin blocks, transactions, mempool, wallet, node RPC, and hosted Streamable HTTP endpoints.
+
+**Embedded wallet infrastructure:** Start with Privy MCP Server when the agent needs Privy wallet tooling, and PayRam MCP when it needs self-hosted crypto payments.
 
 ## Selection Criteria
 
@@ -80,6 +86,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for Blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 - [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
+- [dRPC Agent Skills](https://github.com/drpcorg/drpc-agent-skills) - dRPC-maintained Blockchain RPC skill and MCP surface for agent access across 200+ networks.
 - [Nodit MCP Server](https://github.com/noditlabs/nodit-mcp-server) - Structured multi-chain Blockchain data through Nodit's Web3 Data and Node APIs.
 - [Subgraph MCP Server](https://github.com/graphops/subgraph-mcp) - The Graph Network MCP for subgraph search, schema discovery, GraphQL query execution, query-volume signals, hosted SSE, and local Rust setup.
 - [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
@@ -114,6 +121,9 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 ## Layer-1 and Cross-Chain
 
+- [VeChain MCP Server](https://github.com/vechain/vechain-mcp-server) - Official VeChain MCP for ecosystem resources and VeChain developer workflows.
+- [Mina MCP Server](https://github.com/MinaProtocol/mina-mcp-server) - Official Mina Protocol MCP for Mina Blockchain tooling and developer workflows.
+- [Celo MCP](https://github.com/celo-org/celo-mcp) - Official Celo MCP for Celo ecosystem, chain, and developer workflows.
 - [NEAR MCP](https://github.com/nearai/near-mcp) - NEAR AI MCP for account management, balances, transactions, smart-contract inspection, and local wallet-backed NEAR interactions.
 - [Algorand MCP](https://github.com/GoPlausible/algorand-mcp) - GoPlausible server and client for Algorand developer documentation, wallet management, transaction handling, and Blockchain state queries.
 - [ZetaChain CLI MCP](https://github.com/zeta-chain/cli) - ZetaChain CLI with MCP installation support for universal smart-contract workflows across connected chains.
@@ -127,6 +137,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
+- [Crypto.com CDCX CLI](https://github.com/crypto-com/cdcx-cli) - Official Crypto.com Exchange CLI with MCP support for market data, trading, account workflows, WebSocket streams, and safety controls.
 - [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
 - [Hyperliquid MCP Server](https://github.com/mektigboy/server-hyperliquid) - Hyperliquid SDK MCP for mid prices, candle snapshots, and L2 order books.
 - [Binance MCP Server](https://github.com/AnalyticAce/binance-mcp-server) - Unofficial Binance MCP for exchange data and trading-agent workflows.
@@ -143,6 +154,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Security and Risk
 
 - [Phalcon MCP Server](https://github.com/mark3labs/phalcon-mcp) - BlockSec Phalcon integration for transaction tracing, profiling, address labels, balance changes, state changes, and chain ID lookup.
+- [Insumer MCP Server](https://github.com/douglasborthwick-crypto/mcp-server-insumer) - MCP for condition-based access and signed boolean attestations across 37 chains without exposing balances.
 - [Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp) - Wallet and swap workflows with strategic planning and risk-aware interactions.
 - [SolanaShield MCP](https://github.com/ElromEvedElElyon/solanashield-mcp) - Solana smart-contract security MCP with vulnerability-pattern checks.
 - [Sperax Crypto MCP](https://github.com/Sperax/sperax-crypto-mcp) - Protocol-specific MCP for USDs, SPA, veSPA, and Demeter workflows on Arbitrum and BNB Chain.
@@ -154,12 +166,16 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Crypto Fear and Greed MCP](https://github.com/kukapay/crypto-feargreed-mcp) - Real-time and historical Crypto Fear and Greed Index data.
 - [Crypto Orderbook MCP](https://github.com/kukapay/crypto-orderbook-mcp) - Order-book depth and imbalance analysis across major crypto exchanges.
 - [Crypto Whitepapers MCP](https://github.com/kukapay/crypto-whitepapers-mcp) - Structured whitepaper knowledge base for crypto research agents.
+- [BlockBeats MCP](https://github.com/BlockBeatsOfficial/blockbeats-MCP) - Official BlockBeats MCP for crypto newsflashes, articles, market metrics, ETF flows, stablecoins, macro signals, and derivatives research.
 
 ## Agent Wallets and On-chain Actions
 
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
+- [Privy MCP Server](https://github.com/privy-io/privy-mcp-server) - Official Privy MCP for embedded wallet infrastructure and wallet-enabled application workflows.
+- [PayRam MCP](https://github.com/PayRam/payram-mcp) - Self-hosted crypto payments, hosted endpoints, and agent payment workflows.
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
+- [Hashnet MCP Server](https://github.com/hashgraph-online/hashnet-mcp-js) - Hashgraph Online MCP for discovery, chat, registration, workflows, and Hedera agent interactions.
 - [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted EVM and Solana wallet daemon with MCP, policy controls, spending limits, approval tiers, and kill-switch controls for agent transactions.
 - [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge MCP for cross-chain and same-chain swaps, fee estimation, hosted Streamable HTTP, local proxy support, and workflow skills.
 - [Agenti](https://github.com/nirholas/agenti) - Wallet-enabled AI agent framework for EVM, Solana, x402 payments, and MCP-compatible agents.
