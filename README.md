@@ -57,6 +57,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
+**Secure smart-contract templates:** Start with OpenZeppelin MCP Servers when the agent needs production-oriented Solidity, Cairo, Stylus, Stellar, confidential contract, or Uniswap Hooks templates grounded in OpenZeppelin standards.
+
 **EVM simulation and debugging:** Start with Tenderly MCP Server when the agent needs transaction simulation, tracing, contract verification, testnets, or Tenderly developer workflows.
 
 **Multi-chain app development:** Start with thirdweb MCP Server for contract analysis, on-chain data, wallets, storage, and agent execution across thirdweb services.
@@ -111,6 +113,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **On-chain SQL analytics and dashboards:** Dune MCP.
 
+**Secure smart-contract generation:** OpenZeppelin MCP Servers.
+
 **Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
 
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
@@ -159,6 +163,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 ## EVM and Smart Contracts
 
+- [OpenZeppelin MCP Servers](https://mcp.openzeppelin.com/) - Official OpenZeppelin MCP surface for generating secure Solidity, Cairo, Stylus, Stellar, confidential contract, and Uniswap Hooks templates based on OpenZeppelin standards.
 - [Tenderly MCP Server](https://docs.tenderly.co/mcp-server) - Official Tenderly MCP for EVM simulation, transaction tracing, contract verification, Virtual TestNets, Smart Explorer, usage telemetry, and Tenderly docs workflows.
 - [Thirdweb MCP Server](https://github.com/thirdweb-dev/ai/tree/main/python/thirdweb-mcp) - Thirdweb AI MCP for Nebula, Insight, Engine, EngineCloud, Storage, contract analysis, deployment, wallets, and on-chain execution across 2,000+ chains.
 - [BNBChain MCP](https://github.com/bnb-chain/bnbchain-mcp) - Official BNB Chain MCP for BSC, opBNB, Greenfield, blocks, contracts, tokens, NFTs, transactions, wallets, and ERC-8004 agent identities.
