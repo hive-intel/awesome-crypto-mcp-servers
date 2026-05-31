@@ -4,7 +4,7 @@ A curated, maintained list of the best Model Context Protocol servers for crypto
 
 Maintained by [Hive Intelligence](https://hiveintelligence.xyz), the crypto intelligence layer for AI agents. This list is intentionally selective: it favors maintained projects with clear MCP interfaces, useful coverage, and safe setup paths over every experimental repo with "MCP" in the name.
 
-Last curated: 2026-05-31.
+Last curated: 2026-06-01.
 
 ## Contents
 
@@ -30,11 +30,17 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
 
+**Multi-chain app development:** Start with thirdweb MCP Server for contract analysis, on-chain data, wallets, storage, and agent execution across thirdweb services.
+
 **Official Solana developer help:** Start with Solana MCP Official for documentation, expert help, and developer workflows.
+
+**BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
 
 **Block explorer data:** Start with Blockscout MCP Server for balances, tokens, NFTs, contracts, and explorer data.
+
+**Bitcoin hosted data:** Start with Maestro MCP Server for Bitcoin blocks, transactions, mempool, wallet, node RPC, and hosted Streamable HTTP endpoints.
 
 ## Selection Criteria
 
@@ -59,6 +65,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 ## EVM and Smart Contracts
 
+- [Thirdweb MCP Server](https://github.com/thirdweb-dev/ai/tree/main/python/thirdweb-mcp) - Thirdweb AI MCP for Nebula, Insight, Engine, EngineCloud, Storage, contract analysis, deployment, wallets, and on-chain execution across 2,000+ chains.
+- [BNBChain MCP](https://github.com/bnb-chain/bnbchain-mcp) - Official BNB Chain MCP for BSC, opBNB, Greenfield, blocks, contracts, tokens, NFTs, transactions, wallets, and ERC-8004 agent identities.
 - [EVM MCP Server](https://github.com/mcpdotdirect/evm-mcp-server) - EVM MCP for balances, transactions, contract calls, ENS resolution, and 60+ EVM-compatible networks.
 - [Universal Contract AI Interface](https://github.com/nirholas/UCAI) - ABI-to-MCP generator for smart contracts, DeFi protocols, ERC-20s, and NFTs.
 - [Web3 MCP Server](https://github.com/EmanuelJr/web3-mcp-server) - EVM smart-contract interaction MCP for developer-oriented Web3 workflows.
@@ -76,6 +84,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 ## Bitcoin and Lightning
 
 - [Bitcoin MCP](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network MCP for keys, validation, queries, and Bitcoin-native workflows.
+- [Maestro MCP Server](https://github.com/maestro-org/maestro-mcp-server) - Maestro-backed Bitcoin MCP with hosted mainnet and testnet endpoints for blocks, transactions, mempool, market price, wallet, and node RPC data.
 - [Bitcoin Blockchain Data MCP](https://github.com/JamesANZ/bitcoin-mcp) - Bitcoin data MCP for real-time Blockchain information.
 
 ## DeFi, Markets, and Trading
@@ -125,6 +134,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Large cross-category MCP server directory.
 - [Awesome Blockchain MCPs](https://github.com/royyannick/awesome-blockchain-mcps) - Blockchain and crypto MCP list with broad Web3 coverage.
 - [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
+- [Kukapay MCP Servers](https://github.com/kukapay/kukapay-mcp-servers) - Crypto MCP suite index covering DeFi, DEX, market data, news, on-chain analysis, bridges, NFTs, and utilities.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
