@@ -1,4 +1,4 @@
-# Awesome Crypto MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Crypto MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE)
 
 A curated, maintained list of the best Model Context Protocol servers for crypto, Web3, DeFi, wallets, trading, on-chain data, Blockchain development, and AI agents.
 
