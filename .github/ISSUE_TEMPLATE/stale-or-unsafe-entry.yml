@@ -1,0 +1,54 @@
+name: Report a stale, broken, or unsafe entry
+description: Flag entries that are unavailable, misleading, unmaintained, deprecated, or unsafe.
+title: "Review: "
+body:
+  - type: input
+    id: entry_name
+    attributes:
+      label: Entry name
+      placeholder: Hive Intelligence
+    validations:
+      required: true
+  - type: input
+    id: entry_url
+    attributes:
+      label: Entry URL
+      placeholder: https://github.com/org/project
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What changed?
+      options:
+        - Broken link
+        - Archived or unmaintained
+        - Deprecated package or endpoint
+        - Missing or unclear MCP interface
+        - Unsafe wallet, signing, trading, or key handling
+        - Misleading description
+        - Duplicate or wrong category
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the relevant page, commit, archive notice, failed install, security note, or replacement docs.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_action
+    attributes:
+      label: Suggested action
+      description: Should this be updated, moved, marked stale, or removed?
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I did not include secrets, API keys, private keys, seed phrases, or private customer data.
+          required: true

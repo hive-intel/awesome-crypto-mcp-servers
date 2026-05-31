@@ -40,6 +40,12 @@ Descriptions should explain what the server actually helps an agent do. Avoid hy
 - The project has been checked for an MCP interface and basic maintenance signals.
 - Write, trading, wallet, or signing tools are described with the right level of risk.
 
+## Issue Triage
+
+Use the server nomination issue form when a project looks promising but is not ready for a pull request. Include links to the MCP surface, install or connection path, maintenance signals, and any credential, signing, trading, or write-operation risk.
+
+Use the stale or unsafe entry issue form when an existing listing is broken, archived, deprecated, misleading, duplicated, or missing a clear MCP interface. Include evidence and a suggested action so maintainers can update or remove it quickly.
+
 ## Maintenance Notes
 
 Maintainers may reorder entries by usefulness, official backing, maintenance quality, and category fit. Projects can be removed if they become stale, unsafe, unavailable, or misleading.
