@@ -689,6 +689,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Awesome Blockchain MCPs](https://github.com/royyannick/awesome-blockchain-mcps) - Blockchain and crypto MCP list with broad Web3 coverage.
 - [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
 - [Kukapay MCP Servers](https://github.com/kukapay/kukapay-mcp-servers) - Crypto MCP suite index covering DeFi, DEX, market data, news, on-chain analysis, bridges, NFTs, and utilities.
+- [Awesome Lists](https://github.com/szabgab/awesome-lists) - General index of awesome lists across domains.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
 - [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [MCP Catalogs](https://mcpcatalogs.com/en) - Independent bilingual MCP directory with AI-evaluated server pages and side-by-side comparison.
