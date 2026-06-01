@@ -67,7 +67,7 @@ detailed notes are in the sections below.
 
 **Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, or PMXT.
 
-**Bitcoin, Stacks, sBTC, and x402 wallet workflows:** Start with AIBTC MCP Server.
+**Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
 
 **Token, wallet, phishing, approval, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server.
 
@@ -258,7 +258,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Bitcoin-native agent wallets:** Start with AIBTC MCP Server when the agent needs Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, or x402 payments through a local wallet-aware MCP. Treat wallet creation, mnemonic export, transfers, DeFi, and x402 payment tools as high-risk actions.
 
-**Bitcoin agent payments:** Start with Alby Bitcoin Payments MCP Server or Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, Nostr Wallet Connect, invoices, LNURL, L402, or Lightning-native paid tools.
+**Bitcoin agent payments:** Start with Alby Bitcoin Payments MCP Server, LNbits MCP Server, or Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, Nostr Wallet Connect, LNbits instance access, invoices, LNURL, L402, or Lightning-native paid tools.
 
 **DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, VaultPilot MCP when hardware-wallet verification is the central constraint, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
@@ -366,7 +366,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
 
-**Bitcoin data or Lightning payments:** Maestro MCP Server for Bitcoin data, and Alby Bitcoin Payments MCP Server or Lightning Wallet MCP for Lightning payments.
+**Bitcoin data or Lightning payments:** Maestro MCP Server for Bitcoin data, and Alby Bitcoin Payments MCP Server, LNbits MCP Server, or Lightning Wallet MCP for Lightning payments.
 
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
@@ -483,6 +483,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Maestro MCP Server](https://github.com/maestro-org/maestro-mcp-server) - Maestro-backed Bitcoin MCP with hosted mainnet and testnet endpoints for blocks, transactions, mempool, market price, wallet, and node RPC data.
 - [AIBTC MCP Server](https://github.com/aibtcdev/aibtc-mcp-server) - Bitcoin-native MCP for BTC/STX wallets, Bitcoin L1 reads and transfers, Stacks L2, sBTC, NFTs, DeFi yield, and x402 payments; wallet creation, mnemonic export, transfers, DeFi, and paid-call tools are high-risk.
 - [Alby Bitcoin Payments MCP Server](https://github.com/getAlby/mcp) - Official Alby MCP for connecting Lightning wallets to agents through Nostr Wallet Connect, hosted Streamable HTTP or SSE, local stdio, LNURL, L402, invoices, and bearer-authenticated NWC secrets.
+- [LNbits MCP Server](https://github.com/lnbits/LNbits-MCP-Server) - Official LNbits MCP for Lightning wallet balances, invoices, payments, Lightning addresses, LNURLp links, TPoS, SatsPay, watch-only wallets, node info, and user management; API keys, payment tools, and admin tools require explicit user control.
 - [Lightning Wallet MCP](https://github.com/lightningfaucet/lightning-wallet-mcp) - Bitcoin Lightning wallet MCP and CLI for agent payments, invoices, L402 support, and Lightning-native tool access.
 - [Bortlesboat Bitcoin MCP](https://github.com/Bortlesboat/bitcoin-mcp) - Zero-config Bitcoin MCP for fees, mempool, blocks, transactions, mining, price, and supply data.
 - [Bitcoin Blockchain Data MCP](https://github.com/JamesANZ/bitcoin-mcp) - Bitcoin data MCP for real-time Blockchain information.
