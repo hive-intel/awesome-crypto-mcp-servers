@@ -89,6 +89,8 @@ detailed notes are in the sections below.
 
 **Tari wallet, node, and local AI integration:** Start with Tari MCP Servers when the agent needs local Minotari wallet balances, transaction history, address info, transfer preparation, burn transactions, coin splits, node status, peers, blocks, mempool, or sync status.
 
+**TRON resource, stablecoin, and x402 workflows:** Start with MERX MCP when the agent needs TRON energy, bandwidth, stablecoin payments, x402 facilitation, or agent payment workflows; private-key and write tools are high-risk.
+
 **Polkadot, Kusama, and system parachain data:** Start with Polkadot MCP.
 
 **Starknet RPC, state, and trace reads:** Start with Starknet MCP Server.
@@ -168,6 +170,8 @@ source, chain, wallet, venue, or risk model.
 **TON wallet operations and agentic TON apps:** Start with TON AgentKit MCP when the agent needs official `@ton/mcp` wallet operations, token transfers, swaps, NFT workflows, DNS, jettons, pools, transaction lookup, or stdio/HTTP/serverless TON agent setup. Treat wallet creation, recovery phrases, transfers, swaps, deployments, and account credentials as high-risk.
 
 **Tari wallet and node workflows:** Start with Tari MCP Servers when the agent needs local Minotari wallet balances, transaction history, address info, transfers, burn transactions, coin splits, node/network information, blocks, mempool, peers, or sync status. Use read-only mode by default; control operations require explicit enablement, confirmation, and audit logging.
+
+**TRON resources, stablecoin payments, and x402 facilitation:** Start with MERX MCP when the agent needs TRON energy or bandwidth pricing, resource purchase workflows, TRC-20 stablecoin payments, x402 facilitation, GasFree transfers, or TRON agent payment infrastructure. Keep read-only tools separate from API-key and private-key tools; do not paste private keys into chat.
 
 **Wallets, signing, payments, swaps, ramps, and custody:** Start with Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, or Tether WDK MCP Toolkit. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write, payment, ramp, trading, or custody actions.
 
@@ -326,6 +330,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **TON wallet operations and app agents:** Start with TON AgentKit MCP when the agent needs official `@ton/mcp` setup for wallet operations, transfers, swaps, NFTs, DNS, jettons, pools, transaction lookup, or stdio/HTTP/serverless deployment. Treat wallet creation, recovery phrases, transfers, swaps, deployments, and credentials as high-risk.
 
 **Tari wallet and node workflows:** Start with Tari MCP Servers when the agent needs local Minotari wallet balance/history reads, address info, transfers, burn transactions, coin splits, node status, peers, blocks, mempool, or sync status. Keep read-only mode as the default and treat control mode as high-risk.
+
+**TRON energy, bandwidth, and stablecoin agent workflows:** Start with MERX MCP when the agent needs hosted or local MCP access to TRON resource pricing, energy purchase flows, USDT/USDC/USDD payments, x402 facilitation, or GasFree transfer workflows. Treat API keys, private keys, swaps, transfers, and policy intents as high-risk.
 
 **BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
@@ -673,6 +679,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [TON Blockchain MCP](https://github.com/devonmojito/ton-blockchain-mcp) - MIT-licensed Python MCP for TON address analysis, transaction details, hot trends, trading-pattern analysis, TON price, and jetton prices using TON API credentials; beta software, not financial advice.
 - [TON AgentKit MCP](https://docs.ton.org/overview/ai/mcp) - Official TON `@ton/mcp` server for TON AgentKit wallet operations, token transfers, swaps, NFT inspection and transfers, DNS, jettons, pools, transaction lookup, stdio, Streamable HTTP, and serverless deployment; wallet creation, recovery phrases, transfers, swaps, deployments, and credentials are high-risk.
 - [Tari MCP Servers](https://github.com/tari-project/tari) - Official Tari protocol repo with Minotari wallet and node MCP servers for local AI-agent access to wallet balances, transaction history, address info, transfers, burn transactions, coin splits, node/network information, blocks, mempool, peers, and sync status; defaults should stay read-only, while control operations require explicit enablement, confirmation, and audit logging.
+- [MERX MCP](https://github.com/Hovsteder/merx-mcp) - MCP Registry-visible TRON infrastructure MCP with hosted SSE and local stdio for energy and bandwidth prices, resource optimization, TRC-20 stablecoin payments, x402 v2 facilitation, GasFree transfers, TRON RPC context, A2A/ACP surfaces, and 66-tool agent workflows; API keys, private keys, swaps, transfers, approvals, and policy intents are high-risk.
 - [Across MCP Server](https://docs.across.to/ai-agents/mcp-server) - Official Across Protocol hosted MCP at `https://mcp.across.to/mcp` with documentation search, page retrieval, REST API references, supported-chain lookup, live bridge-fee queries, and SDK code examples.
 - [Allbridge MCP](https://allbridge.io/ai/) - Official Allbridge AI MCP suite for planning, quoting, building, locally signing, broadcasting, and tracking cross-chain stablecoin transfers across EVM, Solana, Tron, Algorand, Stacks, Soroban/Stellar, and Sui, with keys kept in a local signer.
 - [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge hosted Streamable HTTP MCP and local proxy package for cross-chain and same-chain swaps, fee estimation, supported-chain and token discovery, transaction construction, and workflow skills; returned transactions, wallet addresses, approvals, and execution handoff are high-risk.
