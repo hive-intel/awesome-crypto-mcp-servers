@@ -74,7 +74,7 @@ detailed notes are in the sections below.
 
 **Verifiable RWA, economic, and event data:** Start with TRUF.NETWORK MCP Server when the agent needs SQL-backed access to verified real-world asset data, on-chain price indexes, market-moving event data, or TRUF node data streams.
 
-**Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, or CoW MCP depending on the route and execution model.
+**Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, CoW MCP, or OpenOcean MCP depending on the route, aggregator, and execution model.
 
 **OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained token discovery, wallet portfolio reads, DEX swaps, security scans, smart-money signals, DeFi actions, or transaction simulation/broadcasting across 20+ chains.
 
@@ -135,7 +135,7 @@ source, chain, wallet, venue, or risk model.
 
 **DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
 
-**Swap, bridge, zap, and route construction:** Start with DZap MCP Server or LI.FI MCP Server when the agent needs cross-chain routes, token discovery, balances, allowances, or execution-ready transaction data. Compare 1inch Business MCP for 1inch APIs and CoW MCP for CoW Protocol order flows.
+**Swap, bridge, zap, and route construction:** Start with DZap MCP Server or LI.FI MCP Server when the agent needs cross-chain routes, token discovery, balances, allowances, or execution-ready transaction data. Compare 1inch Business MCP for 1inch APIs, CoW MCP for CoW Protocol order flows, or OpenOcean MCP for OpenOcean DEX aggregation quotes, gas, token, DEX, and swap-transaction workflows.
 
 **OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained wallet lifecycle, token discovery, market data, DEX swaps, transaction simulation/broadcasting, smart-money signals, security scans, DeFi product actions, or agent payments across 20+ chains. Treat OKX API credentials, swaps, broadcasts, deposits, withdrawals, and payment actions as high-risk.
 
@@ -429,7 +429,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Hyperliquid perps account, order, leverage, margin, and WebSocket workflows:** Hyperliquid MCP Server by Caio.
 
-**DEX aggregation, 1inch APIs, and swap workflows:** 1inch Business MCP.
+**DEX aggregation, 1inch APIs, and swap workflows:** 1inch Business MCP or OpenOcean MCP.
 
 **CoW Protocol quote, order, and cancellation flows:** CoW MCP.
 
@@ -688,6 +688,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [DZap MCP Server](https://docs.dzap.io/ai/mcp) - Official DZap MCP documentation for 17 DeFi, NLP, and analytics tools covering prices, trends, sentiment, wallet balances, DeFi positions, token and pool data, swaps, bridges, zaps, and DZap docs search; treat calldata, execution links, and transaction preparation as high-risk.
 - [LI.FI MCP Server](https://docs.li.fi/mcp-server/overview) - Official hosted LI.FI MCP at `https://mcp.li.quest/mcp` for read-only cross-chain swap quotes, routes, chain and token discovery, allowance and balance checks, gas suggestions, and transfer status tracking; returns unsigned transaction requests for external wallet signing.
 - [CoW MCP](https://github.com/krzysu/cow-mcp) - Hosted and local MCP for CoW Protocol quotes, supported chain and token lookup, wallet trade history, EIP-712 order and cancellation payloads, external wallet signing, and order submission; treat approvals, signed orders, cancellations, and host-wallet broadcasts as high-risk actions.
+- [OpenOcean MCP](https://github.com/openocean-finance/openocean-mcp) - Official OpenOcean DEX aggregator MCP package for chain lists, gas prices, token lists, DEX lists, swap quotes, swap transaction building, and transaction lookup across OpenOcean-supported chains; treat slippage, account addresses, and returned swap transaction data as high-risk and require external wallet confirmation before execution.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - Community DeFiLlama API wrapper exposing protocol TVL, chain TVL, token prices, pools, yield data, and public DeFi analytics through MCP; useful for TVL and yield research, not an official DeFiLlama server.
 - [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official `@coinpaprika/mcp` server with 30 tools for prices, tickers, 8,000+ coins, 200+ exchanges, OHLCV, contracts, search, historical market data, hosted access, local setup, and free-tier features without an API key.
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained `dexpaprika-mcp` server with 14 tools for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics across 33 networks, hosted and local options, and no API keys required.
