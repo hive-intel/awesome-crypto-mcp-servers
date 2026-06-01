@@ -741,6 +741,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Another Awesome Crypto MCP Servers](https://github.com/badkk/awesome-crypto-mcp-servers) - Community crypto MCP list with additional discovery surface.
 - [Kukapay MCP Servers](https://github.com/kukapay/kukapay-mcp-servers) - Crypto MCP suite index covering DeFi, DEX, market data, news, on-chain analysis, bridges, NFTs, and utilities.
 - [Awesome Lists](https://github.com/szabgab/awesome-lists) - General index of awesome lists across domains.
+- [Ecosyste.ms Awesome](https://awesome.ecosyste.ms/) - Open API index for awesome lists and downstream software ecosystem discovery.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
 - PulseMCP (`pulsemcp[.]com`) - Large MCP server directory, newsletter, API, and partner registry surface that ingests from the Official MCP Registry.
 - [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
