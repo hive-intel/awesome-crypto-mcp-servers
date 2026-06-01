@@ -102,6 +102,8 @@ detailed notes are in the sections below.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
 
+**Bitcoin merchant payments:** Start with BTCPay Server MCP when the agent needs BTCPay invoices, payment requests, pull payments, refunds, webhooks, exchange rates, wallet balances, or Lightning store operations through a self-hosted BTCPay Server instance.
+
 **Token, wallet, phishing, approval, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server.
 
 ## Best By Use Case
@@ -363,6 +365,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Bitcoin agent payments:** Start with Alby Bitcoin Payments MCP Server, LNbits MCP Server, or Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, Nostr Wallet Connect, LNbits instance access, invoices, LNURL, L402, or Lightning-native paid tools.
 
+**Bitcoin merchant payments:** Start with BTCPay Server MCP when the agent needs BTCPay Greenfield API workflows for invoices, stores, payment requests, pull payments, refunds, exchange rates, webhooks, wallet balances, or Lightning node/store context. Treat invoice creation, refunds, webhook changes, store settings, and API-key scope as high-risk.
+
 **DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, VaultPilot MCP when hardware-wallet verification is the central constraint, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
 **Token, NFT, phishing, and approval risk screening:** Start with GoPlus MCP Server when the agent needs token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, or Sui token security using GoPlus credentials.
@@ -501,7 +505,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
 
-**Bitcoin data or Lightning payments:** Maestro MCP Server for Bitcoin data, and Alby Bitcoin Payments MCP Server, LNbits MCP Server, or Lightning Wallet MCP for Lightning payments.
+**Bitcoin data, Lightning payments, or merchant invoices:** Maestro MCP Server for Bitcoin data, Alby Bitcoin Payments MCP Server, LNbits MCP Server, or Lightning Wallet MCP for Lightning payments, and BTCPay Server MCP for BTCPay invoices, payment requests, pull payments, refunds, webhooks, exchange rates, wallet balances, or store operations.
 
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
@@ -630,6 +634,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 
 - [Bitcoin MCP](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network MCP for keys, validation, queries, and Bitcoin-native workflows.
 - [Maestro MCP Server](https://github.com/maestro-org/maestro-mcp-server) - Maestro-backed Bitcoin MCP with hosted mainnet and testnet endpoints for blocks, transactions, mempool, market price, wallet, and node RPC data.
+- [BTCPay Server MCP](https://codeberg.org/toplyr-narfur/btcpay-mcp) - Python `btcpay-mcp` package for BTCPay Greenfield API workflows across invoices, stores, pull payments, payment requests, refunds, webhooks, exchange rates, wallet balances, and Lightning node/store context; API keys, refunds, store changes, and webhook operations require explicit merchant control.
 - [AIBTC MCP Server](https://github.com/aibtcdev/aibtc-mcp-server) - Bitcoin-native MCP for BTC/STX wallets, Bitcoin L1 reads and transfers, Stacks L2, sBTC, NFTs, DeFi yield, and x402 payments; wallet creation, mnemonic export, transfers, DeFi, and paid-call tools are high-risk.
 - [Alby Bitcoin Payments MCP Server](https://github.com/getAlby/mcp) - Official Alby MCP for connecting Lightning wallets to agents through Nostr Wallet Connect, hosted Streamable HTTP or SSE, local stdio, LNURL, L402, invoices, and bearer-authenticated NWC secrets.
 - [LNbits MCP Server](https://github.com/lnbits/LNbits-MCP-Server) - Official LNbits MCP for Lightning wallet balances, invoices, payments, Lightning addresses, LNURLp links, TPoS, SatsPay, watch-only wallets, node info, and user management; API keys, payment tools, and admin tools require explicit user control.
