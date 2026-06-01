@@ -60,4 +60,12 @@ Use the stale or unsafe entry issue form when an existing listing is broken, arc
 
 ## Maintenance Notes
 
-Maintainers may reorder entries by usefulness, official backing, maintenance quality, and category fit. Projects can be removed if they become stale, unsafe, unavailable, or misleading.
+Maintainers may reorder entries by usefulness, official backing, maintenance quality, and category fit. Projects can be removed if they become stale, unsafe, unavailable, duplicated, or misleading.
+
+When reviewing existing entries, check:
+
+- The linked page still resolves and still documents an MCP server, adapter, or compatible tool surface.
+- The install or connection path is still plausible for an MCP client.
+- The project has recent maintenance, official backing, meaningful adoption, or still-relevant documentation.
+- Credential, wallet, trading, signing, write, or infrastructure-admin risk is explained clearly enough for an agent to route safely.
+- The entry is still the best available representative for its category and does not duplicate a stronger official or maintained server.
