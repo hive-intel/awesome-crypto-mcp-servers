@@ -15,6 +15,7 @@ Last curated: 2026-06-01.
 - [Selection Criteria](#selection-criteria)
 - [Risk Routing](#risk-routing)
 - [Curation Priority](#curation-priority)
+- [Maintenance Standard](#maintenance-standard)
 - [Broad Crypto Intelligence](#broad-crypto-intelligence)
 - [Blockchain Data Infrastructure](#blockchain-data-infrastructure)
 - [EVM and Smart Contracts](#evm-and-smart-contracts)
@@ -519,6 +520,16 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - Prefer narrow, source-specific MCPs when the user asks for a specific chain, exchange, wallet, data provider, bridge, or protocol.
 - Prefer read-only and documentation/search surfaces for research and due diligence. Escalate to write, trade, wallet, signing, staking, or infrastructure-admin tools only when the task clearly requires them.
 - Keep entries out, or remove them later, when the MCP interface is unclear, install paths are broken, maintenance stops, the project becomes misleading, or the risk model is not documented.
+
+## Maintenance Standard
+
+This is a curated list, not an add-only catalog. Entries should stay useful to an agent choosing a crypto MCP server today.
+
+- Recheck links and basic Markdown quality in CI, including `README.md`, `llms.txt`, `CONTRIBUTING.md`, and `SUBMISSIONS.md`.
+- Prefer primary docs, official repos, MCP Registry entries, or maintained package pages over thin mirrors and stale forks.
+- Keep descriptions use-case oriented: what the server helps an agent do, what credentials it needs, and where the risk boundary is.
+- Remove or downgrade entries when a repo is archived, install paths break, docs disappear, the MCP interface is unclear, or the project becomes unsafe.
+- Use [SUBMISSIONS.md](SUBMISSIONS.md) to track external directory status so stale Hive listings and duplicate outreach do not drift out of sight.
 
 ## Broad Crypto Intelligence
 
