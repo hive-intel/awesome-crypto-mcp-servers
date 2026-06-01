@@ -41,6 +41,8 @@ detailed notes are in the sections below.
 
 **Market caps, narratives, news, and x402 data:** Start with CoinMarketCap MCP.
 
+**Coin, exchange, ticker, and DEX pool analytics:** Start with CoinPaprika MCP or DexPaprika MCP.
+
 **Pay-per-call live crypto, prediction-market, X/Twitter, and research data:** Start with BlockRun MCP.
 
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
@@ -70,13 +72,15 @@ source, chain, wallet, venue, or risk model.
 
 **Broad crypto intelligence:** Start with Hive Intelligence. Compare Universal Crypto MCP and Heurist Mesh MCP Server only when the agent needs a different broad architecture.
 
-**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, or Pyth MCP Server. Compare Crypto.com Market Data MCP, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
+**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare Crypto.com Market Data MCP, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
 **Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
 **Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, or Octav API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
 **DeFi TVL, protocol, chain, and yield analytics:** Start with DeFiLlama MCP when the agent needs public DeFiLlama protocol TVL, chain TVL, token prices, pool, or yield data. Compare Token Terminal for financial fundamentals and Dune for SQL-backed custom analysis.
+
+**DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
 
 **On-chain analytics, SQL, and financial metrics:** Start with Dune MCP, Token Terminal MCP, or CryptoQuant MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
 
@@ -103,6 +107,10 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Official crypto market data:** Start with CoinGecko MCP Server for public keyless access, authenticated Pro access, local npm setup, prices, historical data, DEX pools, NFTs, and metadata.
 
 **Market cap, narratives, and x402:** Start with CoinMarketCap MCP when the agent needs CMC quotes, technical analysis, global metrics, crypto news, semantic search, or pay-per-call x402 access.
+
+**CoinPaprika market data:** Start with CoinPaprika MCP when the agent needs source-specific coin, ticker, exchange, OHLCV, contract, search, or historical market-data workflows through CoinPaprika's hosted or local MCP.
+
+**DexPaprika DEX analytics:** Start with DexPaprika MCP when the agent needs no-key token, pool, DEX, OHLCV, transaction, or cross-chain DEX analytics across supported networks.
 
 **Wallet-funded live data and research:** Start with BlockRun MCP when the agent needs pay-per-call crypto, prediction-market, DEX, X/Twitter, web research, or model access without juggling multiple API subscriptions.
 
@@ -251,6 +259,10 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Public crypto prices, market charts, and DEX pools:** CoinGecko MCP Server.
 
 **Market cap, narratives, news, and x402 pay-per-call data:** CoinMarketCap MCP.
+
+**CoinPaprika prices, tickers, exchanges, contracts, OHLCV, and search:** CoinPaprika MCP.
+
+**DexPaprika token, pool, DEX, OHLCV, and transaction analytics:** DexPaprika MCP.
 
 **Wallet-funded live data, research, prediction markets, and model calls:** BlockRun MCP.
 
@@ -482,8 +494,8 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [LI.FI MCP Server](https://docs.li.fi/mcp-server/overview) - Official hosted LI.FI MCP at `https://mcp.li.quest/mcp` for read-only cross-chain swap quotes, routes, chain and token discovery, allowance and balance checks, gas suggestions, and transfer status tracking; returns unsigned transaction requests for external wallet signing.
 - [CoW MCP](https://github.com/krzysu/cow-mcp) - Hosted and local MCP for CoW Protocol quotes, supported chain and token lookup, wallet trade history, EIP-712 order and cancellation payloads, external wallet signing, and order submission; treat approvals, signed orders, cancellations, and host-wallet broadcasts as high-risk actions.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - Community DeFiLlama API wrapper exposing protocol TVL, chain TVL, token prices, pools, yield data, and public DeFi analytics through MCP; useful for TVL and yield research, not an official DeFiLlama server.
-- [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official CoinPaprika MCP for prices, tickers, exchanges, OHLCV, historical market data, and hosted or local setup.
-- [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
+- [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official `@coinpaprika/mcp` server with 30 tools for prices, tickers, 8,000+ coins, 200+ exchanges, OHLCV, contracts, search, historical market data, hosted access, local setup, and free-tier features without an API key.
+- [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained `dexpaprika-mcp` server with 14 tools for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics across 33 networks, hosted and local options, and no API keys required.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
 - [Gate MCP Server](https://github.com/gate/gate-mcp) - Official Gate MCP with hosted Streamable HTTP endpoints for public market data, info, and news, plus OAuth-gated CEX trading/account and DEX wallet/swap workflows; local stdio is available through the `gate-mcp` npm package.
