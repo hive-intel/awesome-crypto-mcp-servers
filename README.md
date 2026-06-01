@@ -76,7 +76,7 @@ source, chain, wallet, venue, or risk model.
 
 **Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, or Octav API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
-**On-chain analytics, SQL, and financial metrics:** Start with Dune MCP or Token Terminal MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
+**On-chain analytics, SQL, and financial metrics:** Start with Dune MCP, Token Terminal MCP, or CryptoQuant MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
 
 **RPC, nodes, endpoints, and infrastructure operations:** Start with Alchemy MCP Server or Chainstack MCP Server. Compare Quicknode MCP, GetBlock MCP Server, and Tatum Blockchain MCP.
 
@@ -145,6 +145,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Smart-money and wallet labels:** Start with Nansen MCP when the agent needs institutional on-chain intelligence, smart-money labels, token flows, wallet PnL, or multi-chain research workflows.
 
 **Institutional on-chain metrics:** Start with Glassnode MCP Server when the agent needs asset and metric discovery, metric metadata, single or bulk Glassnode metric retrieval, market intelligence, or 30-day public-access analytics with optional API-key authentication.
+
+**CryptoQuant on-chain signals:** Start with CryptoQuant MCP when the agent needs MVRV, SOPR, exchange flows, funding rates, whale activity, metric descriptions, endpoint discovery, or API-key-backed CryptoQuant data.
 
 **On-chain analytics and dashboards:** Start with Dune MCP when the agent needs DuneSQL query creation, execution, results, visualizations, dashboards, and dataset-aware on-chain research.
 
@@ -278,6 +280,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **On-chain metrics, asset discovery, and market intelligence:** Glassnode MCP Server.
 
+**CryptoQuant metrics, endpoint discovery, and whale or leverage signals:** CryptoQuant MCP.
+
 **Enterprise on-chain SQL and real-time data:** Allium MCP.
 
 **Token, wallet, NFT, and block-level API data:** Chainbase MCP.
@@ -390,6 +394,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Octav API MCP](https://github.com/Octav-Labs/octav-api-mcp) - Official Octav MCP package for portfolio data, wallet holdings, DeFi positions, NAV, transaction history, historical snapshots, token distribution, airdrop checks, and Polymarket position tracking across 20+ blockchains using an Octav API key.
 - [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
 - [Glassnode MCP Server](https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server) - Official beta Glassnode MCP at `https://mcp.glassnode.com` for asset and metric discovery, metric metadata, single or bulk on-chain metric retrieval, market intelligence, public 30-day access, and API-key authenticated analytics.
+- [CryptoQuant MCP](https://github.com/CryptoQuantOfficial/cryptoquant-mcp) - Official `cryptoquant-mcp` npm server for CryptoQuant on-chain analytics, 245+ endpoint discovery, metric descriptions, raw API queries, MVRV, SOPR, exchange flows, funding rates, whale activity, and API-key-backed market intelligence.
 - [Dune MCP](https://docs.dune.com/api-reference/agents/mcp/) - Official Dune remote MCP for DuneSQL query generation, execution, result retrieval, visualizations, dashboards, dataset discovery, and on-chain analytics workflows.
 - [Token Terminal MCP](https://tokenterminal.com/docs/mcp/introduction) - Official hosted remote MCP at `https://mcp.tokenterminal.com/mcp` for Token Terminal on-chain datasets, projects, products, chains, market sectors, financial metrics, methodologies, time series, breakdowns, chart creation, and OAuth 2.1 authenticated access.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
@@ -489,7 +494,6 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Hyperliquid MCP Server by Caio](https://github.com/caiovicentino/hyperliquid-mcp-server) - Hyperliquid DEX MCP with account state, positions, orders, fills, leverage, margin, TWAP, WebSocket subscriptions, and trading tools; private keys, leverage, margin, and order execution are high-risk.
 - [Binance MCP Server](https://github.com/AnalyticAce/binance-mcp-server) - Unofficial Binance MCP for exchange data and trading-agent workflows.
 - [Crypto Indicators MCP](https://github.com/kukapay/crypto-indicators-mcp) - Technical-analysis indicators and strategy signals for cryptocurrency agents.
-- [CryptoQuant MCP](https://github.com/CryptoQuantOfficial/cryptoquant-mcp) - Official on-chain and market intelligence workflows from CryptoQuant.
 - [Chainlink Feeds MCP](https://github.com/kukapay/chainlink-feeds-mcp) - Chainlink price-feed MCP for decentralized on-chain market data.
 
 ## NFTs and Marketplaces
