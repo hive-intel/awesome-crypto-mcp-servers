@@ -74,7 +74,7 @@ detailed notes are in the sections below.
 
 **Verifiable RWA, economic, and event data:** Start with TRUF.NETWORK MCP Server when the agent needs SQL-backed access to verified real-world asset data, on-chain price indexes, market-moving event data, or TRUF node data streams.
 
-**Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, CoW MCP, or OpenOcean MCP depending on the route, aggregator, and execution model.
+**Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, deBridge MCP, 1inch Business MCP, CoW MCP, or OpenOcean MCP depending on the route, aggregator, and execution model.
 
 **OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained token discovery, wallet portfolio reads, DEX swaps, security scans, smart-money signals, DeFi actions, or transaction simulation/broadcasting across 20+ chains.
 
@@ -137,7 +137,7 @@ source, chain, wallet, venue, or risk model.
 
 **DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
 
-**Swap, bridge, zap, and route construction:** Start with DZap MCP Server or LI.FI MCP Server when the agent needs cross-chain routes, token discovery, balances, allowances, or execution-ready transaction data. Compare 1inch Business MCP for 1inch APIs, CoW MCP for CoW Protocol order flows, or OpenOcean MCP for OpenOcean DEX aggregation quotes, gas, token, DEX, and swap-transaction workflows.
+**Swap, bridge, zap, and route construction:** Start with DZap MCP Server, LI.FI MCP Server, or deBridge MCP when the agent needs cross-chain routes, token discovery, balances, allowances, fee estimates, or execution-ready transaction data. Compare 1inch Business MCP for 1inch APIs, CoW MCP for CoW Protocol order flows, or OpenOcean MCP for OpenOcean DEX aggregation quotes, gas, token, DEX, and swap-transaction workflows.
 
 **OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained wallet lifecycle, token discovery, market data, DEX swaps, transaction simulation/broadcasting, smart-money signals, security scans, DeFi product actions, or agent payments across 20+ chains. Treat OKX API credentials, swaps, broadcasts, deposits, withdrawals, and payment actions as high-risk.
 
@@ -321,6 +321,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Cross-chain bridge intelligence:** Start with Across MCP Server when the agent needs Across docs, supported chains, API references, SDK examples, or live bridge-fee quotes through a hosted MCP endpoint.
 
+**Cross-chain and same-chain swap execution:** Start with deBridge MCP when the agent needs hosted Streamable HTTP access, local stdio proxy support, workflow skills, token search, supported-chain discovery, fee estimation, or transaction construction through the deBridge protocol. Treat returned transactions, wallet addresses, slippage, approvals, and execution handoff as high-risk.
+
 **Cross-chain bridge execution:** Start with Allbridge MCP when the agent needs to plan, build, locally sign, broadcast, and track stablecoin bridge transfers across several chain families with explicit signer handoff.
 
 **Omnichain messaging docs:** Start with LayerZero Docs MCP when the agent needs current LayerZero documentation, OApp, OFT, DVN, endpoint, or cross-chain messaging guidance through a hosted Streamable HTTP MCP.
@@ -491,7 +493,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Starknet JSON-RPC reads, state, and traces:** Starknet MCP Server.
 
-**Cross-chain bridge docs, fees, SDK examples, and execution:** Across MCP Server or Allbridge MCP.
+**Cross-chain bridge docs, fees, SDK examples, and execution:** Across MCP Server, deBridge MCP, or Allbridge MCP.
 
 **LayerZero omnichain messaging docs:** LayerZero Docs MCP.
 
@@ -653,6 +655,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Tari MCP Servers](https://github.com/tari-project/tari) - Official Tari protocol repo with Minotari wallet and node MCP servers for local AI-agent access to wallet balances, transaction history, address info, transfers, burn transactions, coin splits, node/network information, blocks, mempool, peers, and sync status; defaults should stay read-only, while control operations require explicit enablement, confirmation, and audit logging.
 - [Across MCP Server](https://docs.across.to/ai-agents/mcp-server) - Official Across Protocol hosted MCP at `https://mcp.across.to/mcp` with documentation search, page retrieval, REST API references, supported-chain lookup, live bridge-fee queries, and SDK code examples.
 - [Allbridge MCP](https://allbridge.io/ai/) - Official Allbridge AI MCP suite for planning, quoting, building, locally signing, broadcasting, and tracking cross-chain stablecoin transfers across EVM, Solana, Tron, Algorand, Stacks, Soroban/Stellar, and Sui, with keys kept in a local signer.
+- [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge hosted Streamable HTTP MCP and local proxy package for cross-chain and same-chain swaps, fee estimation, supported-chain and token discovery, transaction construction, and workflow skills; returned transactions, wallet addresses, approvals, and execution handoff are high-risk.
 - [LayerZero Docs MCP](https://docs.layerzero.network/v2/tools/mcp/overview) - Official hosted LayerZero documentation MCP at `https://docs.layerzero.network/mcp` with Streamable HTTP search for LayerZero docs, OApps, OFTs, DVNs, endpoints, and cross-chain messaging workflows.
 - [VeChain MCP Server](https://github.com/vechain/vechain-mcp-server) - Official VeChain MCP for ecosystem resources and VeChain developer workflows.
 - [Mina MCP Server](https://github.com/MinaProtocol/mina-mcp-server) - Official Mina Protocol MCP for Mina Blockchain tooling and developer workflows.
@@ -777,7 +780,6 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Large agentic finance toolkit with a Model Context Protocol adapter, 200+ on-chain tools, wallet integrations, payments, DeFi, prediction markets, tokenization, and framework adapters across TypeScript and Python.
 - [Hashnet MCP Server](https://github.com/hashgraph-online/hashnet-mcp-js) - Hashgraph Online MCP for discovery, chat, registration, workflows, and Hedera agent interactions.
 - [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted EVM and Solana wallet daemon with MCP, policy controls, spending limits, approval tiers, and kill-switch controls for agent transactions.
-- [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge MCP for cross-chain and same-chain swaps, fee estimation, hosted Streamable HTTP, local proxy support, and workflow skills.
 - [Agenti](https://github.com/nirholas/agenti) - Wallet-enabled AI agent framework for EVM, Solana, x402 payments, and MCP-compatible agents.
 - [MCP Crypto Wallet EVM](https://github.com/dcSpark/mcp-cryptowallet-evm) - EVM crypto wallet MCP from dcSpark.
 
