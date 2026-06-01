@@ -776,6 +776,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Awesome Lists](https://github.com/szabgab/awesome-lists) - General index of awesome lists across domains.
 - [Ecosyste.ms Awesome](https://awesome.ecosyste.ms/) - Open API index for awesome lists and downstream software ecosystem discovery.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
+- [AgentNDX](https://agentndx.ai/) - Curated, quality-scored MCP, A2A, and x402 registry with a free server index, programmatic API, and MCP-native discovery endpoint.
 - PulseMCP (`pulsemcp[.]com`) - Large MCP server directory, newsletter, API, and partner registry surface that ingests from the Official MCP Registry.
 - [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [MCPfinder](https://www.mcpfinder.org/) - Reviewed MCP server directory with reliability checks, category pages, comparison coverage, and a public submit flow.
