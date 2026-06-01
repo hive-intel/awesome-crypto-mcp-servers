@@ -2,6 +2,21 @@
 
 Thanks for improving Awesome Crypto MCP Servers. This repository is curated for builders choosing crypto MCP infrastructure, so quality matters more than list size.
 
+## Current Curation Bar
+
+The list is in a selective maintenance phase. Most important crypto MCP
+categories and provider surfaces are already represented, so new entries should
+be exceptional, not routine.
+
+Before opening an addition PR, ask whether the project is one of the best
+available choices for a real agent workflow. Strong reasons include official
+provider backing, MCP Registry presence, meaningful adoption, a uniquely
+important dataset or chain workflow, safer transaction handling, or coverage
+that existing entries cannot provide.
+
+If the answer is "interesting, but not clearly important yet," open a nomination
+issue instead of a PR.
+
 ## What We Accept
 
 Good additions usually have:
@@ -21,6 +36,7 @@ Please do not submit:
 - Abandoned demos with broken install paths.
 - Trading or signing tools that do not explain credential and execution risk.
 - Repos that require users to paste secrets into public chats, issues, screenshots, or logs.
+- Generic price, exchange, wallet, or portfolio wrappers that duplicate stronger official or maintained entries.
 
 ## Review Priority
 
@@ -49,6 +65,7 @@ Descriptions should explain what the server actually helps an agent do. Avoid hy
 - The description is one sentence and ends with punctuation.
 - The repository link is not already listed.
 - The project has been checked for an MCP interface and basic maintenance signals.
+- The project materially improves this list instead of duplicating a stronger existing entry.
 - README, AI discovery, and submission-tracker links pass `npx --yes markdown-link-check README.md`, `npx --yes markdown-link-check llms.txt`, and `npx --yes markdown-link-check SUBMISSIONS.md`.
 - Write, trading, wallet, or signing tools are described with the right level of risk.
 

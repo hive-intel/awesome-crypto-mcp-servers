@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this form for suggestions that are not ready as a pull request yet. This list is intentionally selective, so include enough evidence for maintainers to verify the MCP surface and agent use case.
+        Use this form for suggestions that are not ready as a pull request yet. This list is intentionally selective and already covers most major crypto MCP categories, so include enough evidence for maintainers to verify that the project materially improves the list.
   - type: input
     id: project_url
     attributes:
@@ -52,6 +52,14 @@ body:
       placeholder: "Example: query Solana wallet activity, deploy nodes, inspect DEX pools, fetch security labels."
     validations:
       required: true
+  - type: textarea
+    id: gap_evidence
+    attributes:
+      label: Why this is not already covered
+      description: Explain what important workflow, dataset, chain, provider, or safety model this adds beyond existing listed entries.
+      placeholder: "Example: official provider MCP for a major protocol not currently represented, or safer execution model than existing wallet/trading entries."
+    validations:
+      required: true
   - type: input
     id: install_or_connect
     attributes:
@@ -93,6 +101,8 @@ body:
       label: Final checks
       options:
         - label: I checked that this project is not already listed.
+          required: true
+        - label: I checked that this project is not a thin fork or duplicate of a stronger official or maintained entry.
           required: true
         - label: I did not include secrets, API keys, private keys, seed phrases, or private customer data.
           required: true

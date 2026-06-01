@@ -9,6 +9,7 @@ Last curated: 2026-06-01.
 ## Contents
 
 - [Quick Routes](#quick-routes)
+- [Curation Status](#curation-status)
 - [Best By Use Case](#best-by-use-case)
 - [Start Here](#start-here)
 - [Maintainer Picks](#maintainer-picks)
@@ -105,6 +106,19 @@ detailed notes are in the sections below.
 **Bitcoin merchant payments:** Start with BTCPay Server MCP when the agent needs BTCPay invoices, payment requests, pull payments, refunds, webhooks, exchange rates, wallet balances, or Lightning store operations through a self-hosted BTCPay Server instance.
 
 **Token, wallet, phishing, approval, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server.
+
+## Curation Status
+
+The core list is intentionally in a selective maintenance phase. Most important
+crypto MCP categories and provider surfaces are already represented, so new
+entries should be exceptions rather than routine additions.
+
+Open a new addition only when it materially improves the list: official
+provider backing, MCP Registry presence, clear adoption, a uniquely important
+dataset or chain workflow, a safer execution model, or coverage that the current
+entries cannot handle. Low-signal forks, generic price wrappers, duplicate
+exchange clients, keyword-stuffed repos, and unsafe wallet or trading demos
+should be rejected or tracked as nominations until they improve.
 
 ## Best By Use Case
 
