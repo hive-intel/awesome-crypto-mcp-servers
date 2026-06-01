@@ -11,3 +11,4 @@
 - [ ] Installation or usage docs are available.
 - [ ] Write, trading, wallet, or signing risks are documented if applicable.
 - [ ] The README entry is factual, concise, unique, and ends with punctuation.
+- [ ] `llms.txt` is updated when routing, categories, or recommended starting points change.
