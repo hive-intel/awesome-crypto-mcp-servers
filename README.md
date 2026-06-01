@@ -65,6 +65,8 @@ detailed notes are in the sections below.
 
 **Polkadot, Kusama, and system parachain data:** Start with Polkadot MCP.
 
+**Starknet RPC, state, and trace reads:** Start with Starknet MCP Server.
+
 **Hedera build-only transactions and mirror-node reads:** Start with Hedera MCP.
 
 **Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
@@ -115,6 +117,8 @@ source, chain, wallet, venue, or risk model.
 **Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server, VaultPilot MCP, and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
 
 **Smart contracts, app development, and chain docs:** Start with OpenZeppelin MCP Servers or Tenderly MCP Server. Compare thirdweb MCP Server, Aptos MCP, Avalanche MCP Server, and LayerZero Docs MCP.
+
+**Starknet RPC and trace inspection:** Start with Starknet MCP Server when the agent needs Starknet JSON-RPC reads, blocks, transactions, state, events, traces, fee estimates, or network switching against a user-provided Starknet RPC endpoint.
 
 ## Start Here
 
@@ -231,6 +235,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Avalanche builder workflows:** Start with Avalanche MCP Server when the agent needs Avalanche docs, code search, RPC lookup, CLI guidance, ACPs, or public network data through a hosted read-only endpoint.
 
 **Rootstock wallet, contract, and attestation workflows:** Start with Rootstock MCP Server when the agent needs RBTC balances, ERC-20 transfers, Rootstock contract deployment, verification, reads, transaction history, or Rootstock Attestation Service workflows. Treat wallet import, transfers, deployment, and attestations as high-risk actions.
+
+**Starknet RPC and traces:** Start with Starknet MCP Server when the agent needs Starknet blocks, transactions, state, storage, classes, events, traces, simulation, fee estimates, or node info through the Starknet JSON-RPC API. Treat private provider RPC URLs as secrets.
 
 **Cross-chain bridge intelligence:** Start with Across MCP Server when the agent needs Across docs, supported chains, API references, SDK examples, or live bridge-fee quotes through a hosted MCP endpoint.
 
@@ -371,6 +377,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Avalanche docs, RPC, CLI, and ACP lookup:** Avalanche MCP Server.
 
 **Rootstock wallets, contracts, transfers, and attestations:** Rootstock MCP Server.
+
+**Starknet JSON-RPC reads, state, and traces:** Starknet MCP Server.
 
 **Cross-chain bridge docs, fees, SDK examples, and execution:** Across MCP Server or Allbridge MCP.
 
@@ -513,6 +521,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Aptos MCP](https://aptos.dev/build/ai/aptos-mcp) - Official Aptos MCP at `npx @aptos-labs/aptos-mcp` with tools, prompts, resources, Cursor and Claude Code setup, Aptos API access, and Geomi-backed app-building workflows using `APTOS_BOT_KEY`.
 - [Avalanche MCP Server](https://build.avax.network/docs/tooling/ai-llm/mcp-server) - Official hosted read-only Avalanche Builder Hub MCP for documentation search, GitHub code lookup, RPC and CLI task lookup, ACPs, public network data, resources, and `https://build.avax.network/api/mcp`.
 - [Rootstock MCP Server](https://github.com/rsksmart/rsk-mcp-server) - Official `@rsksmart/rsk-mcp-server` package for Rootstock wallet management, RBTC and ERC-20 balances, transfers, transaction status, contract deployment, contract verification, contract reads, transaction history, and Rootstock Attestation Service workflows; wallet import, transfers, deployments, and attestations are high-risk actions.
+- [Starknet MCP Server](https://github.com/starkware-libs/starknet-specs/tree/master/mcp) - StarkWare-maintained Starknet specifications repo MCP exposing Starknet JSON-RPC v0.10.2 methods for blocks, transactions, state, storage, classes, events, traces, simulation, fee estimates, node info, and network switching against a user-provided Starknet RPC endpoint; treat private provider RPC URLs as secrets.
 - [TON Blockchain MCP](https://github.com/devonmojito/ton-blockchain-mcp) - MIT-licensed Python MCP for TON address analysis, transaction details, hot trends, trading-pattern analysis, TON price, and jetton prices using TON API credentials; beta software, not financial advice.
 - [Across MCP Server](https://docs.across.to/ai-agents/mcp-server) - Official Across Protocol hosted MCP at `https://mcp.across.to/mcp` with documentation search, page retrieval, REST API references, supported-chain lookup, live bridge-fee queries, and SDK code examples.
 - [Allbridge MCP](https://allbridge.io/ai/) - Official Allbridge AI MCP suite for planning, quoting, building, locally signing, broadcasting, and tracking cross-chain stablecoin transfers across EVM, Solana, Tron, Algorand, Stacks, Soroban/Stellar, and Sui, with keys kept in a local signer.
