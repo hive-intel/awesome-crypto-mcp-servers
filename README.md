@@ -488,6 +488,11 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [MCP Catalogs](https://mcpcatalogs.com/en) - Independent bilingual MCP directory with AI-evaluated server pages and side-by-side comparison.
 - [MCPRepository](https://mcprepository.com/) - MCP server directory with GitHub-indexed server pages, search, and an npm-backed submission CLI.
 - [MCP.so](https://mcp.so/) - Large community MCP directory with indexed server pages, category browsing, and search traffic around Claude MCP and Awesome MCP Servers.
+- [FindMCP](https://findmcp.dev/) - Large web MCP directory with category pages, server search, and an MCP installer companion CLI.
+- ServeMCP (`servemcp[.]com`) - Broad MCP directory with granular crypto, DeFi, Solana, risk, exchange, and trading categories.
+- MCP Server Directory (`mcpserverdirectory[.]org`) - MCP resource directory with a public submit form and indexed server pages.
+- [MCP Server Info](https://www.mcpserver.info/) - MCP directory with server detail pages, source links, and category browsing.
+- [MCP Server Registry](https://model-context-protocol-server.com/) - Searchable MCP server registry powered by the Model Context Protocol ecosystem.
 - [MCP Toplist](https://mcptoplist.com/) - Continuously updated MCP server index and ranking dataset aggregating the Official MCP Registry, Glama, Smithery, mcp.so, and other MCP discovery sources.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
