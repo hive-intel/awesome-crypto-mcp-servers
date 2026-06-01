@@ -68,6 +68,8 @@ detailed notes are in the sections below.
 
 **Tokenized real-world assets, treasury tokens, and RWA risk signals:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, gold, equity, or real-estate data with contract-control and risk-signal context.
 
+**Verifiable RWA, economic, and event data:** Start with TRUF.NETWORK MCP Server when the agent needs SQL-backed access to verified real-world asset data, on-chain price indexes, market-moving event data, or TRUF node data streams.
+
 **Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, or CoW MCP depending on the route and execution model.
 
 **OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained token discovery, wallet portfolio reads, DEX swaps, security scans, smart-money signals, DeFi actions, or transaction simulation/broadcasting across 20+ chains.
@@ -122,6 +124,8 @@ source, chain, wallet, venue, or risk model.
 **DeFi TVL, protocol, chain, and yield analytics:** Start with DeFiLlama MCP when the agent needs public DeFiLlama protocol TVL, chain TVL, token prices, pool, or yield data. Compare Token Terminal for financial fundamentals and Dune for SQL-backed custom analysis.
 
 **Tokenized RWA and treasury intelligence:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, commodity, equity, or real-estate tokens, wallet RWA holdings, whale flows, contract-control profiles, or issuer/category comparisons. Treat contract scans and admin-token workflows as higher risk than read-only market lookups.
+
+**Verifiable economic data and RWA streams:** Start with TRUF.NETWORK MCP Server when the agent needs natural-language-to-SQL access to verified RWA data, event-driven market data, on-chain price indexes, or TRUF.NETWORK data streams. Treat local node/database access as infrastructure-sensitive.
 
 **DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
 
@@ -198,6 +202,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Santiment social and on-chain intelligence:** Start with Santiment MCP Connector when the agent needs hosted OAuth access to Santiment metrics, asset screening, analyst insights, trending stories, combined social trends, or sentiment-backed token research.
 
 **Tokenized real-world assets:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, commodity, equity, real-estate, or stablecoin data with TVL, APY, issuer, chain, holder, whale-flow, risk-signal, and contract-control context.
+
+**Verifiable RWA and economic data streams:** Start with TRUF.NETWORK MCP Server when the agent needs a local MCP for natural-language SQL over verified RWA data, market-moving event data, on-chain price data points, or TRUF.NETWORK node-backed streams.
 
 **DeFi swap, bridge, and zap routing:** Start with DZap MCP Server when the agent needs a hosted public MCP for swaps, bridges, zaps, token and pool data, wallet balances, price/sentiment/news tools, or DZap documentation search. Treat calldata, execution links, and transaction preparation as high-risk.
 
@@ -658,6 +664,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Santiment MCP Connector](https://academy.santiment.net/mcp-connector/) - Official hosted Santiment MCP at `https://api.santiment.net/mcp` for OAuth-backed Sanbase market intelligence, including metric and asset discovery, timeseries data, asset screening, analyst insights, trending stories, combined social trends, on-chain metrics, exchange flows, development activity, social volume, and weighted sentiment.
 - [AkTools MCP Server](https://github.com/aahl/mcp-aktools) - MIT-licensed AkShare-backed MCP for A-share, Hong Kong, US stock, and crypto market data, including historical crypto prices, related news, OKX long/short ratios, OKX taker volume, and Binance AI reports; use its `trading_suggest` style outputs as research signals, not financial advice.
 - [RWA Pipe MCP](https://github.com/rwapipe/mcp) - Tokenized real-world asset MCP for AI agents that need RWA token discovery, treasury comparisons, TVL, APY, issuer and chain filters, wallet holdings, whale flows, risk signals, and contract-control intelligence across tokenized treasuries, private credit, commodities, equities, stablecoins, and real estate. Requires `RWAPIPE_API_KEY`; contract scans and admin-oriented tooling require stronger user control.
+- [TRUF.NETWORK MCP Server](https://docs.truf.network/ai-toolkit) - Official TRUF.NETWORK MCP for natural-language-to-SQL access to verified real-world asset data, event-driven market data, on-chain price indexes, and TRUF node data streams; setup runs against TRUF.NETWORK node/database infrastructure and is tested with Claude Desktop.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
 - [1inch Business MCP](https://business.1inch.com/1inch-mcp) - Official 1inch MCP for docs search, code examples, 1inch Business API access, portfolio and balance data, orderbook flows, spot prices, classic swaps, Fusion intent swaps, and cross-chain swaps; protected tools use API key or OAuth and require explicit transaction controls.
