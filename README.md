@@ -74,6 +74,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **On-chain wallets for agents:** Start with Coinbase AgentKit when the agent needs wallet-backed payments, testnet funding, and on-chain actions through Coinbase Developer Platform.
 
+**Consumer wallet signing and swaps:** Start with Phantom MCP Server when the agent needs Phantom wallet authentication, addresses, balances, Solana/EVM signing, token transfers, swaps, payments, or Hyperliquid perps access through a local stdio MCP.
+
 **Enterprise custody operations:** Start with Fireblocks MCP Server when the agent needs vault accounts, assets, transaction history, policies, exchange accounts, external wallets, or internal workspace-user data from Fireblocks.
 
 **Base Account and x402 actions:** Start with Base MCP when the agent needs approved Base Account wallet actions, swaps, signatures, contract calls, or x402 payments through a remote MCP.
@@ -166,7 +168,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Bitcoin data or Lightning payments:** Maestro MCP Server or Lightning Wallet MCP.
 
-**Wallet-backed on-chain actions and agent payments:** Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
+**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
 
 **Circle Wallets, CCTP, Contracts, and Gateway codegen:** Circle MCP Server.
 
@@ -316,6 +318,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [Circle MCP Server](https://developers.circle.com/ai/mcp) - Official Circle hosted MCP at `https://api.circle.com/v1/codegen/mcp` for AI-assisted code generation and fixes across Circle Wallets, Contracts, CCTP, Gateway, and crypto app integrations.
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
+- [Phantom MCP Server](https://github.com/phantom/phantom-connect-sdk/tree/main/packages/mcp-server) - Official `@phantom/mcp-server` package exposing Phantom wallet authentication, addresses, balances, Solana and EVM signing, token transfers, swaps, token prices, payments, and Hyperliquid perps through a local stdio MCP; treat signing, transfer, swap, and perps tools as high-risk wallet actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
 - [Fireblocks MCP Server](https://github.com/fireblocks/fireblocks-mcp) - Official Fireblocks MCP for vault accounts, assets, transactions, exchange accounts, network connections, policies, whitelisted IPs, wallets, and workspace users, with explicit controls for write operations.
 - [Privy Docs MCP](https://docs.privy.io/basics/get-started/using-llms) - Official hosted docs MCP at `https://docs.privy.io/mcp` for Privy auth, embedded wallet, policy, and integration guidance in Cursor, Claude Desktop, and other MCP clients.
