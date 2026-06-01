@@ -76,6 +76,8 @@ source, chain, wallet, venue, or risk model.
 
 **Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, or Octav API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
+**DeFi TVL, protocol, chain, and yield analytics:** Start with DeFiLlama MCP when the agent needs public DeFiLlama protocol TVL, chain TVL, token prices, pool, or yield data. Compare Token Terminal for financial fundamentals and Dune for SQL-backed custom analysis.
+
 **On-chain analytics, SQL, and financial metrics:** Start with Dune MCP, Token Terminal MCP, or CryptoQuant MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
 
 **RPC, nodes, endpoints, and infrastructure operations:** Start with Alchemy MCP Server or Chainstack MCP Server. Compare Quicknode MCP, GetBlock MCP Server, and Tatum Blockchain MCP.
@@ -147,6 +149,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Institutional on-chain metrics:** Start with Glassnode MCP Server when the agent needs asset and metric discovery, metric metadata, single or bulk Glassnode metric retrieval, market intelligence, or 30-day public-access analytics with optional API-key authentication.
 
 **CryptoQuant on-chain signals:** Start with CryptoQuant MCP when the agent needs MVRV, SOPR, exchange flows, funding rates, whale activity, metric descriptions, endpoint discovery, or API-key-backed CryptoQuant data.
+
+**DeFiLlama protocol and yield data:** Start with DeFiLlama MCP when the agent needs public protocol TVL, chain TVL, token prices, liquidity pools, or yield analytics from DeFiLlama. Treat it as a community wrapper around public DeFiLlama APIs.
 
 **On-chain analytics and dashboards:** Start with Dune MCP when the agent needs DuneSQL query creation, execution, results, visualizations, dashboards, and dataset-aware on-chain research.
 
@@ -281,6 +285,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **On-chain metrics, asset discovery, and market intelligence:** Glassnode MCP Server.
 
 **CryptoQuant metrics, endpoint discovery, and whale or leverage signals:** CryptoQuant MCP.
+
+**DeFi TVL, chain, protocol, pool, and yield snapshots:** DeFiLlama MCP.
 
 **Enterprise on-chain SQL and real-time data:** Allium MCP.
 
@@ -475,7 +481,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [1inch Business MCP](https://business.1inch.com/1inch-mcp) - Official 1inch MCP for docs search, code examples, 1inch Business API access, portfolio and balance data, orderbook flows, spot prices, classic swaps, Fusion intent swaps, and cross-chain swaps; protected tools use API key or OAuth and require explicit transaction controls.
 - [LI.FI MCP Server](https://docs.li.fi/mcp-server/overview) - Official hosted LI.FI MCP at `https://mcp.li.quest/mcp` for read-only cross-chain swap quotes, routes, chain and token discovery, allowance and balance checks, gas suggestions, and transfer status tracking; returns unsigned transaction requests for external wallet signing.
 - [CoW MCP](https://github.com/krzysu/cow-mcp) - Hosted and local MCP for CoW Protocol quotes, supported chain and token lookup, wallet trade history, EIP-712 order and cancellation payloads, external wallet signing, and order submission; treat approvals, signed orders, cancellations, and host-wallet broadcasts as high-risk actions.
-- [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
+- [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - Community DeFiLlama API wrapper exposing protocol TVL, chain TVL, token prices, pools, yield data, and public DeFi analytics through MCP; useful for TVL and yield research, not an official DeFiLlama server.
 - [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official CoinPaprika MCP for prices, tickers, exchanges, OHLCV, historical market data, and hosted or local setup.
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
