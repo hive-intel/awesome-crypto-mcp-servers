@@ -69,7 +69,7 @@ detailed notes are in the sections below.
 
 **Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
-**Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, or PMXT.
+**Trading, exchange APIs, brokerage, quant strategies, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
 
@@ -108,6 +108,8 @@ source, chain, wallet, venue, or risk model.
 
 **Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
 
+**Quant strategy research, backtesting, optimization, and live deployment:** Start with QuantConnect MCP Server when the agent needs to create or update QuantConnect projects, run compiles, backtests, optimizations, and live algorithm workflows, including crypto-capable strategies. Treat broker authorization, live deployment, liquidation, and project writes as high-risk.
+
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
 
 **Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server, VaultPilot MCP, and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
@@ -145,6 +147,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **DeFi swap, bridge, and zap routing:** Start with DZap MCP Server when the agent needs a hosted public MCP for swaps, bridges, zaps, token and pool data, wallet balances, price/sentiment/news tools, or DZap documentation search. Treat calldata, execution links, and transaction preparation as high-risk.
 
 **Exchange order books and candles:** Start with Cryptohopper MCP when the agent needs live market data, order-book depth, and candle analysis through a remote MCP endpoint.
+
+**Algorithmic trading research and backtesting:** Start with QuantConnect MCP Server when the agent needs QuantConnect project management, docs/API search, code edits, compiles, backtests, optimization, or live algorithm deployment for crypto-capable quantitative strategies.
 
 **Token discovery and on-chain market analytics:** Start with Birdeye MCP Server when the agent needs trending tokens, new launches, top movers, hot pools, DEX liquidity data, token metadata, safety signals, OHLCV, wallet net worth, or wallet PnL across supported networks.
 
@@ -311,6 +315,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
 **Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
+
+**Quant strategy development, backtesting, and live deployment:** QuantConnect MCP Server.
 
 **Hyperliquid perps account, order, leverage, margin, and WebSocket workflows:** Hyperliquid MCP Server by Caio.
 
@@ -526,6 +532,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 - [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
 - [Trade It](https://github.com/trade-it-inc/trade-it-mcp) - Official MCP Registry-listed remote MCP for draft-first stock, crypto, and options trading through linked brokerages, including Coinbase and Kraken for crypto; supports Streamable HTTP, SSE, OAuth login, account lookup, draft order creation, and explicit execution tools.
+- [QuantConnect MCP Server](https://www.quantconnect.com/mcp) - Official QuantConnect MCP for AI-assisted project management, docs/API search, code editing, compiles, backtests, optimization, and live algorithm deployment across QuantConnect strategies, including crypto-capable workflows; project writes, broker authorization, live deployment, stops, liquidations, and account API tokens are high-risk.
 - [CoinGecko MCP Server](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server) - Official CoinGecko MCP for prices, historical market data, DEX pools, NFT collections, metadata, keyless public access, authenticated Pro access, and local npm setup.
 - [CoinMarketCap MCP](https://coinmarketcap.com/api/mcp/) - Official CoinMarketCap hosted MCP for quotes, technical analysis, on-chain metrics, global market data, trending narratives, news, semantic search, and x402 pay-per-call access.
 - [BlockRun MCP](https://github.com/BlockRunAI/blockrun-mcp) - MIT-licensed MCP for pay-per-call live data across crypto prices, DEX data, prediction markets, X/Twitter intelligence, web research, and model calls using an x402-funded local wallet.
