@@ -62,6 +62,8 @@ detailed notes are in the sections below.
 
 **Messari research, AI intelligence, signals, and timeseries:** Start with Messari MCP Server when the agent needs hosted OAuth access to Messari AI, research reports, news, token unlocks, fundraising, mindshare signals, and direct timeseries data.
 
+**Santiment on-chain, social, and trend intelligence:** Start with Santiment MCP Connector when the agent needs OAuth-backed Sanbase metrics, social sentiment, trending narratives, analyst insights, token screeners, or timeseries context.
+
 **Wallet portfolios, DeFi positions, snapshots, and NFTs:** Start with Zerion API MCP or Octav API MCP.
 
 **Tokenized real-world assets, treasury tokens, and RWA risk signals:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, gold, equity, or real-estate data with contract-control and risk-signal context.
@@ -105,13 +107,15 @@ source, chain, wallet, venue, or risk model.
 
 **Broad crypto intelligence:** Start with Hive Intelligence. Compare Universal Crypto MCP and Heurist Mesh MCP Server only when the agent needs a different broad architecture.
 
-**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare Messari MCP Server, CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, AkTools MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
+**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare Messari MCP Server, Santiment MCP Connector, CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, AkTools MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
 **Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare aTars MCP for a registry-backed remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
 **Trading-agent memory and audit trails:** Start with TradeMemory Protocol when a crypto-capable trading agent needs pre-trade memory, risk gates, strategy reflection, or tamper-evident decision exports without handing over exchange credentials.
 
 **AI-powered crypto research, news, signals, and timeseries:** Start with Messari MCP Server when the agent needs hosted OAuth access to Messari AI, deep research, market data, on-chain metrics, token unlocks, fundraising, news, social mindshare, sentiment, or direct timeseries data.
+
+**On-chain, social sentiment, and narrative validation:** Start with Santiment MCP Connector when the agent needs OAuth-backed Santiment metrics, exchange-flow context, social volume, weighted sentiment, trending stories, analyst insights, or token screening.
 
 **Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, Octav API MCP, or CoinStats MCP Server. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
@@ -190,6 +194,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Cross-asset financial market data:** Start with Massive.com MCP Server when the agent needs crypto, stock, options, forex, futures, news, reference data, or technical-analysis functions through a single API-key-backed search/call/query MCP. Use Lambda Finance MCP when the task is hosted financial research that needs crypto derivatives, funding/open-interest context, exchange flows, whale transfers, or wallet tracking alongside broader market data.
 
 **Messari crypto intelligence and timeseries:** Start with Messari MCP Server when the agent needs hosted OAuth access to Messari AI, research reports, news, token unlocks, fundraising, social signals, market data, on-chain metrics, or direct timeseries queries.
+
+**Santiment social and on-chain intelligence:** Start with Santiment MCP Connector when the agent needs hosted OAuth access to Santiment metrics, asset screening, analyst insights, trending stories, combined social trends, or sentiment-backed token research.
 
 **Tokenized real-world assets:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, commodity, equity, real-estate, or stablecoin data with TVL, APY, issuer, chain, holder, whale-flow, risk-signal, and contract-control context.
 
@@ -649,6 +655,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Massive.com MCP Server](https://github.com/massive-com/mcp_massive) - Official experimental Massive.com MCP for crypto, stock, options, forex, futures, news, reference data, market snapshots, technical functions, and in-memory SQLite analysis through three composable search, call, and query tools using a Massive.com API key.
 - [Lambda Finance MCP](https://www.lambdafin.com/financial-mcp-server) - Hosted Streamable HTTP financial MCP for real-time market research across stocks, options, futures, crypto, bonds, macro, filings, and related datasets, including crypto derivatives, funding/open-interest context, exchange flows, whale transfers, and wallet tracking. Requires a Lambda Finance account/API key or OAuth flow.
 - [Messari MCP Server](https://docs.messari.io/mcp-server/hosted) - Official hosted Messari MCP at `https://mcp.messari.io/mcp` for AI-powered crypto research, natural-language data queries, deep research jobs, Messari timeseries catalog and data, market data, on-chain metrics, fundraising, token unlocks, news, research reports, and X/Twitter mindshare signals through OAuth-backed Messari API-key authentication; legacy local stdio is available as `@messari/sdk-ts-mcp`.
+- [Santiment MCP Connector](https://academy.santiment.net/mcp-connector/) - Official hosted Santiment MCP at `https://api.santiment.net/mcp` for OAuth-backed Sanbase market intelligence, including metric and asset discovery, timeseries data, asset screening, analyst insights, trending stories, combined social trends, on-chain metrics, exchange flows, development activity, social volume, and weighted sentiment.
 - [AkTools MCP Server](https://github.com/aahl/mcp-aktools) - MIT-licensed AkShare-backed MCP for A-share, Hong Kong, US stock, and crypto market data, including historical crypto prices, related news, OKX long/short ratios, OKX taker volume, and Binance AI reports; use its `trading_suggest` style outputs as research signals, not financial advice.
 - [RWA Pipe MCP](https://github.com/rwapipe/mcp) - Tokenized real-world asset MCP for AI agents that need RWA token discovery, treasury comparisons, TVL, APY, issuer and chain filters, wallet holdings, whale flows, risk signals, and contract-control intelligence across tokenized treasuries, private credit, commodities, equities, stablecoins, and real estate. Requires `RWAPIPE_API_KEY`; contract scans and admin-oriented tooling require stronger user control.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
