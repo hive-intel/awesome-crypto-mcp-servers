@@ -73,7 +73,7 @@ detailed notes are in the sections below.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
 
-**Trading, exchange APIs, brokerage, quant strategies, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
+**Trading, exchange APIs, brokerage, bots, quant strategies, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
 
@@ -112,7 +112,7 @@ source, chain, wallet, venue, or risk model.
 
 **Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
 
-**Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
+**Trading, exchange APIs, bots, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, and PMXT. Separate read-only data from account, order, bot deployment, brokerage, and prediction-market execution.
 
 **Quant strategy research, backtesting, optimization, and live deployment:** Start with QuantConnect MCP Server when the agent needs to create or update QuantConnect projects, run compiles, backtests, optimizations, and live algorithm workflows, including crypto-capable strategies. Treat broker authorization, live deployment, liquidation, and project writes as high-risk.
 
@@ -268,6 +268,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Exchange API agents:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, DEX, or portfolio operations through MCP-compatible tooling.
 
+**Automated trading bots and executors:** Start with Hummingbot MCP Server when the agent needs to connect to a Hummingbot API, configure exchange connectors, inspect portfolio state, manage controllers, deploy or monitor bots, create executors, explore DEX pools, or query GeckoTerminal data. Treat connector credentials, bot deployment, executor creation, leverage, private keys, and live orders as high-risk.
+
 **DEX aggregation and 1inch APIs:** Start with 1inch Business MCP when the agent needs 1inch documentation, examples, portfolio or balance data, orderbook access, spot prices, classic swaps, Fusion intent swaps, cross-chain swaps, or authenticated 1inch Business API calls.
 
 **CoW Protocol swaps:** Start with CoW MCP when the agent needs CoW quotes, token lookup, wallet trade history, externally signed orders, or signed cancellations without giving the MCP server custody of private keys.
@@ -330,7 +332,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
-**Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
+**Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, Hummingbot MCP Server, or OKX Agent Trade Kit.
 
 **Quant strategy development, backtesting, and live deployment:** QuantConnect MCP Server.
 
@@ -579,6 +581,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Bybit MCP Server](https://github.com/bybit-exchange/trading-mcp) - Official Bybit trading MCP server for REST and WebSocket market data, account, wallet, portfolio, position, and order workflows; public market-data tools can run without credentials while private tools require Bybit API keys.
 - [CCXT MCP Server](https://github.com/lazy-dinosaur/ccxt-mcp) - CCXT-backed local MCP package for market data, order books, OHLCV, balances, orders, trading history, performance analysis, position sizing, and multi-exchange trading across 100+ crypto exchanges; private exchange API keys and order-placement tools are high-risk.
 - [Crypto.com CDCX CLI](https://github.com/crypto-com/cdcx-cli) - Official Crypto.com Exchange CLI with MCP support for market data, trading, account workflows, WebSocket streams, and safety controls.
+- [Hummingbot MCP Server](https://github.com/hummingbot/mcp) - Official Hummingbot MCP for connecting AI agents to a Hummingbot API across multi-exchange crypto trading, connector setup, portfolio overview, market data, controller and bot management, executors, DEX pool exploration, Gateway operations, and GeckoTerminal data; connector credentials, private keys, bot deployment, leverage, executor creation, and live orders are high-risk.
 - [Injective MCP Server](https://docs.injective.network/developers-ai/mcp) - Official Injective MCP for natural-language Injective queries and transactions, including spot transfers, bridge operations, raw EVM transactions, and perpetual futures trading.
 - [Arcadia Finance MCP Server](https://github.com/arcadia-finance/mcp-server) - Official Arcadia MCP for Uniswap, Aerodrome, and Velodrome concentrated-liquidity strategies, account risk, lending pools, automated rebalancing, leverage, and unsigned transaction building on Base, Unichain, and Optimism.
 - [Haiku DeFi MCP](https://github.com/Haiku-Trading/haiku-mcp-server) - DeFi execution MCP for swaps, lending, bridges, yield discovery, portfolio analysis, and external wallet signing across many chains.
