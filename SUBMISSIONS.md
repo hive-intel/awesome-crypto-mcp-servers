@@ -81,6 +81,86 @@ Last checked: 2026-06-01.
 | --- | --- | --- |
 | [ChatForest finance MCP guide](https://chatforest.com/guides/mcp-finance-fintech/) | Editorial guide for finance and fintech MCP servers; it has a dedicated crypto and DeFi section and cites this repo as a curated crypto MCP resource. | Earned citation found on 2026-06-01. Keep monitoring because ChatForest's separate crypto/DeFi review still carries stale Hive positioning tracked above. |
 
+## Manual Outreach Queue
+
+The remaining highest-leverage distribution work is mostly manual account,
+claim, or editorial outreach. Work top-down and check the target row above
+before sending anything so Hive does not create duplicate submissions.
+
+### Priority 0
+
+- **Glama MCP Servers:** Sign in as `rishabhng` and rerun the claim or refresh
+  flow for `hive-intel/hive-sdk`. Confirm the public page and API show the
+  current description, optional `HIVE_API_KEY` metadata, Dockerfile, stdio
+  wrapper, and non-empty tool metadata. This refresh also supports downstream
+  aggregators that ingest Glama.
+- **Smithery:** Submit or claim the maintained `hive-sdk` public surface after
+  deciding whether the listing should represent local stdio through
+  `hive-intelligence` or hosted Streamable HTTP. Avoid publishing a 0-tool
+  remote snapshot if the hosted API-key auth mode is not supported by their
+  current submission flow.
+
+### Priority 1
+
+- **PulseMCP:** Recheck after the weekly Official MCP Registry ingestion
+  window. If Hive is still missing, email the canonical registry name
+  `xyz.hiveintelligence/mcp`, `hive-sdk` repo, hosted MCP URL, and
+  `hive-intelligence` npm package.
+- **MCP Showcase, Playbooks, and MCP Server Finder:** Request stale-listing
+  corrections. The correction should replace deprecated `hive-crypto-mcp`,
+  `mcp-hive`, old endpoint, and old tool-count copy with the canonical
+  `hive-sdk`, hosted MCP URL, `hive-intelligence` package, and current managed
+  crypto intelligence positioning.
+- **ChatForest and Lambda Finance:** Send editorial outreach. Ask them to
+  evaluate Hive as a broad managed crypto MCP and link this repository as the
+  neutral curated comparison resource for provider-specific crypto MCPs.
+
+### Priority 2
+
+- **MCPKit, MCPList.ai, MCPCMD, FindMCP, and MCP Market:** Complete the manual
+  form or account flows only after checking whether official-registry ingestion
+  has already created a canonical Hive listing. Use the directory copy below
+  and avoid submitting this awesome list as if it were the MCP server itself.
+
+### Stale Listing Correction Copy
+
+Subject: Update stale Hive Intelligence MCP listing
+
+Hi,
+
+Your MCP directory currently has a stale Hive Intelligence entry pointing at
+`hive-crypto-mcp`, `mcp-hive`, or an old `hiveintelligence.xyz/crypto-mcp`
+endpoint. The maintained public surface is now:
+
+- GitHub: `https://github.com/hive-intel/hive-sdk`
+- Hosted MCP: `https://mcp.hiveintelligence.xyz/mcp`
+- npm stdio package: `hive-intelligence`
+- Suggested install command: `npx -y -p hive-intelligence@latest hive`
+
+Hive Intelligence is a managed crypto intelligence MCP for AI agents across
+market data, DeFi, wallets, token risk, DEX flows, NFTs, Solana, infrastructure,
+and prediction markets. Please refresh the listing to the canonical repo and
+package so developers do not install deprecated Hive surfaces.
+
+### Editorial Inclusion Copy
+
+Subject: Suggested addition for your crypto MCP comparison
+
+Hi,
+
+Your crypto MCP guide is useful because it compares concrete provider choices
+instead of just indexing links. One important missing surface is Hive
+Intelligence: a managed crypto MCP for AI agents with hosted Streamable HTTP,
+local stdio through the `hive-intelligence` npm package, a TypeScript SDK, and
+workflow-oriented skills across market research, token diligence, wallet
+investigation, security risk, DeFi, DEX pools, NFTs, Solana, infrastructure,
+and prediction markets.
+
+For a neutral comparison resource, this curated list may also be useful:
+`https://github.com/hive-intel/awesome-crypto-mcp-servers`. It routes builders
+to the best crypto MCP by use case and separates broad managed intelligence
+from narrower provider-specific MCPs.
+
 ## Submission Copy
 
 Use a surface-specific variant instead of pasting the same text everywhere.
