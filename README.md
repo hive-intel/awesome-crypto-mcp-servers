@@ -59,6 +59,8 @@ detailed notes are in the sections below.
 
 **Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, or CoW MCP depending on the route and execution model.
 
+**OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained token discovery, wallet portfolio reads, DEX swaps, security scans, smart-money signals, DeFi actions, or transaction simulation/broadcasting across 20+ chains.
+
 **Node, RPC, endpoint, and infrastructure operations:** Start with Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
 
 **Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or TradeRouter MCP.
@@ -103,6 +105,8 @@ source, chain, wallet, venue, or risk model.
 **DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
 
 **Swap, bridge, zap, and route construction:** Start with DZap MCP Server or LI.FI MCP Server when the agent needs cross-chain routes, token discovery, balances, allowances, or execution-ready transaction data. Compare 1inch Business MCP for 1inch APIs and CoW MCP for CoW Protocol order flows.
+
+**OKX OnchainOS token, wallet, DEX, and smart-money workflows:** Start with OKX OnchainOS Skills/MCP when the agent needs OKX-maintained wallet lifecycle, token discovery, market data, DEX swaps, transaction simulation/broadcasting, smart-money signals, security scans, DeFi product actions, or agent payments across 20+ chains. Treat OKX API credentials, swaps, broadcasts, deposits, withdrawals, and payment actions as high-risk.
 
 **On-chain analytics, SQL, and financial metrics:** Start with Dune MCP, Token Terminal MCP, or CryptoQuant MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
 
@@ -278,6 +282,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Exchange API agents:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, DEX, or portfolio operations through MCP-compatible tooling.
 
+**OKX on-chain app agents:** Start with OKX OnchainOS Skills/MCP when the agent needs an OKX-maintained skill and MCP surface for token research, wallet analysis, DEX swaps, smart-money signals, security checks, DeFi product actions, x402/payment workflows, or transaction simulation and broadcasting. Treat built-in sandbox keys as testing-only, and keep production API credentials, swaps, broadcasts, deposits, withdrawals, and payments under explicit user control.
+
 **Automated trading bots and executors:** Start with Hummingbot MCP Server when the agent needs to connect to a Hummingbot API, configure exchange connectors, inspect portfolio state, manage controllers, deploy or monitor bots, create executors, explore DEX pools, or query GeckoTerminal data. Treat connector credentials, bot deployment, executor creation, leverage, private keys, and live orders as high-risk.
 
 **DEX aggregation and 1inch APIs:** Start with 1inch Business MCP when the agent needs 1inch documentation, examples, portfolio or balance data, orderbook access, spot prices, classic swaps, Fusion intent swaps, cross-chain swaps, or authenticated 1inch Business API calls.
@@ -345,6 +351,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
 **Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, Hummingbot MCP Server, or OKX Agent Trade Kit.
+
+**OKX on-chain token, wallet, DEX, smart-money, and DeFi workflows:** OKX OnchainOS Skills/MCP.
 
 **Quant strategy development, backtesting, and live deployment:** QuantConnect MCP Server.
 
@@ -601,7 +609,8 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Arcadia Finance MCP Server](https://github.com/arcadia-finance/mcp-server) - Official Arcadia MCP for Uniswap, Aerodrome, and Velodrome concentrated-liquidity strategies, account risk, lending pools, automated rebalancing, leverage, and unsigned transaction building on Base, Unichain, and Optimism.
 - [Haiku DeFi MCP](https://github.com/Haiku-Trading/haiku-mcp-server) - DeFi execution MCP for swaps, lending, bridges, yield discovery, portfolio analysis, and external wallet signing across many chains.
 - [Philidor DeFi Vault Risk Analytics](https://github.com/Philidor-Labs/philidor-mcp) - Hosted DeFi risk MCP for searching 700+ vaults, comparing risk scores, and analyzing Morpho, Aave, Yearn, Beefy, Spark, and related protocols.
-- [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
+- [OKX OnchainOS Skills/MCP](https://github.com/okx/onchainos-skills) - Official OKX `onchainos` skills and CLI whose CLI doubles as a native MCP server for wallet lifecycle, portfolio reads, token discovery, market data, DEX swaps, transaction simulation and broadcasting, smart-money signals, security scans, DeFi product actions, and x402/payment workflows across 20+ chains; OKX API credentials, swaps, broadcasts, deposits, withdrawals, and payments are high-risk.
+- [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - Community OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
 - [Hyperliquid MCP Server](https://github.com/mektigboy/server-hyperliquid) - Hyperliquid SDK MCP for mid prices, candle snapshots, and L2 order books.
 - [Hyperliquid MCP Server by Caio](https://github.com/caiovicentino/hyperliquid-mcp-server) - Hyperliquid DEX MCP with account state, positions, orders, fills, leverage, margin, TWAP, WebSocket subscriptions, and trading tools; private keys, leverage, margin, and order execution are high-risk.
 - [Binance MCP Server](https://github.com/AnalyticAce/binance-mcp-server) - Unofficial Binance MCP for exchange data and trading-agent workflows.
