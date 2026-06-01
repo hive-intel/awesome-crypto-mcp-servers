@@ -41,6 +41,8 @@ detailed notes are in the sections below.
 
 **Market caps, narratives, news, and x402 data:** Start with CoinMarketCap MCP.
 
+**Pay-per-call live crypto, prediction-market, X/Twitter, and research data:** Start with BlockRun MCP.
+
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
 
 **Wallet portfolios, DeFi positions, and NFTs:** Start with Zerion API MCP.
@@ -52,6 +54,8 @@ detailed notes are in the sections below.
 **Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, Adamik MCP Server, or Fireblocks MCP Server.
 
 **Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, Trade It, or PMXT.
+
+**Bitcoin, Stacks, sBTC, and x402 wallet workflows:** Start with AIBTC MCP Server.
 
 **Token, wallet, phishing, approval, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server.
 
@@ -78,6 +82,8 @@ source, chain, wallet, venue, or risk model.
 
 **Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
 
+**Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
+
 **Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
 
 **Smart contracts, app development, and chain docs:** Start with OpenZeppelin MCP Servers or Tenderly MCP Server. Compare thirdweb MCP Server, Aptos MCP, Avalanche MCP Server, and LayerZero Docs MCP.
@@ -91,6 +97,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Official crypto market data:** Start with CoinGecko MCP Server for public keyless access, authenticated Pro access, local npm setup, prices, historical data, DEX pools, NFTs, and metadata.
 
 **Market cap, narratives, and x402:** Start with CoinMarketCap MCP when the agent needs CMC quotes, technical analysis, global metrics, crypto news, semantic search, or pay-per-call x402 access.
+
+**Wallet-funded live data and research:** Start with BlockRun MCP when the agent needs pay-per-call crypto, prediction-market, DEX, X/Twitter, web research, or model access without juggling multiple API subscriptions.
 
 **Keyless exchange market data:** Start with Crypto.com Market Data MCP when the agent needs free live prices, market caps, trading volumes, and market trend data without managing API keys.
 
@@ -188,6 +196,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
 
+**Hyperliquid perps trading:** Start with Hyperliquid MCP Server by Caio when the agent needs Hyperliquid account, order, leverage, margin, WebSocket, or execution workflows; use the lighter Hyperliquid SDK MCP only for read-only mids, candles, and order books.
+
 **Exchange API agents:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, DEX, or portfolio operations through MCP-compatible tooling.
 
 **DEX aggregation and 1inch APIs:** Start with 1inch Business MCP when the agent needs 1inch documentation, examples, portfolio or balance data, orderbook access, spot prices, classic swaps, Fusion intent swaps, cross-chain swaps, or authenticated 1inch Business API calls.
@@ -203,6 +213,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Block explorer data:** Start with Blockscout MCP Server for balances, tokens, NFTs, contracts, and explorer data.
 
 **Bitcoin hosted data:** Start with Maestro MCP Server for Bitcoin blocks, transactions, mempool, wallet, node RPC, and hosted Streamable HTTP endpoints.
+
+**Bitcoin-native agent wallets:** Start with AIBTC MCP Server when the agent needs Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, or x402 payments through a local wallet-aware MCP. Treat wallet creation, mnemonic export, transfers, DeFi, and x402 payment tools as high-risk actions.
 
 **Bitcoin agent payments:** Start with Alby Bitcoin Payments MCP Server or Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, Nostr Wallet Connect, invoices, LNURL, L402, or Lightning-native paid tools.
 
@@ -224,6 +236,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Market cap, narratives, news, and x402 pay-per-call data:** CoinMarketCap MCP.
 
+**Wallet-funded live data, research, prediction markets, and model calls:** BlockRun MCP.
+
 **Keyless Crypto.com prices, market caps, volumes, and trends:** Crypto.com Market Data MCP.
 
 **Crypto screeners, technical indicators, signals, news, and portfolio analytics:** altFINS MCP Server.
@@ -233,6 +247,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
 **Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
+
+**Hyperliquid perps account, order, leverage, margin, and WebSocket workflows:** Hyperliquid MCP Server by Caio.
 
 **DEX aggregation, 1inch APIs, and swap workflows:** 1inch Business MCP.
 
@@ -289,6 +305,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
 
 **Bitcoin data or Lightning payments:** Maestro MCP Server for Bitcoin data, and Alby Bitcoin Payments MCP Server or Lightning Wallet MCP for Lightning payments.
+
+**Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
 **Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
 
@@ -398,6 +416,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 - [Bitcoin MCP](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network MCP for keys, validation, queries, and Bitcoin-native workflows.
 - [Maestro MCP Server](https://github.com/maestro-org/maestro-mcp-server) - Maestro-backed Bitcoin MCP with hosted mainnet and testnet endpoints for blocks, transactions, mempool, market price, wallet, and node RPC data.
+- [AIBTC MCP Server](https://github.com/aibtcdev/aibtc-mcp-server) - Bitcoin-native MCP for BTC/STX wallets, Bitcoin L1 reads and transfers, Stacks L2, sBTC, NFTs, DeFi yield, and x402 payments; wallet creation, mnemonic export, transfers, DeFi, and paid-call tools are high-risk.
 - [Alby Bitcoin Payments MCP Server](https://github.com/getAlby/mcp) - Official Alby MCP for connecting Lightning wallets to agents through Nostr Wallet Connect, hosted Streamable HTTP or SSE, local stdio, LNURL, L402, invoices, and bearer-authenticated NWC secrets.
 - [Lightning Wallet MCP](https://github.com/lightningfaucet/lightning-wallet-mcp) - Bitcoin Lightning wallet MCP and CLI for agent payments, invoices, L402 support, and Lightning-native tool access.
 - [Bortlesboat Bitcoin MCP](https://github.com/Bortlesboat/bitcoin-mcp) - Zero-config Bitcoin MCP for fees, mempool, blocks, transactions, mining, price, and supply data.
@@ -426,6 +445,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Trade It](https://github.com/trade-it-inc/trade-it-mcp) - Official MCP Registry-listed remote MCP for draft-first stock, crypto, and options trading through linked brokerages, including Coinbase and Kraken for crypto; supports Streamable HTTP, SSE, OAuth login, account lookup, draft order creation, and explicit execution tools.
 - [CoinGecko MCP Server](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server) - Official CoinGecko MCP for prices, historical market data, DEX pools, NFT collections, metadata, keyless public access, authenticated Pro access, and local npm setup.
 - [CoinMarketCap MCP](https://coinmarketcap.com/api/mcp/) - Official CoinMarketCap hosted MCP for quotes, technical analysis, on-chain metrics, global market data, trending narratives, news, semantic search, and x402 pay-per-call access.
+- [BlockRun MCP](https://github.com/BlockRunAI/blockrun-mcp) - MIT-licensed MCP for pay-per-call live data across crypto prices, DEX data, prediction markets, X/Twitter intelligence, web research, and model calls using an x402-funded local wallet.
 - [Crypto.com Market Data MCP](https://mcp.crypto.com/docs) - Official Crypto.com hosted MCP for keyless live cryptocurrency prices, market caps, trading volumes, market trends, ChatGPT setup, and Claude setup.
 - [altFINS MCP Server](https://altfins.com/crypto-market-and-analytical-data-api/documentation/mcp-server/) - Official altFINS Streamable HTTP MCP for crypto screeners, technical analysis, OHLCV, historical indicators, signal feeds, news, calendar events, and portfolio data using altFINS API-key authentication.
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
@@ -448,6 +468,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Philidor DeFi Vault Risk Analytics](https://github.com/Philidor-Labs/philidor-mcp) - Hosted DeFi risk MCP for searching 700+ vaults, comparing risk scores, and analyzing Morpho, Aave, Yearn, Beefy, Spark, and related protocols.
 - [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
 - [Hyperliquid MCP Server](https://github.com/mektigboy/server-hyperliquid) - Hyperliquid SDK MCP for mid prices, candle snapshots, and L2 order books.
+- [Hyperliquid MCP Server by Caio](https://github.com/caiovicentino/hyperliquid-mcp-server) - Hyperliquid DEX MCP with account state, positions, orders, fills, leverage, margin, TWAP, WebSocket subscriptions, and trading tools; private keys, leverage, margin, and order execution are high-risk.
 - [Binance MCP Server](https://github.com/AnalyticAce/binance-mcp-server) - Unofficial Binance MCP for exchange data and trading-agent workflows.
 - [Crypto Indicators MCP](https://github.com/kukapay/crypto-indicators-mcp) - Technical-analysis indicators and strategy signals for cryptocurrency agents.
 - [CryptoQuant MCP](https://github.com/CryptoQuantOfficial/cryptoquant-mcp) - Official on-chain and market intelligence workflows from CryptoQuant.
