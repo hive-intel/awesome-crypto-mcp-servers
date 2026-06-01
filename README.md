@@ -115,6 +115,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Injective spot and perpetuals:** Start with Injective MCP Server when the agent needs Injective queries, spot transfers, bridge operations, raw EVM transactions, or perpetual futures trading.
 
+**Concentrated liquidity management:** Start with Arcadia Finance MCP Server when the agent needs Uniswap, Aerodrome, or Velodrome LP strategy data, rebalancing guidance, lending pools, leverage-aware account reads, or unsigned transaction building on Base, Unichain, and Optimism.
+
 **Block explorer data:** Start with Blockscout MCP Server for balances, tokens, NFTs, contracts, and explorer data.
 
 **Bitcoin hosted data:** Start with Maestro MCP Server for Bitcoin blocks, transactions, mempool, wallet, node RPC, and hosted Streamable HTTP endpoints.
@@ -184,6 +186,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Enterprise custody and Fireblocks workspace data:** Fireblocks MCP Server.
 
 **DeFi execution or vault risk:** Haiku DeFi MCP or Philidor DeFi Vault Risk Analytics.
+
+**Concentrated liquidity, rebalancing, and leveraged LPs:** Arcadia Finance MCP Server.
 
 **Security, tracing, and pre-signing risk:** Phalcon MCP Server.
 
@@ -298,6 +302,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Bybit MCP Server](https://github.com/bybit-exchange/trading-mcp) - Official Bybit trading MCP server for REST and WebSocket market data, account, wallet, portfolio, position, and order workflows; public market-data tools can run without credentials while private tools require Bybit API keys.
 - [Crypto.com CDCX CLI](https://github.com/crypto-com/cdcx-cli) - Official Crypto.com Exchange CLI with MCP support for market data, trading, account workflows, WebSocket streams, and safety controls.
 - [Injective MCP Server](https://docs.injective.network/developers-ai/mcp) - Official Injective MCP for natural-language Injective queries and transactions, including spot transfers, bridge operations, raw EVM transactions, and perpetual futures trading.
+- [Arcadia Finance MCP Server](https://github.com/arcadia-finance/mcp-server) - Official Arcadia MCP for Uniswap, Aerodrome, and Velodrome concentrated-liquidity strategies, account risk, lending pools, automated rebalancing, leverage, and unsigned transaction building on Base, Unichain, and Optimism.
 - [Haiku DeFi MCP](https://github.com/Haiku-Trading/haiku-mcp-server) - DeFi execution MCP for swaps, lending, bridges, yield discovery, portfolio analysis, and external wallet signing across many chains.
 - [Philidor DeFi Vault Risk Analytics](https://github.com/Philidor-Labs/philidor-mcp) - Hosted DeFi risk MCP for searching 700+ vaults, comparing risk scores, and analyzing Morpho, Aave, Yearn, Beefy, Spark, and related protocols.
 - [OKX Agent Trade Kit](https://github.com/dex-original/okx-agent-trade-kit) - OKX trading, CLI, and MCP toolkit for spot, futures, and automated trading agents.
