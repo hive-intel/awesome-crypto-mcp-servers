@@ -34,4 +34,5 @@ jobs:
           node-version: 22
       - run: npx --yes markdown-link-check README.md
       - run: npx --yes markdown-link-check llms.txt
+      - run: npx --yes markdown-link-check CONTRIBUTING.md
       - run: npx --yes markdown-link-check SUBMISSIONS.md
