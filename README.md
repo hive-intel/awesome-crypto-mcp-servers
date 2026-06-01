@@ -81,7 +81,7 @@ detailed notes are in the sections below.
 
 **Hedera build-only transactions and mirror-node reads:** Start with Hedera MCP.
 
-**Wallet-backed payments, signing, swaps, x402, ramps, or custody:** Start with Phantom MCP Server, Base MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, Tether WDK MCP Toolkit, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
+**Wallet-backed payments, signing, swaps, x402, ramps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, Tether WDK MCP Toolkit, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
 
@@ -130,7 +130,7 @@ source, chain, wallet, venue, or risk model.
 
 **Tari wallet and node workflows:** Start with Tari MCP Servers when the agent needs local Minotari wallet balances, transaction history, address info, transfers, burn transactions, coin splits, node/network information, blocks, mempool, peers, or sync status. Use read-only mode by default; control operations require explicit enablement, confirmation, and audit logging.
 
-**Wallets, signing, payments, swaps, ramps, and custody:** Start with Phantom MCP Server, Base MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, or Tether WDK MCP Toolkit. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write, payment, ramp, trading, or custody actions.
+**Wallets, signing, payments, swaps, ramps, and custody:** Start with Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, or Tether WDK MCP Toolkit. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write, payment, ramp, trading, or custody actions.
 
 **Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
 
@@ -247,6 +247,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Enterprise custody operations:** Start with Fireblocks MCP Server when the agent needs vault accounts, assets, transaction history, policies, exchange accounts, external wallets, or internal workspace-user data from Fireblocks.
 
 **Base Account and x402 actions:** Start with Base MCP when the agent needs approved Base Account wallet actions, swaps, signatures, contract calls, or x402 payments through a remote MCP.
+
+**Cobo MPC agent wallets and Pact controls:** Start with Cobo Agentic Wallet MCP when the agent needs a stdio MCP for MPC-backed wallets, owner-approved Pacts, balances, addresses, transfers, smart-contract calls, message signing, transaction records, pending approvals, and audit logs. Treat invitation onboarding, API keys, Pact approval, transfers, contract calls, signing, recovery, and mainnet activity as high-risk.
 
 **MoonPay agent wallets, ramps, and swaps:** Start with MoonPay CLI MCP when the agent needs MoonPay's local MCP surface for non-custodial wallets, balances, swaps, bridges, transfers, fiat on/off ramps, token search, market data, or Open Wallet Standard-aligned agent workflows. Treat login, KYC, local wallet storage, swaps, bridges, transfers, DCA, limit orders, and fiat transactions as high-risk.
 
@@ -460,7 +462,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
-**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, Tether WDK MCP Toolkit, Coinbase Agentic Wallet MCP, Coinbase AgentKit, or GOAT SDK.
+**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, Tether WDK MCP Toolkit, Coinbase AgentKit, or GOAT SDK.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP or CryptoRefills MCP.
 
@@ -688,6 +690,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Base MCP](https://docs.base.org/ai-agents) - Official remote MCP at `https://mcp.base.org` for Base Account wallets, balances, token sends, swaps, signatures, contract calls, and x402 payments with user approval.
 - [Circle MCP Server](https://developers.circle.com/ai/mcp) - Official Circle hosted MCP at `https://api.circle.com/v1/codegen/mcp` for AI-assisted code generation and fixes across Circle Wallets, Contracts, CCTP, Gateway, and crypto app integrations.
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
+- [Cobo Agentic Wallet MCP](https://github.com/CoboGlobal/cobo-agentic-wallet) - Official Cobo Agentic Wallet repo with Python and TypeScript SDKs, a stdio MCP server, and scoped Pact controls for MPC-backed wallets, balances, addresses, transfers, smart-contract calls, message signing, transaction records, pending approvals, and audit logs; invitation onboarding, API keys, Pact approval, transfers, contract calls, signing, recovery, and mainnet activity are high-risk.
 - [MoonPay CLI MCP](https://support.moonpay.com/en/articles/592667-connect-moonpay-to-any-mcp-compatible-ai) - Official MoonPay CLI local MCP server (`mp mcp`) for non-custodial wallets, balances, swaps, bridges, transfers, fiat on/off ramps, token search, market data, and Open Wallet Standard-aligned agent workflows; treat login, KYC, local wallet storage, swaps, bridges, transfers, DCA, limit orders, and fiat transactions as high-risk.
 - [Polygon LLM Wallet MCP Server](https://github.com/0xPolygon/apk-mcp-llm-wallet) - Polygon-documented `llm-wallet-mcp` package for encrypted Polygon and Polygon Amoy wallets, balances, per-transaction and daily spending limits, x402 buyer and seller flows, payment history, and dynamic paid-API tool registration; development-stage package, prefer testnet, and treat wallet import, mainnet funds, and automatic micropayments as high-risk.
 - [Tether WDK MCP Toolkit](https://docs.wdk.tether.io/ai/mcp-toolkit) - Official Wallet Development Kit MCP toolkit from Tether for building self-custodial wallet MCP servers across EVM chains, Bitcoin, Solana, Spark, TON, and Tron, with 35 built-in tools for wallets, pricing, indexer queries, swaps, bridges, lending, and fiat on/off-ramps; beta package, local seed handling, and all write operations require explicit human confirmation before broadcasting.
