@@ -45,6 +45,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Blockchain node and endpoint operations:** Start with Chainstack MCP or Quicknode MCP when the agent needs remote node deployment, endpoint management, platform status, docs search, or live RPC workflows.
 
+**Open-source RPC-backed chain reads:** Start with GetBlock MCP Server when the agent needs Ethereum or Solana balances, transactions, latest blocks, gas prices, account information, or JSON-RPC access through GetBlock credentials.
+
 **Self-hosted Ethereum node intelligence:** Start with Erigon MCP Server when the agent needs read-only Ethereum node data, logs, metrics, traces, resources, or prompts from a local Erigon node.
 
 **Multi-network RPC access:** Start with dRPC Agent Skills when the agent needs RPC access across many networks through a single provider-backed interface.
@@ -149,7 +151,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Brokerage-backed crypto, stock, and options trading:** Trade It.
 
-**Node, RPC, endpoint, or infrastructure operations:** Alchemy MCP Server, Chainstack MCP Server, or Quicknode MCP.
+**Node, RPC, endpoint, or infrastructure operations:** Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
 
 **Self-hosted Ethereum node analysis:** Erigon MCP Server.
 
@@ -232,6 +234,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Alchemy MCP Server](https://github.com/alchemyplatform/alchemy-mcp-server) - Official Alchemy MCP with hosted Streamable HTTP/OAuth and local stdio for token prices, multichain balances, transfers, NFTs, smart accounts, and swaps.
 - [Chainstack MCP Server](https://docs.chainstack.com/docs/chainstack-mcp-server) - Official remote Streamable HTTP MCP for documentation search, platform status, live RPC queries, node deployment, faucet requests, pricing, and Chainstack project management across 70+ chains.
 - [Quicknode MCP](https://www.quicknode.com/docs/build-with-ai/quicknode-mcp) - Official remote OAuth MCP for Quicknode account operations, endpoint management, usage monitoring, security settings, billing review, and API-aware agent workflows.
+- [GetBlock MCP Server](https://github.com/GetBlock-io/mcp-server) - Official open-source GetBlock MCP for Ethereum and Solana balances, transactions, latest blocks, gas prices, account information, JSON-RPC access, Node.js or Docker setup, and token-based GetBlock API authentication.
 - [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for Blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
 - [Allium MCP](https://docs.allium.so/assistant/mcp) - Official Allium MCP for Explorer SQL, saved queries, schema introspection, documentation search, and historical or real-time Blockchain data across 80+ chains.
 - [Chainbase MCP](https://docs.chainbase.com/resources/ai/mcp) - Official Chainbase HTTP MCP for token balances, holders, metadata, prices, NFT ownership, transfers, transaction history, blocks, and Web3 account analytics.
