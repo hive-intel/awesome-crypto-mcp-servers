@@ -274,6 +274,9 @@ Start with read-only MCPs for research and due diligence. Escalate to API-key or
 - [Awesome Lists](https://github.com/szabgab/awesome-lists): General index of awesome lists across domains.
 - PulseMCP (`pulsemcp[.]com`): Large MCP server directory, newsletter, API, and partner registry surface that ingests from the Official MCP Registry.
 - [MCP.Directory](https://mcp.directory/): Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
+- [MCPfinder](https://www.mcpfinder.org/): Reviewed MCP server directory with reliability checks, category pages, comparison coverage, and a public submit flow.
+- [MCPfinder.dev](https://mcpfinder.dev/): Agent-facing MCP discovery server that searches the Official MCP Registry, Glama, and Smithery, then generates install-ready client config.
+- [MCP Directory App](https://mcpdirectory.app/browse): Verified open-source MCP server browser with one-click install positioning and compatibility checks.
 - [MCP.so](https://mcp.so/): Large community MCP directory with indexed server pages, category browsing, and search traffic around Claude MCP and Awesome MCP Servers.
 - [MCPRepository](https://mcprepository.com/): MCP server directory with GitHub-indexed server pages, search, and an npm-backed submission CLI.
 - [MCPpedia](https://mcppedia.org/): Open MCP catalog with server scoring, security signals, community submissions, API access, and daily official-registry sync.
@@ -288,4 +291,7 @@ Start with read-only MCPs for research and due diligence. Escalate to API-key or
 - [MCP Server Registry](https://model-context-protocol-server.com/): Searchable MCP server registry powered by the Model Context Protocol ecosystem.
 - Glama MCP Servers: MCP server directory with metadata, badges, and discovery pages.
 - [MCP Toplist](https://mcptoplist.com/): Continuously updated MCP server index and ranking dataset aggregating the Official MCP Registry, Glama, Smithery, mcp.so, and related discovery sources.
+- [MCP Atlas](https://www.mcp-atlas.com/): Provenance-first MCP ecosystem index aggregating the Official MCP Registry, Smithery, Glama, PulseMCP, and GitHub/community sources.
+- [toolidx](https://toolidx.dev/): Agent-first MCP verification directory with structured server records, OpenAPI, `llms.txt`, and quality metadata.
+- [Qorua](https://www.qorua.com/): Early-access MCP registry focused on capability search, trust scores, and USDC pay-per-call settlement.
 - [Model Context Protocol Docs llms.txt](https://modelcontextprotocol.io/llms.txt): Official MCP documentation index in llms.txt format.
