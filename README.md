@@ -53,7 +53,7 @@ detailed notes are in the sections below.
 
 **Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, Adamik MCP Server, or Fireblocks MCP Server.
 
-**Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, Trade It, or PMXT.
+**Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, or PMXT.
 
 **Bitcoin, Stacks, sBTC, and x402 wallet workflows:** Start with AIBTC MCP Server.
 
@@ -80,7 +80,7 @@ source, chain, wallet, venue, or risk model.
 
 **Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, Adamik MCP Server, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
 
-**Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
+**Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
 
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
 
@@ -202,6 +202,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **DEX aggregation and 1inch APIs:** Start with 1inch Business MCP when the agent needs 1inch documentation, examples, portfolio or balance data, orderbook access, spot prices, classic swaps, Fusion intent swaps, cross-chain swaps, or authenticated 1inch Business API calls.
 
+**CoW Protocol swaps:** Start with CoW MCP when the agent needs CoW quotes, token lookup, wallet trade history, externally signed orders, or signed cancellations without giving the MCP server custody of private keys.
+
 **Cross-asset brokerage trading:** Start with Trade It when the agent needs remote MCP access to draft crypto, stock, or options trades across linked brokerages, including Coinbase and Kraken crypto accounts, with OAuth and explicit execution.
 
 **Prediction-market data and trading:** Start with PMXT when the agent needs a hosted or local MCP for prediction-market search, events, order books, price history, cross-venue comparison, or trading across Polymarket, Kalshi, Limitless, and related venues. Treat order creation, cancellation, private keys, and exchange credentials as high-risk actions.
@@ -246,11 +248,13 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
-**Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
+**Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
 
 **Hyperliquid perps account, order, leverage, margin, and WebSocket workflows:** Hyperliquid MCP Server by Caio.
 
 **DEX aggregation, 1inch APIs, and swap workflows:** 1inch Business MCP.
+
+**CoW Protocol quote, order, and cancellation flows:** CoW MCP.
 
 **Brokerage-backed crypto, stock, and options trading:** Trade It.
 
@@ -453,6 +457,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
 - [1inch Business MCP](https://business.1inch.com/1inch-mcp) - Official 1inch MCP for docs search, code examples, 1inch Business API access, portfolio and balance data, orderbook flows, spot prices, classic swaps, Fusion intent swaps, and cross-chain swaps; protected tools use API key or OAuth and require explicit transaction controls.
 - [LI.FI MCP Server](https://docs.li.fi/mcp-server/overview) - Official hosted LI.FI MCP at `https://mcp.li.quest/mcp` for read-only cross-chain swap quotes, routes, chain and token discovery, allowance and balance checks, gas suggestions, and transfer status tracking; returns unsigned transaction requests for external wallet signing.
+- [CoW MCP](https://github.com/krzysu/cow-mcp) - Hosted and local MCP for CoW Protocol quotes, supported chain and token lookup, wallet trade history, EIP-712 order and cancellation payloads, external wallet signing, and order submission; treat approvals, signed orders, cancellations, and host-wallet broadcasts as high-risk actions.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - DeFiLlama API wrapper exposing TVL, protocol, chain, yield, and DeFi analytics through MCP.
 - [CoinPaprika MCP](https://github.com/coinpaprika/coinpaprika-mcp) - Official CoinPaprika MCP for prices, tickers, exchanges, OHLCV, historical market data, and hosted or local setup.
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
@@ -461,6 +466,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Gate MCP Server](https://github.com/gate/gate-mcp) - Official Gate MCP with hosted Streamable HTTP endpoints for public market data, info, and news, plus OAuth-gated CEX trading/account and DEX wallet/swap workflows; local stdio is available through the `gate-mcp` npm package.
 - [Kraken CLI](https://github.com/krakenfx/kraken-cli) - Official Kraken AI-native CLI with a built-in stdio MCP server for market data, account, spot trading, futures, funding, staking, WebSocket, and paper-trading workflows; public market data and paper trading work without credentials, while dangerous tools require explicit care and least-privilege API keys.
 - [Bybit MCP Server](https://github.com/bybit-exchange/trading-mcp) - Official Bybit trading MCP server for REST and WebSocket market data, account, wallet, portfolio, position, and order workflows; public market-data tools can run without credentials while private tools require Bybit API keys.
+- [CCXT MCP Server](https://github.com/lazy-dinosaur/ccxt-mcp) - CCXT-backed local MCP package for market data, order books, OHLCV, balances, orders, trading history, performance analysis, position sizing, and multi-exchange trading across 100+ crypto exchanges; private exchange API keys and order-placement tools are high-risk.
 - [Crypto.com CDCX CLI](https://github.com/crypto-com/cdcx-cli) - Official Crypto.com Exchange CLI with MCP support for market data, trading, account workflows, WebSocket streams, and safety controls.
 - [Injective MCP Server](https://docs.injective.network/developers-ai/mcp) - Official Injective MCP for natural-language Injective queries and transactions, including spot transfers, bridge operations, raw EVM transactions, and perpetual futures trading.
 - [Arcadia Finance MCP Server](https://github.com/arcadia-finance/mcp-server) - Official Arcadia MCP for Uniswap, Aerodrome, and Velodrome concentrated-liquidity strategies, account risk, lending pools, automated rebalancing, leverage, and unsigned transaction building on Base, Unichain, and Optimism.
