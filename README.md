@@ -377,7 +377,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Cross-asset brokerage trading:** Start with Trade It when the agent needs remote MCP access to draft crypto, stock, or options trades across linked brokerages, including Coinbase and Kraken crypto accounts, with OAuth and explicit execution.
 
-**Prediction-market data and trading:** Start with PMXT when the agent needs a hosted or local MCP for prediction-market search, events, order books, price history, cross-venue comparison, or trading across Polymarket, Kalshi, Limitless, and related venues. Treat order creation, cancellation, private keys, and exchange credentials as high-risk actions.
+**Prediction-market data and trading:** Start with PMXT when the agent needs a hosted or local MCP for prediction-market search, events, order books, price history, cross-venue comparison, or trading across Polymarket, Kalshi, Limitless, and related venues. Compare Polymarket MCP Server when the task is specifically Polymarket trading, portfolio management, or WebSocket monitoring. Treat order creation, cancellation, private keys, and exchange credentials as high-risk actions.
 
 **Injective spot and perpetuals:** Start with Injective MCP Server when the agent needs Injective queries, spot transfers, bridge operations, raw EVM transactions, or perpetual futures trading.
 
@@ -761,9 +761,9 @@ ownership, portfolio, collection, and explorer workflows.
 ## Prediction Markets
 
 - [PMXT](https://github.com/pmxt-dev/pmxt) - Open-source unified prediction-market API with hosted MCP at `https://api.pmxt.dev/mcp` and local `@pmxt/mcp` setup for market search, events, order books, price history, cross-venue comparison, and trading across Polymarket, Kalshi, Limitless, and related venues; treat order creation, cancellation, private keys, and exchange credentials as high-risk actions requiring explicit confirmation.
-- [Polymarket MCP Server](https://github.com/caiovicentino/polymarket-mcp-server) - Polymarket MCP with market data, monitoring, and trading-oriented tools.
-- [Polymarket MCP](https://github.com/berlinbra/polymarket-mcp) - Python MCP server for the Polymarket API.
-- [Polymarket Rust MCP](https://github.com/ozgureyilmaz/polymarket-mcp) - Rust implementation for Polymarket market access.
+- [Polymarket MCP Server](https://github.com/caiovicentino/polymarket-mcp-server) - Active Polymarket-specific MCP with 45 tools across market discovery, analysis, trading, portfolio management, WebSocket monitoring, dashboard workflows, and configurable safety limits; private keys, orders, exposure, and automated strategies are high-risk.
+- [Polymarket MCP](https://github.com/berlinbra/polymarket-mcp) - Smithery-listed Python MCP for lightweight Polymarket market data, including market info, market lists, current prices, and historical price or volume data.
+- [Polymarket Rust MCP](https://github.com/ozgureyilmaz/polymarket-mcp) - Rust CLI and MCP server for active/trending Polymarket markets, search, market details, prices, JSON output, table output, and local compiled workflows.
 
 ## Security and Risk
 
