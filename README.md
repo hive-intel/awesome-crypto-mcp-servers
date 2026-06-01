@@ -4,7 +4,7 @@ A curated, maintained list of the best Model Context Protocol servers for crypto
 
 Maintained by [Hive Intelligence](https://hiveintelligence.xyz), the crypto intelligence layer for AI agents. This list is intentionally selective: it favors maintained projects with clear MCP interfaces, useful coverage, and safe setup paths over every experimental repo with "MCP" in the name.
 
-Last curated: 2026-06-01.
+Last curated: 2026-06-02.
 
 ## Contents
 
@@ -99,6 +99,8 @@ detailed notes are in the sections below.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
 
+**Agent-payment merchant discovery:** Start with Agentic Terminal Directory when the agent needs to find merchants that accept Lightning, BOLT12, L402, or USDT before handing payment off to the merchant.
+
 **Trading, exchange APIs, brokerage, bots, quant strategies, or prediction markets:** Start with Gate for AI, Gate MCP Server, Bitget Agent Hub, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
@@ -170,6 +172,8 @@ source, chain, wallet, venue, or risk model.
 **Wallets, signing, payments, swaps, ramps, and custody:** Start with Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, or Tether WDK MCP Toolkit. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write, payment, ramp, trading, or custody actions.
 
 **Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
+
+**Agent-payment merchant discovery:** Start with Agentic Terminal Directory when the agent needs to search or verify merchants that accept Lightning, BOLT12, L402, or USDT rails. It is a discovery layer rather than a payment custodian; agents still pay merchants directly.
 
 **Trading, exchange APIs, bots, and prediction markets:** Start with Gate MCP Server, Bitget Agent Hub, or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, and PMXT. Separate read-only data from account, order, bot deployment, brokerage, and prediction-market execution.
 
@@ -531,6 +535,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP or CryptoRefills MCP.
 
+**Agent-payment merchant discovery:** Agentic Terminal Directory.
+
 **Multi-chain account, transfer, staking, and bridge operations:** Adamik MCP Server.
 
 **Circle Wallets, CCTP, Contracts, and Gateway codegen:** Circle MCP Server.
@@ -780,6 +786,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Tether WDK MCP Toolkit](https://docs.wdk.tether.io/ai/mcp-toolkit) - Official Wallet Development Kit MCP toolkit from Tether for building self-custodial wallet MCP servers across EVM chains, Bitcoin, Solana, Spark, TON, and Tron, with 35 built-in tools for wallets, pricing, indexer queries, swaps, bridges, lending, and fiat on/off-ramps; beta package, local seed handling, and all write operations require explicit human confirmation before broadcasting.
 - [Bitrefill eCommerce MCP](https://docs.bitrefill.com/docs/ecommerce-mcp) - Official hosted Bitrefill MCP at `https://api.bitrefill.com/mcp` for ChatGPT, Claude, Cursor, and other MCP clients to search products, inspect product details, and buy from Bitrefill's crypto-commerce catalog; use the [sample implementation](https://github.com/bitrefill/bitrefill-mcp-server) for self-hosted or forked API-key experiments. Treat invoices, account data, purchases, eSIMs, and payments as high-risk actions.
 - [CryptoRefills MCP](https://www.cryptorefills.com/insights/cryptorefills-mcp) - Official CryptoRefills MCP integration at `https://api.cryptorefills.com/mcp/http` for AI-agent commerce flows across gift cards, mobile top-ups, eSIMs, catalog, pricing, checkout preparation, and payments. Keep final payment confirmation under explicit user control.
+- [Agentic Terminal Directory](https://github.com/observer-protocol/at-directory) - MCP Registry-listed merchant directory for agents to search and verify OP-attested merchants that accept Lightning, BOLT12, L402, or USDT; hosted MCP runs at `https://mcp.agenticterminal.ai/mcp`, local stdio is available through `@agenticterminal/mcp-server`, and the directory is not in the payment path.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [x402 MCP](https://github.com/x402node/x402-mcp) - MCP server for discovering x402-paid APIs from CDP Bazaar and automatically handling USDC micropayments on Base through the `x402node-mcp` package; use a fresh burner wallet, set `MAX_PRICE_USD`, and treat `X402_PRIVATE_KEY` as a spend-capable secret.
 - [TensorFeed x402 Base MCP](https://github.com/RipperMercs/tensorfeed-x402-base-mcp) - Read-only Base mainnet MCP for verifying x402 USDC settlements, parsing publisher `/.well-known/x402` manifests, probing x402 endpoints, decoding payment payloads, and checking TensorFeed/AFTA publisher health; it does not hold private keys, sign, or broadcast transactions.
