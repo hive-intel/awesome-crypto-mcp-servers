@@ -129,6 +129,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Cross-asset brokerage trading:** Start with Trade It when the agent needs remote MCP access to draft crypto, stock, or options trades across linked brokerages, including Coinbase and Kraken crypto accounts, with OAuth and explicit execution.
 
+**Prediction-market data and trading:** Start with PMXT when the agent needs a hosted or local MCP for prediction-market search, events, order books, price history, cross-venue comparison, or trading across Polymarket, Kalshi, Limitless, and related venues. Treat order creation, cancellation, private keys, and exchange credentials as high-risk actions.
+
 **Injective spot and perpetuals:** Start with Injective MCP Server when the agent needs Injective queries, spot transfers, bridge operations, raw EVM transactions, or perpetual futures trading.
 
 **Concentrated liquidity management:** Start with Arcadia Finance MCP Server when the agent needs Uniswap, Aerodrome, or Velodrome LP strategy data, rebalancing guidance, lending pools, leverage-aware account reads, or unsigned transaction building on Base, Unichain, and Optimism.
@@ -166,6 +168,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **DEX aggregation, 1inch APIs, and swap workflows:** 1inch Business MCP.
 
 **Brokerage-backed crypto, stock, and options trading:** Trade It.
+
+**Prediction-market search, pricing, routing, and trading:** PMXT.
 
 **Node, RPC, endpoint, or infrastructure operations:** Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
 
@@ -363,6 +367,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 ## Prediction Markets
 
+- [PMXT](https://github.com/pmxt-dev/pmxt) - Open-source unified prediction-market API with hosted MCP at `https://api.pmxt.dev/mcp` and local `@pmxt/mcp` setup for market search, events, order books, price history, cross-venue comparison, and trading across Polymarket, Kalshi, Limitless, and related venues; treat order creation, cancellation, private keys, and exchange credentials as high-risk actions requiring explicit confirmation.
 - [Polymarket MCP Server](https://github.com/caiovicentino/polymarket-mcp-server) - Polymarket MCP with market data, monitoring, and trading-oriented tools.
 - [Polymarket MCP](https://github.com/berlinbra/polymarket-mcp) - Python MCP server for the Polymarket API.
 - [Polymarket Rust MCP](https://github.com/ozgureyilmaz/polymarket-mcp) - Rust implementation for Polymarket market access.
