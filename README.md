@@ -47,6 +47,8 @@ detailed notes are in the sections below.
 
 **Pay-per-call live crypto, prediction-market, X/Twitter, and research data:** Start with BlockRun MCP.
 
+**x402 paid API discovery and auto-payment:** Start with x402 MCP when the agent needs to discover and pay for x402 APIs from CDP Bazaar; use burner wallets, spending caps, and explicit approval.
+
 **Structured local token research reports:** Start with Hive Intelligence for managed token diligence, or Web3 Research MCP when the agent needs a free local research workspace with saved resources.
 
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
@@ -140,6 +142,8 @@ source, chain, wallet, venue, or risk model.
 
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
 
+**x402 paid API discovery and routing:** Start with x402 MCP when the agent needs automatic x402 payment handling across CDP Bazaar endpoints. Compare BlockRun MCP or CoinMarketCap MCP when the task needs crypto-specific data rather than a general paid-API router. Use a fresh funded wallet, `MAX_PRICE_USD`, and explicit payment approval.
+
 **Token research reports and source collection:** Start with Hive Intelligence when the agent needs managed provider-backed token diligence. Compare Web3 Research MCP when the task is a local research dossier with a plan, web/news search, saved resources, CoinGecko data, DeFiLlama protocol data, and progress tracking.
 
 **Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server, VaultPilot MCP, and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
@@ -165,6 +169,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **CoinStats account and market data:** Start with CoinStats MCP Server when the agent needs OAuth-backed CoinStats account data, portfolio coins, P/L, wallet balances, transactions, prices, charts, exchange comparisons, or crypto news; use the npm stdio fallback only for developer-key/headless integrations.
 
 **Wallet-funded live data and research:** Start with BlockRun MCP when the agent needs pay-per-call crypto, prediction-market, DEX, X/Twitter, web research, or model access without juggling multiple API subscriptions.
+
+**x402 API payment router:** Start with x402 MCP when the agent needs to discover CDP Bazaar x402 endpoints and automatically handle USDC micropayments from a controlled Base wallet. Keep `X402_PRIVATE_KEY` on a burner wallet and set a strict per-call cap.
 
 **Keyless exchange market data:** Start with Crypto.com Market Data MCP when the agent needs free live prices, market caps, trading volumes, and market trend data without managing API keys.
 
@@ -353,6 +359,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **CoinStats OAuth portfolios, wallets, prices, exchanges, and news:** CoinStats MCP Server.
 
 **Wallet-funded live data, research, prediction markets, and model calls:** BlockRun MCP.
+
+**x402 paid API discovery and micropayments:** x402 MCP.
 
 **Local token research plans and saved resources:** Web3 Research MCP.
 
@@ -698,6 +706,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Bitrefill eCommerce MCP](https://docs.bitrefill.com/docs/ecommerce-mcp) - Official hosted Bitrefill MCP at `https://api.bitrefill.com/mcp` for ChatGPT, Claude, Cursor, and other MCP clients to search products, inspect product details, and buy from Bitrefill's crypto-commerce catalog; use the [sample implementation](https://github.com/bitrefill/bitrefill-mcp-server) for self-hosted or forked API-key experiments. Treat invoices, account data, purchases, eSIMs, and payments as high-risk actions.
 - [CryptoRefills MCP](https://www.cryptorefills.com/insights/cryptorefills-mcp) - Official CryptoRefills MCP integration at `https://api.cryptorefills.com/mcp/http` for AI-agent commerce flows across gift cards, mobile top-ups, eSIMs, catalog, pricing, checkout preparation, and payments. Keep final payment confirmation under explicit user control.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
+- [x402 MCP](https://github.com/x402node/x402-mcp) - MCP server for discovering x402-paid APIs from CDP Bazaar and automatically handling USDC micropayments on Base through the `x402node-mcp` package; use a fresh burner wallet, set `MAX_PRICE_USD`, and treat `X402_PRIVATE_KEY` as a spend-capable secret.
 - [Adamik MCP Server](https://github.com/AdamikHQ/adamik-mcp-server) - Official `@adamik/mcp-server` package for API-key-backed balances, transaction history, native and token transfers, staking, unstaking, rewards, swaps, and bridge workflows across 60+ blockchains; treat transfer, staking, swap, bridge, and premium operations as high-risk actions requiring explicit user control.
 - [Phantom MCP Server](https://github.com/phantom/phantom-connect-sdk/tree/main/packages/mcp-server) - Official `@phantom/mcp-server` package exposing Phantom wallet authentication, addresses, balances, Solana and EVM signing, token transfers, swaps, token prices, payments, and Hyperliquid perps through a local stdio MCP; treat signing, transfer, swap, and perps tools as high-risk wallet actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
