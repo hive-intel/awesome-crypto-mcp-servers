@@ -22,7 +22,7 @@ Last curated: 2026-06-01.
 - [NFTs and Marketplaces](#nfts-and-marketplaces)
 - [Prediction Markets](#prediction-markets)
 - [Security and Risk](#security-and-risk)
-- [News, Sentiment, and Research Signals](#news-sentiment-and-research-signals)
+- [Web3 Social, News, Sentiment, and Research Signals](#web3-social-news-sentiment-and-research-signals)
 - [Agent Wallets and On-chain Actions](#agent-wallets-and-on-chain-actions)
 - [Related Lists and Directories](#related-lists-and-directories)
 - [AI Discovery](#ai-discovery)
@@ -139,6 +139,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Token, NFT, phishing, and approval risk screening:** Start with GoPlus MCP Server when the agent needs token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, or Sui token security using GoPlus credentials.
 
+**Farcaster social graph and mini apps:** Start with Neynar MCP when the agent needs Farcaster users, casts, feeds, social graphs, Mini Apps, notifications, signers, or on-chain/social intersections through Neynar's hosted docs MCP.
+
 **Embedded wallet infrastructure:** Start with Privy Docs MCP for Privy integration guidance, Privy MCP Server for wallet operations, MetaMask Embedded Wallets MCP for Web3Auth/MetaMask Embedded Wallets docs, and PayRam MCP for self-hosted crypto payments.
 
 ## Maintainer Picks
@@ -216,6 +218,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Token, NFT, phishing, approval, and malicious-address risk screening:** GoPlus MCP Server.
 
 **Security, tracing, and pre-signing risk:** Phalcon MCP Server.
+
+**Farcaster user, cast, feed, Mini App, and social graph workflows:** Neynar MCP.
 
 ## Selection Criteria
 
@@ -363,8 +367,9 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [SolanaShield MCP](https://github.com/ElromEvedElElyon/solanashield-mcp) - Solana smart-contract security MCP with vulnerability-pattern checks.
 - [Sperax Crypto MCP](https://github.com/Sperax/sperax-crypto-mcp) - Protocol-specific MCP for USDs, SPA, veSPA, and Demeter workflows on Arbitrum and BNB Chain.
 
-## News, Sentiment, and Research Signals
+## Web3 Social, News, Sentiment, and Research Signals
 
+- [Neynar MCP](https://docs.neynar.com/docs/neynar-farcaster-with-cursor) - Official Neynar hosted MCP at `https://docs.neynar.com/mcp` for Farcaster development workflows, users, casts, feeds, social graphs, Mini Apps, notifications, signers, on-chain/social data, and API-backed agent setup in Cursor, VS Code, Claude Code, and Claude.
 - [CryptoPanic MCP Server](https://github.com/kukapay/cryptopanic-mcp-server) - Crypto news MCP using CryptoPanic data.
 - [Crypto Sentiment MCP](https://github.com/kukapay/crypto-sentiment-mcp) - Sentiment-analysis MCP for cryptocurrency agents.
 - [Crypto Fear and Greed MCP](https://github.com/kukapay/crypto-feargreed-mcp) - Real-time and historical Crypto Fear and Greed Index data.
