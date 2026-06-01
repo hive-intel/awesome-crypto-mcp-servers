@@ -51,6 +51,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Multi-package Blockchain API suite:** Start with Crypto APIs MCP Servers for hosted HTTP or package-level stdio access to balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 
+**Multi-chain Blockchain API coverage:** Start with Tatum Blockchain MCP when the agent needs one npm-installed MCP for balances, transactions, token metadata, fee estimation, address activity, exchange rates, and Tatum API access across many networks.
+
 **Blockchain trading datasets:** Start with Bitquery MCP Server when the agent needs hosted access to Bitquery's Blockchain, DEX, token, and trading datasets.
 
 **Enterprise on-chain data and SQL:** Start with Allium MCP when the agent needs hosted access to Explorer SQL, saved queries, schemas, docs, and real-time Blockchain data across many chains.
@@ -155,6 +157,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Token, wallet, NFT, and block-level API data:** Chainbase MCP.
 
+**Broad multi-chain API access and fee estimation:** Tatum Blockchain MCP.
+
 **NFT marketplace analytics and actions:** OpenSea MCP.
 
 **On-chain SQL analytics and dashboards:** Dune MCP.
@@ -237,7 +241,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [The Graph Token API MCP](https://thegraph.com/docs/en/ai-suite/token-api-mcp/introduction/) - Official Token API MCP from The Graph for ERC-20 and NFT metadata, balances, transfers, top-holder statistics, natural-language token analysis, and hosted Token API access.
 - [Subgraph MCP Server](https://github.com/graphops/subgraph-mcp) - The Graph Network MCP for subgraph search, schema discovery, GraphQL query execution, query-volume signals, hosted SSE, and local Rust setup.
 - [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
-- [Tatum Blockchain MCP](https://github.com/tatumio/blockchain-mcp) - Tatum-backed Blockchain MCP for multi-chain data and infrastructure workflows.
+- [Tatum Blockchain MCP](https://github.com/tatumio/blockchain-mcp) - Official Tatum MCP package for balances, transactions, token metadata, fee estimation, address activity, exchange rates, and Tatum Blockchain API access across 130+ networks using a Tatum API key.
 - [Pocket Network MCP](https://github.com/pokt-network/mcp) - Pocket/Grove-powered MCP for natural-language Blockchain data across EVM, Solana, Sui, Cosmos, and other public RPC networks.
 - [Boar Blockchain MCP](https://github.com/boar-network/blockchain-mcp) - Blockchain infrastructure MCP with setup guides and free access paths.
 
