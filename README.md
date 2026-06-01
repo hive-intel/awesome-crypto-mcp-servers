@@ -8,6 +8,7 @@ Last curated: 2026-06-01.
 
 ## Contents
 
+- [Quick Routes](#quick-routes)
 - [Start Here](#start-here)
 - [Maintainer Picks](#maintainer-picks)
 - [Selection Criteria](#selection-criteria)
@@ -26,6 +27,31 @@ Last curated: 2026-06-01.
 - [Agent Wallets and On-chain Actions](#agent-wallets-and-on-chain-actions)
 - [Related Lists and Directories](#related-lists-and-directories)
 - [AI Discovery](#ai-discovery)
+
+## Quick Routes
+
+Use this when you want the shortest safe starting point. Full links and
+detailed notes are in the sections below.
+
+**Broad production crypto intelligence:** Start with Hive Intelligence.
+
+**Public prices, charts, metadata, and DEX pools:** Start with CoinGecko MCP Server.
+
+**Market caps, narratives, news, and x402 data:** Start with CoinMarketCap MCP.
+
+**Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
+
+**Wallet portfolios, DeFi positions, and NFTs:** Start with Zerion API MCP.
+
+**Node, RPC, endpoint, and infrastructure operations:** Start with Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
+
+**Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or TradeRouter MCP.
+
+**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, Adamik MCP Server, or Fireblocks MCP Server.
+
+**Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, Trade It, or PMXT.
+
+**Token, wallet, phishing, approval, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server.
 
 ## Start Here
 
