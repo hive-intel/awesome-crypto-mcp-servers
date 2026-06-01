@@ -106,7 +106,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
 
-**Exchange API agents:** Start with Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, or portfolio operations through MCP-compatible tooling.
+**Exchange API agents:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, DEX, or portfolio operations through MCP-compatible tooling.
 
 **Injective spot and perpetuals:** Start with Injective MCP Server when the agent needs Injective queries, spot transfers, bridge operations, raw EVM transactions, or perpetual futures trading.
 
@@ -132,7 +132,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Pyth market feeds, historical prices, and candles:** Pyth MCP Server.
 
-**Centralized exchange APIs and trading:** Kraken CLI, Bybit MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
+**Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, Crypto.com CDCX CLI, or OKX Agent Trade Kit.
 
 **Node, RPC, endpoint, or infrastructure operations:** Alchemy MCP Server, Chainstack MCP Server, or Quicknode MCP.
 
@@ -272,6 +272,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained MCP for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics with hosted and local options.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
+- [Gate MCP Server](https://github.com/gate/gate-mcp) - Official Gate MCP with hosted Streamable HTTP endpoints for public market data, info, and news, plus OAuth-gated CEX trading/account and DEX wallet/swap workflows; local stdio is available through the `gate-mcp` npm package.
 - [Kraken CLI](https://github.com/krakenfx/kraken-cli) - Official Kraken AI-native CLI with a built-in stdio MCP server for market data, account, spot trading, futures, funding, staking, WebSocket, and paper-trading workflows; public market data and paper trading work without credentials, while dangerous tools require explicit care and least-privilege API keys.
 - [Bybit MCP Server](https://github.com/bybit-exchange/trading-mcp) - Official Bybit trading MCP server for REST and WebSocket market data, account, wallet, portfolio, position, and order workflows; public market-data tools can run without credentials while private tools require Bybit API keys.
 - [Crypto.com CDCX CLI](https://github.com/crypto-com/cdcx-cli) - Official Crypto.com Exchange CLI with MCP support for market data, trading, account workflows, WebSocket streams, and safety controls.
