@@ -15,6 +15,12 @@ GitHub permissions blocked PR creation. The default next action is to get those
 PRs reviewed, merged, refreshed, or closed as superseded, not to add more
 targets.
 
+Legacy broad-campaign cleanup: on 2026-06-02, 12 older low-fit or stale Hive
+PRs were closed from our side across generic crypto, generic AI-agent, CrewAI,
+Solana, remote-MCP, devtools, trading-bot, and Web3-skills lists. Several used
+deprecated `hive-crypto-mcp` or stale hosted-endpoint claims, and they no
+longer matched this repo's selective distribution strategy.
+
 Open a new outbound PR only when the target clearly passes this bar:
 
 - It is a major MCP directory, registry, awesome-list index, or crypto/Web3
