@@ -81,7 +81,7 @@ detailed notes are in the sections below.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
 
-**Trading, exchange APIs, brokerage, bots, quant strategies, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
+**Trading, exchange APIs, brokerage, bots, quant strategies, or prediction markets:** Start with Gate for AI, Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
 
@@ -358,7 +358,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
-**Centralized exchange APIs and trading:** Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, Hummingbot MCP Server, or OKX Agent Trade Kit.
+**Centralized exchange APIs and trading:** Gate for AI, Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, Hummingbot MCP Server, or OKX Agent Trade Kit.
 
 **OKX on-chain token, wallet, DEX, smart-money, and DeFi workflows:** OKX OnchainOS Skills/MCP.
 
@@ -609,6 +609,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [DexPaprika MCP](https://github.com/coinpaprika/dexpaprika-mcp) - CoinPaprika-maintained `dexpaprika-mcp` server with 14 tools for token, pool, DEX, OHLCV, transaction, and cross-chain DEX analytics across 33 networks, hosted and local options, and no API keys required.
 - [DexScreener MCP Server](https://github.com/openSVM/dexscreener-mcp-server) - DEX pair and token-market data through the DexScreener API.
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
+- [Gate for AI](https://github.com/gate/gate-for-ai) - Official Gate AI-native crypto infrastructure repo covering Gate MCP endpoints and skills for CEX market data and trading, DEX wallets and swaps, coin info, on-chain data, news, sentiment, and installer workflows for Claude Code, Codex, Cursor, and OpenClaw; trading, wallet, transfer, swap, and account tools require explicit user control.
 - [Gate MCP Server](https://github.com/gate/gate-mcp) - Official Gate MCP with hosted Streamable HTTP endpoints for public market data, info, and news, plus OAuth-gated CEX trading/account and DEX wallet/swap workflows; local stdio is available through the `gate-mcp` npm package.
 - [Kraken CLI](https://github.com/krakenfx/kraken-cli) - Official Kraken AI-native CLI with a built-in stdio MCP server for market data, account, spot trading, futures, funding, staking, WebSocket, and paper-trading workflows; public market data and paper trading work without credentials, while dangerous tools require explicit care and least-privilege API keys.
 - [Bybit MCP Server](https://github.com/bybit-exchange/trading-mcp) - Official Bybit trading MCP server for REST and WebSocket market data, account, wallet, portfolio, position, and order workflows; public market-data tools can run without credentials while private tools require Bybit API keys.
