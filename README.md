@@ -121,7 +121,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Bitcoin hosted data:** Start with Maestro MCP Server for Bitcoin blocks, transactions, mempool, wallet, node RPC, and hosted Streamable HTTP endpoints.
 
-**Bitcoin agent payments:** Start with Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, invoice payments, or L402-style paid tools.
+**Bitcoin agent payments:** Start with Alby Bitcoin Payments MCP Server or Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, Nostr Wallet Connect, invoices, LNURL, L402, or Lightning-native paid tools.
 
 **DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
@@ -179,7 +179,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **EVM transaction simulation and debugging:** Tenderly MCP Server.
 
-**Bitcoin data or Lightning payments:** Maestro MCP Server or Lightning Wallet MCP.
+**Bitcoin data or Lightning payments:** Maestro MCP Server for Bitcoin data, and Alby Bitcoin Payments MCP Server or Lightning Wallet MCP for Lightning payments.
 
 **Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
 
@@ -267,6 +267,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 - [Bitcoin MCP](https://github.com/AbdelStark/bitcoin-mcp) - Bitcoin and Lightning Network MCP for keys, validation, queries, and Bitcoin-native workflows.
 - [Maestro MCP Server](https://github.com/maestro-org/maestro-mcp-server) - Maestro-backed Bitcoin MCP with hosted mainnet and testnet endpoints for blocks, transactions, mempool, market price, wallet, and node RPC data.
+- [Alby Bitcoin Payments MCP Server](https://github.com/getAlby/mcp) - Official Alby MCP for connecting Lightning wallets to agents through Nostr Wallet Connect, hosted Streamable HTTP or SSE, local stdio, LNURL, L402, invoices, and bearer-authenticated NWC secrets.
 - [Lightning Wallet MCP](https://github.com/lightningfaucet/lightning-wallet-mcp) - Bitcoin Lightning wallet MCP and CLI for agent payments, invoices, L402 support, and Lightning-native tool access.
 - [Bortlesboat Bitcoin MCP](https://github.com/Bortlesboat/bitcoin-mcp) - Zero-config Bitcoin MCP for fees, mempool, blocks, transactions, mining, price, and supply data.
 - [Bitcoin Blockchain Data MCP](https://github.com/JamesANZ/bitcoin-mcp) - Bitcoin data MCP for real-time Blockchain information.
