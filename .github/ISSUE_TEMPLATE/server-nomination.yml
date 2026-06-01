@@ -30,7 +30,7 @@ body:
         - NFTs and Marketplaces
         - Prediction Markets
         - Security and Risk
-        - News, Sentiment, and Research Signals
+        - Web3 Social, News, Sentiment, and Research Signals
         - Agent Wallets and On-chain Actions
         - Related Lists and Directories
         - Not sure
@@ -42,6 +42,37 @@ body:
       label: MCP evidence
       description: Link to the MCP docs, server entrypoint, package, hosted endpoint, client config, or tool catalog.
       placeholder: "Example: npm package, server.json, docs page, transport mode, tool list."
+    validations:
+      required: true
+  - type: dropdown
+    id: transport
+    attributes:
+      label: Transport or interface
+      description: Pick the strongest documented MCP connection path.
+      options:
+        - Hosted Streamable HTTP
+        - Hosted SSE
+        - Local stdio
+        - MCPB/local bundle
+        - SDK or adapter with MCP support
+        - Documentation-only MCP surface
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: auth_model
+    attributes:
+      label: Auth or credential model
+      description: Pick the highest-risk credential model the server requires.
+      options:
+        - None or keyless public data
+        - API key
+        - OAuth
+        - Local wallet or external signer
+        - Private key, seed phrase, or direct signing material
+        - Trading account credentials
+        - Infrastructure/admin credentials
+        - Unknown
     validations:
       required: true
   - type: textarea
