@@ -71,6 +71,8 @@ detailed notes are in the sections below.
 
 **Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
+**Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
+
 **Trading, exchange APIs, brokerage, quant strategies, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
@@ -107,6 +109,8 @@ source, chain, wallet, venue, or risk model.
 **TON address, transaction, and jetton analytics:** Start with TON Blockchain MCP when the agent needs TON address analysis, transaction details, hot trends, trading-pattern analysis, TON prices, or jetton prices through TON API. Treat its beta warning and financial-advice caveat seriously.
 
 **Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
+
+**Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
 
 **Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
 
@@ -217,6 +221,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Enterprise custody operations:** Start with Fireblocks MCP Server when the agent needs vault accounts, assets, transaction history, policies, exchange accounts, external wallets, or internal workspace-user data from Fireblocks.
 
 **Base Account and x402 actions:** Start with Base MCP when the agent needs approved Base Account wallet actions, swaps, signatures, contract calls, or x402 payments through a remote MCP.
+
+**Crypto commerce and gift-card purchases:** Start with Bitrefill eCommerce MCP for hosted OAuth-backed product search, product details, and purchase workflows across Bitrefill's crypto-commerce catalog. Use CryptoRefills MCP when the agent needs CryptoRefills gift cards, mobile top-ups, eSIMs, catalog, pricing, or checkout-preparation workflows. Treat checkout, invoices, payments, account data, and order placement as high-risk.
 
 **USDC, CCTP, and Circle app codegen:** Start with Circle MCP Server when the agent needs Circle Wallets, Contracts, Cross-Chain Transfer Protocol, or Gateway integration guidance inside an MCP-compatible IDE.
 
@@ -403,6 +409,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
 **Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Coinbase AgentKit, or GOAT SDK.
+
+**Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP or CryptoRefills MCP.
 
 **Multi-chain account, transfer, staking, and bridge operations:** Adamik MCP Server.
 
@@ -618,6 +626,8 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Base MCP](https://docs.base.org/ai-agents) - Official remote MCP at `https://mcp.base.org` for Base Account wallets, balances, token sends, swaps, signatures, contract calls, and x402 payments with user approval.
 - [Circle MCP Server](https://developers.circle.com/ai/mcp) - Official Circle hosted MCP at `https://api.circle.com/v1/codegen/mcp` for AI-assisted code generation and fixes across Circle Wallets, Contracts, CCTP, Gateway, and crypto app integrations.
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
+- [Bitrefill eCommerce MCP](https://docs.bitrefill.com/docs/ecommerce-mcp) - Official hosted Bitrefill MCP at `https://api.bitrefill.com/mcp` for ChatGPT, Claude, Cursor, and other MCP clients to search products, inspect product details, and buy from Bitrefill's crypto-commerce catalog; use the [sample implementation](https://github.com/bitrefill/bitrefill-mcp-server) for self-hosted or forked API-key experiments. Treat invoices, account data, purchases, eSIMs, and payments as high-risk actions.
+- [CryptoRefills MCP](https://www.cryptorefills.com/insights/cryptorefills-mcp) - Official CryptoRefills MCP integration at `https://api.cryptorefills.com/mcp/http` for AI-agent commerce flows across gift cards, mobile top-ups, eSIMs, catalog, pricing, checkout preparation, and payments. Keep final payment confirmation under explicit user control.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [Adamik MCP Server](https://github.com/AdamikHQ/adamik-mcp-server) - Official `@adamik/mcp-server` package for API-key-backed balances, transaction history, native and token transfers, staking, unstaking, rewards, swaps, and bridge workflows across 60+ blockchains; treat transfer, staking, swap, bridge, and premium operations as high-risk actions requiring explicit user control.
 - [Phantom MCP Server](https://github.com/phantom/phantom-connect-sdk/tree/main/packages/mcp-server) - Official `@phantom/mcp-server` package exposing Phantom wallet authentication, addresses, balances, Solana and EVM signing, token transfers, swaps, token prices, payments, and Hyperliquid perps through a local stdio MCP; treat signing, transfer, swap, and perps tools as high-risk wallet actions.
