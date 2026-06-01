@@ -697,6 +697,18 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 
 ## DeFi, Markets, and Trading
 
+Use this section by execution boundary: CoinGecko, CoinMarketCap,
+CoinPaprika, Pyth, and Crypto.com for public market data; Messari, Santiment,
+LunarCrush, altFINS, TradingView, and aTars for research and signals;
+Birdeye, DexPaprika, DexScreener, DeFiLlama, Philidor, RWA Pipe, and
+TRUF.NETWORK for on-chain, DeFi, RWA, and vault analysis; DZap, LI.FI, 1inch,
+CoW, OpenOcean, Arcadia, and Haiku for quote, route, vault, or transaction
+construction; and Gate, Bitget, Kraken, Bybit, CCXT, Hummingbot, OKX,
+Hyperliquid, Trade It, and QuantConnect for account, bot, brokerage, or
+exchange execution. Keep research calls read-only by default and require
+explicit confirmation before orders, leverage, swaps, bridges, live
+deployments, private keys, or elevated API-key permissions.
+
 - [Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server) - Official Alpaca MCP for trading, portfolios, crypto market data, and broker workflows.
 - [Trade It](https://github.com/trade-it-inc/trade-it-mcp) - Official MCP Registry-listed remote MCP for draft-first stock, crypto, and options trading through linked brokerages, including Coinbase and Kraken for crypto; supports Streamable HTTP, SSE, OAuth login, account lookup, draft order creation, and explicit execution tools.
 - [QuantConnect MCP Server](https://www.quantconnect.com/mcp) - Official QuantConnect MCP for AI-assisted project management, docs/API search, code editing, compiles, backtests, optimization, and live algorithm deployment across QuantConnect strategies, including crypto-capable workflows; project writes, broker authorization, live deployment, stops, liquidations, and account API tokens are high-risk.
