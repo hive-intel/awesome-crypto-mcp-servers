@@ -93,6 +93,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Web3 account, token, and NFT data:** Start with Chainbase MCP when the agent needs HTTP access to token balances, holders, metadata, NFT ownership, transaction history, block details, and on-chain analytics.
 
+**Natural-language Web3 data layer:** Start with Moralis Cortex MCP when the agent needs Moralis-grounded wallet activity, token metrics, NFT ownership, transfers, transactions, dapp usage, or structured on-chain answers through a hosted Cortex API or self-hosted npm MCP.
+
 **Wallet portfolios and DeFi positions:** Start with Zerion API MCP when the agent needs normalized wallet balances, labeled transaction history, DeFi positions, NFT holdings, collection metadata, or PnL across EVM chains and Solana.
 
 **NFT marketplace data and actions:** Start with OpenSea MCP when the agent needs OpenSea collection stats, NFT metadata, ownership, listings, offers, drops, portfolio data, token swaps, or ready-to-sign marketplace actions across supported chains.
@@ -217,6 +219,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Token, wallet, NFT, and block-level API data:** Chainbase MCP.
 
+**Natural-language Moralis Web3 data:** Moralis Cortex MCP.
+
 **Wallet portfolios, DeFi positions, NFTs, and PnL:** Zerion API MCP.
 
 **Broad multi-chain API access and fee estimation:** Tatum Blockchain MCP.
@@ -300,6 +304,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Bitquery MCP Server](https://docs.bitquery.io/docs/mcp/mcp-server/) - Hosted Bitquery MCP endpoint for Blockchain, DEX, token, and trading datasets used across Bitquery's GraphQL, streaming, and analytics products.
 - [Allium MCP](https://docs.allium.so/assistant/mcp) - Official Allium MCP for Explorer SQL, saved queries, schema introspection, documentation search, and historical or real-time Blockchain data across 80+ chains.
 - [Chainbase MCP](https://docs.chainbase.com/resources/ai/mcp) - Official Chainbase HTTP MCP for token balances, holders, metadata, prices, NFT ownership, transfers, transaction history, blocks, and Web3 account analytics.
+- [Moralis Cortex MCP](https://www.jsdelivr.com/package/npm/@moralisweb3/api-mcp-server) - Official Moralis AI-native Web3 data layer with a hosted Cortex API and self-hosted `@moralisweb3/api-mcp-server` package for wallet activity, token metrics, NFT ownership, transfers, transactions, dapp usage, and structured on-chain answers using `MORALIS_API_KEY`.
 - [Zerion API MCP](https://zerion.io/blog/zerion-for-api-ai-agents-mcp-skills/) - Official hosted Zerion MCP at `https://developers.zerion.io/mcp` for AI access to normalized wallet balances, prices, labeled transaction history, DeFi positions across 8,000+ protocols, NFT holdings, collection metadata, PnL, and documentation-backed API workflows across EVM chains and Solana.
 - [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
 - [Glassnode MCP Server](https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server) - Official beta Glassnode MCP at `https://mcp.glassnode.com` for asset and metric discovery, metric metadata, single or bulk on-chain metric retrieval, market intelligence, public 30-day access, and API-key authenticated analytics.
