@@ -4,6 +4,33 @@ Use this file to track where this list or Hive's MCP server should be submitted 
 
 Last checked: 2026-06-02.
 
+## Campaign Status
+
+The broad outbound PR campaign is complete. Do not open more general addition
+PRs just to increase footprint; the tracker already has enough high-authority
+coverage for the current curation phase.
+
+Current live PR load: 19 useful external PRs, plus one Appcypher branch where
+GitHub permissions blocked PR creation. The default next action is to get those
+PRs reviewed, merged, refreshed, or closed as superseded, not to add more
+targets.
+
+Open a new outbound PR only when the target clearly passes this bar:
+
+- It is a major MCP directory, registry, awesome-list index, or crypto/Web3
+  ecosystem resource with real developer discovery value.
+- It fills a missing channel that is not already covered by an active PR,
+  issue, form submission, official-registry ingestion path, or stale-listing
+  refresh request.
+- It can use the canonical Hive surface cleanly: `hive-sdk`, the
+  `hive-intelligence` npm package, and `https://mcp.hiveintelligence.xyz/mcp`.
+- It improves the curated-list strategy rather than turning this repository
+  into a broad, low-signal link campaign.
+
+For now, spend effort in this order: merge or resolve open PRs, fix upstream
+Hive metadata that aggregators ingest, refresh stale directory listings, and
+only then consider new additions.
+
 ## Primary Targets
 
 | Target | Why it matters | Suggested action | Status |
