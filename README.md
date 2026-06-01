@@ -85,7 +85,7 @@ detailed notes are in the sections below.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
 
-**Trading, exchange APIs, brokerage, bots, quant strategies, or prediction markets:** Start with Gate for AI, Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
+**Trading, exchange APIs, brokerage, bots, quant strategies, or prediction markets:** Start with Gate for AI, Gate MCP Server, Bitget Agent Hub, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, QuantConnect MCP Server, or PMXT.
 
 **Bitcoin, Stacks, sBTC, x402, and Lightning wallet workflows:** Start with AIBTC MCP Server, Alby Bitcoin Payments MCP Server, or LNbits MCP Server depending on the wallet stack.
 
@@ -134,7 +134,7 @@ source, chain, wallet, venue, or risk model.
 
 **Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
 
-**Trading, exchange APIs, bots, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, and PMXT. Separate read-only data from account, order, bot deployment, brokerage, and prediction-market execution.
+**Trading, exchange APIs, bots, and prediction markets:** Start with Gate MCP Server, Bitget Agent Hub, or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Hummingbot MCP Server, Trade It, and PMXT. Separate read-only data from account, order, bot deployment, brokerage, and prediction-market execution.
 
 **Quant strategy research, backtesting, optimization, and live deployment:** Start with QuantConnect MCP Server when the agent needs to create or update QuantConnect projects, run compiles, backtests, optimizations, and live algorithm workflows, including crypto-capable strategies. Treat broker authorization, live deployment, liquidation, and project writes as high-risk.
 
@@ -302,7 +302,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Hyperliquid perps trading:** Start with Hyperliquid MCP Server by Caio when the agent needs Hyperliquid account, order, leverage, margin, WebSocket, or execution workflows; use the lighter Hyperliquid SDK MCP only for read-only mids, candles, and order books.
 
-**Exchange API agents:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, DEX, or portfolio operations through MCP-compatible tooling.
+**Exchange API agents:** Start with Gate MCP Server, Bitget Agent Hub, Kraken CLI, Bybit MCP Server, or Crypto.com CDCX CLI when the agent needs exchange market data, REST/WebSocket workflows, trading, account, paper-trading, DEX, or portfolio operations through MCP-compatible tooling.
 
 **OKX on-chain app agents:** Start with OKX OnchainOS Skills/MCP when the agent needs an OKX-maintained skill and MCP surface for token research, wallet analysis, DEX swaps, smart-money signals, security checks, DeFi product actions, x402/payment workflows, or transaction simulation and broadcasting. Treat built-in sandbox keys as testing-only, and keep production API credentials, swaps, broadcasts, deposits, withdrawals, and payments under explicit user control.
 
@@ -378,7 +378,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
-**Centralized exchange APIs and trading:** Gate for AI, Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, Hummingbot MCP Server, or OKX Agent Trade Kit.
+**Centralized exchange APIs and trading:** Gate for AI, Gate MCP Server, Bitget Agent Hub, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Crypto.com CDCX CLI, Hummingbot MCP Server, or OKX Agent Trade Kit.
 
 **OKX on-chain token, wallet, DEX, smart-money, and DeFi workflows:** OKX OnchainOS Skills/MCP.
 
@@ -622,7 +622,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Massive.com MCP Server](https://github.com/massive-com/mcp_massive) - Official experimental Massive.com MCP for crypto, stock, options, forex, futures, news, reference data, market snapshots, technical functions, and in-memory SQLite analysis through three composable search, call, and query tools using a Massive.com API key.
 - [Lambda Finance MCP](https://www.lambdafin.com/financial-mcp-server) - Hosted Streamable HTTP financial MCP for real-time market research across stocks, options, futures, crypto, bonds, macro, filings, and related datasets, including crypto derivatives, funding/open-interest context, exchange flows, whale transfers, and wallet tracking. Requires a Lambda Finance account/API key or OAuth flow.
 - [AkTools MCP Server](https://github.com/aahl/mcp-aktools) - MIT-licensed AkShare-backed MCP for A-share, Hong Kong, US stock, and crypto market data, including historical crypto prices, related news, OKX long/short ratios, OKX taker volume, and Binance AI reports; use its `trading_suggest` style outputs as research signals, not financial advice.
-- [RWA Pipe MCP](https://docs.rwapipe.com/mcp/) - Tokenized real-world asset MCP for AI agents that need RWA token discovery, treasury comparisons, TVL, APY, issuer and chain filters, wallet holdings, whale flows, risk signals, and contract-control intelligence across tokenized treasuries, private credit, commodities, equities, stablecoins, and real estate. Requires `RWAPIPE_API_KEY`; contract scans and admin-oriented tooling require stronger user control.
+- [RWA Pipe MCP](https://github.com/rwapipe/mcp) - Tokenized real-world asset MCP for AI agents that need RWA token discovery, treasury comparisons, TVL, APY, issuer and chain filters, wallet holdings, whale flows, risk signals, and contract-control intelligence across tokenized treasuries, private credit, commodities, equities, stablecoins, and real estate. Requires `RWAPIPE_API_KEY`; contract scans and admin-oriented tooling require stronger user control.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
 - [1inch Business MCP](https://business.1inch.com/1inch-mcp) - Official 1inch MCP for docs search, code examples, 1inch Business API access, portfolio and balance data, orderbook flows, spot prices, classic swaps, Fusion intent swaps, and cross-chain swaps; protected tools use API key or OAuth and require explicit transaction controls.
@@ -636,6 +636,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Crypto Price MCP](https://github.com/truss44/mcp-crypto-price) - CoinCap-backed MCP for real-time prices, market analysis, historical trends, technical indicators, exchange data, and stdio or Streamable HTTP transport.
 - [Gate for AI](https://github.com/gate/gate-for-ai) - Official Gate AI-native crypto infrastructure repo covering Gate MCP endpoints and skills for CEX market data and trading, DEX wallets and swaps, coin info, on-chain data, news, sentiment, and installer workflows for Claude Code, Codex, Cursor, and OpenClaw; trading, wallet, transfer, swap, and account tools require explicit user control.
 - [Gate MCP Server](https://github.com/gate/gate-mcp) - Official Gate MCP with hosted Streamable HTTP endpoints for public market data, info, and news, plus OAuth-gated CEX trading/account and DEX wallet/swap workflows; local stdio is available through the `gate-mcp` npm package.
+- [Bitget Agent Hub](https://github.com/Bitget-AI/agent_hub) - Official Bitget Agent Hub with `bitget-mcp-server`, CLI, and skills for spot, futures, account, margin, copy trading, convert, Earn, P2P, and broker workflows; default modules expose 36 tools while `--modules all` exposes the full 58-tool surface, and account, order, leverage, transfer, Earn, P2P, broker, and API-key permissions are high-risk.
 - [Kraken CLI](https://github.com/krakenfx/kraken-cli) - Official Kraken AI-native CLI with a built-in stdio MCP server for market data, account, spot trading, futures, funding, staking, WebSocket, and paper-trading workflows; public market data and paper trading work without credentials, while dangerous tools require explicit care and least-privilege API keys.
 - [Bybit MCP Server](https://github.com/bybit-exchange/trading-mcp) - Official Bybit trading MCP server for REST and WebSocket market data, account, wallet, portfolio, position, and order workflows; public market-data tools can run without credentials while private tools require Bybit API keys.
 - [CCXT MCP Server](https://github.com/lazy-dinosaur/ccxt-mcp) - CCXT-backed local MCP package for market data, order books, OHLCV, balances, orders, trading history, performance analysis, position sizing, and multi-exchange trading across 100+ crypto exchanges; private exchange API keys and order-placement tools are high-risk.
