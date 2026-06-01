@@ -59,6 +59,10 @@ detailed notes are in the sections below.
 
 **TON address, transaction, jetton, and trend analysis:** Start with TON Blockchain MCP.
 
+**Polkadot, Kusama, and system parachain data:** Start with Polkadot MCP.
+
+**Hedera build-only transactions and mirror-node reads:** Start with Hedera MCP.
+
 **Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
 **Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, or PMXT.
@@ -226,6 +230,10 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Sui chain operations:** Start with Sui MCP Server when the agent needs Sui wallets, coin/object/transaction data, Move introspection, staking, SuiNS, Cetus/DeepBook data, or devnet/testnet/mainnet switching. Treat wallet import, transfers, staking, and Move calls as high-risk actions.
 
+**Polkadot ecosystem operations:** Start with Polkadot MCP when the agent needs live Polkadot, Kusama, Westend, Paseo, or system-parachain data, account diagnostics, governance, fellowship, staking, or optional signer-backed transactions.
+
+**Hedera build-only workflows:** Start with Hedera MCP when the agent needs Hedera Mirror Node reads or unsigned frozen transactions across Account, HTS, HCS, EVM, File, Schedule, Network, and analytics tools without giving the MCP server private keys.
+
 **Broker-backed trading:** Start with Alpaca MCP Server for crypto trading, portfolio management, and market data.
 
 **Hyperliquid perps trading:** Start with Hyperliquid MCP Server by Caio when the agent needs Hyperliquid account, order, leverage, margin, WebSocket, or execution workflows; use the lighter Hyperliquid SDK MCP only for read-only mids, candles, and order books.
@@ -349,6 +357,10 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **LayerZero omnichain messaging docs:** LayerZero Docs MCP.
 
 **Sui wallets, Move contracts, staking, and DeFi data:** Sui MCP Server.
+
+**Polkadot, Kusama, and system parachain workflows:** Polkadot MCP.
+
+**Hedera Mirror Node reads and unsigned transaction building:** Hedera MCP.
 
 **Cross-chain swaps, routes, and status tracking:** LI.FI MCP Server.
 
@@ -489,6 +501,8 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Celo MCP](https://github.com/celo-org/celo-mcp) - Official Celo MCP for Celo ecosystem, chain, and developer workflows.
 - [Sei MCP Server](https://docs.sei.io/ai/mcp-server) - Official Sei MCP for account management, SEI transfers, token and NFT operations, smart-contract reads and writes, block data, transaction data, and local or HTTP server modes.
 - [Sui MCP Server](https://github.com/ExpertVagabond/sui-mcp-server) - MCP Registry-listed stdio package for Sui wallet/session tools, coin/object/transaction queries, Move introspection, staking, validators, SuiNS, Cetus and DeepBook data, and GraphQL/JSON-RPC access; wallet import, transfers, staking, and Move calls are high-risk actions.
+- [Polkadot MCP](https://github.com/shawntabrizi/polkadot-mcp) - Rust stdio MCP for Polkadot, Kusama, Westend, Paseo, and system parachains, with live account, fellowship, governance, staking, and chain-state tools; read-only by default, with transaction tools only when `POLKADOT_SIGNER_URI` is explicitly configured.
+- [Hedera MCP](https://github.com/ExpertVagabond/hedera-mcp) - MCP Registry-listed `@purplesquirrel/hedera-mcp` package for Hedera Mirror Node reads and 73 build-only tools across Account, HTS, HCS, EVM, File, Schedule, Network, and analytics; write tools return unsigned frozen transactions for external signing and never hold private keys.
 - [NEAR MCP](https://github.com/nearai/near-mcp) - NEAR AI MCP for account management, balances, transactions, smart-contract inspection, and local wallet-backed NEAR interactions.
 - [Algorand MCP](https://github.com/GoPlausible/algorand-mcp) - GoPlausible server and client for Algorand developer documentation, wallet management, transaction handling, and Blockchain state queries.
 - [ZetaChain CLI MCP](https://github.com/zeta-chain/cli) - ZetaChain CLI with MCP installation support for universal smart-contract workflows across connected chains.
