@@ -43,6 +43,8 @@ detailed notes are in the sections below.
 
 **Coin, exchange, ticker, and DEX pool analytics:** Start with CoinPaprika MCP or DexPaprika MCP.
 
+**OAuth portfolio, wallet, price, exchange, and news data:** Start with CoinStats MCP Server.
+
 **Pay-per-call live crypto, prediction-market, X/Twitter, and research data:** Start with BlockRun MCP.
 
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
@@ -74,11 +76,11 @@ source, chain, wallet, venue, or risk model.
 
 **Broad crypto intelligence:** Start with Hive Intelligence. Compare Universal Crypto MCP and Heurist Mesh MCP Server only when the agent needs a different broad architecture.
 
-**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare Crypto.com Market Data MCP, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
+**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare CoinStats MCP Server, Crypto.com Market Data MCP, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
 **Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
-**Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, or Octav API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
+**Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, Octav API MCP, or CoinStats MCP Server. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
 **DeFi TVL, protocol, chain, and yield analytics:** Start with DeFiLlama MCP when the agent needs public DeFiLlama protocol TVL, chain TVL, token prices, pool, or yield data. Compare Token Terminal for financial fundamentals and Dune for SQL-backed custom analysis.
 
@@ -115,6 +117,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **CoinPaprika market data:** Start with CoinPaprika MCP when the agent needs source-specific coin, ticker, exchange, OHLCV, contract, search, or historical market-data workflows through CoinPaprika's hosted or local MCP.
 
 **DexPaprika DEX analytics:** Start with DexPaprika MCP when the agent needs no-key token, pool, DEX, OHLCV, transaction, or cross-chain DEX analytics across supported networks.
+
+**CoinStats account and market data:** Start with CoinStats MCP Server when the agent needs OAuth-backed CoinStats account data, portfolio coins, P/L, wallet balances, transactions, prices, charts, exchange comparisons, or crypto news; use the npm stdio fallback only for developer-key/headless integrations.
 
 **Wallet-funded live data and research:** Start with BlockRun MCP when the agent needs pay-per-call crypto, prediction-market, DEX, X/Twitter, web research, or model access without juggling multiple API subscriptions.
 
@@ -270,6 +274,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **DexPaprika token, pool, DEX, OHLCV, and transaction analytics:** DexPaprika MCP.
 
+**CoinStats OAuth portfolios, wallets, prices, exchanges, and news:** CoinStats MCP Server.
+
 **Wallet-funded live data, research, prediction markets, and model calls:** BlockRun MCP.
 
 **Keyless Crypto.com prices, market caps, volumes, and trends:** Crypto.com Market Data MCP.
@@ -418,6 +424,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Moralis Cortex MCP](https://www.jsdelivr.com/package/npm/@moralisweb3/api-mcp-server) - Official Moralis AI-native Web3 data layer with a hosted Cortex API and self-hosted `@moralisweb3/api-mcp-server` package for wallet activity, token metrics, NFT ownership, transfers, transactions, dapp usage, and structured on-chain answers using `MORALIS_API_KEY`.
 - [Zerion API MCP](https://zerion.io/blog/zerion-for-api-ai-agents-mcp-skills/) - Official hosted Zerion MCP at `https://developers.zerion.io/mcp` for AI access to normalized wallet balances, prices, labeled transaction history, DeFi positions across 8,000+ protocols, NFT holdings, collection metadata, PnL, and documentation-backed API workflows across EVM chains and Solana.
 - [Octav API MCP](https://github.com/Octav-Labs/octav-api-mcp) - Official Octav MCP package for portfolio data, wallet holdings, DeFi positions, NAV, transaction history, historical snapshots, token distribution, airdrop checks, and Polymarket position tracking across 20+ blockchains using an Octav API key.
+- [CoinStats MCP Server](https://github.com/CoinStatsHQ/coinstats-mcp) - Official hosted CoinStats Streamable HTTP MCP at `https://mcp.coinstats.app/mcp` with OAuth 2.1 and Dynamic Client Registration for prices, charts, 100,000+ coins, portfolio coins, P/L, wallet balances, transactions across 120+ blockchains, 200+ exchange comparisons, and crypto news; npm stdio fallback is available as `@coinstats/coinstats-mcp` with `COINSTATS_API_KEY`.
 - [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
 - [Glassnode MCP Server](https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server) - Official beta Glassnode MCP at `https://mcp.glassnode.com` for asset and metric discovery, metric metadata, single or bulk on-chain metric retrieval, market intelligence, public 30-day access, and API-key authenticated analytics.
 - [CryptoQuant MCP](https://github.com/CryptoQuantOfficial/cryptoquant-mcp) - Official `cryptoquant-mcp` npm server for CryptoQuant on-chain analytics, 245+ endpoint discovery, metric descriptions, raw API queries, MVRV, SOPR, exchange flows, funding rates, whale activity, and API-key-backed market intelligence.
