@@ -2,14 +2,14 @@
 
 Use this file to track where this list or Hive's MCP server should be submitted for inbound discovery.
 
-Last checked: 2026-06-01.
+Last checked: 2026-06-02.
 
 ## Primary Targets
 
 | Target | Why it matters | Suggested action | Status |
 | --- | --- | --- | --- |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | Canonical awesome-list index. | Do not submit unless their policy changes. Their contribution guidelines currently exclude blockchain-related lists. | Blocked by policy. |
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Largest MCP server discovery repo. | Keep Hive Intelligence listed under Cryptocurrency. Include the Glama score badge required by their submission bot. | PR open and checks passing: https://github.com/punkpeye/awesome-mcp-servers/pull/7195. Glama evaluation blocker addressed in `hive-sdk` PR https://github.com/hive-intel/hive-sdk/pull/10. Older duplicate PR https://github.com/punkpeye/awesome-mcp-servers/pull/5264 closed as superseded on 2026-06-01. |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Largest MCP server discovery repo. | Keep Hive Intelligence listed under Cryptocurrency. Include the Glama score badge required by their submission bot. | PR open, mergeable, and `check-submission` passing: https://github.com/punkpeye/awesome-mcp-servers/pull/7195. Glama score page and score badge are now live, and a follow-up comment was posted on 2026-06-02: https://github.com/punkpeye/awesome-mcp-servers/pull/7195#issuecomment-4594796548. Older duplicate PR https://github.com/punkpeye/awesome-mcp-servers/pull/5264 closed as superseded on 2026-06-01. |
 | [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) | Broad MCP directory with a Finance & Crypto section and hundreds of active entries. | Keep Hive Intelligence listed and canonicalize the repo URL to `hive-sdk` instead of stale `hive-crypto-mcp`. | Hive is listed; PR open at https://github.com/TensorBlock/awesome-mcp-servers/pull/623. Active PR refreshed on 2026-06-01 to replace the stale repo path, deprecated Hive install/setup links, and old narrow market-infrastructure copy with canonical `hive-sdk`, `hive-intelligence`, hosted MCP, SDK, skills, and workflow coverage. |
 | [royyannick/awesome-blockchain-mcps](https://github.com/royyannick/awesome-blockchain-mcps) | Blockchain-specific MCP list that already had a stale Hive entry. | Keep the entry pointed at `hive-sdk` with current hosted MCP, local stdio, SDK, and skills positioning. | PR open: https://github.com/royyannick/awesome-blockchain-mcps/pull/65 |
 | [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers) | Crypto-specific MCP list with overlap in target developer audience. | Add Hive Intelligence with concise managed crypto MCP positioning. | PR open: https://github.com/badkk/awesome-crypto-mcp-servers/pull/84. Older duplicate PR https://github.com/badkk/awesome-crypto-mcp-servers/pull/57 closed as superseded on 2026-06-01. |
@@ -72,7 +72,7 @@ Last checked: 2026-06-01.
 | [MCP Find](https://mcpfind.org/submit) | Open-source MCP directory with GitHub PR submissions and finance category discovery. | Keep Hive listed through the public `hive-sdk` support repo and published `hive-intelligence` npm package now that the package metadata points to the canonical public repo. | PR open: https://github.com/MCPFind/mcp-find/pull/60. Local structural and liveness checks passed on 2026-06-01; GitHub repo, MIT license, npm package, and owner-match all verified. The only reported check failure is Vercel preview authorization for forked PRs. |
 | [SafeMCP](https://safemcp.info/) | Large free MCP directory with category scoring and broad organic discovery. | Monitor for automatic ingestion from GitHub or registry; use contact/submission path if one becomes available. | No public submit flow found as of 2026-06-01. |
 | [Smithery](https://smithery.ai) | MCP install and discovery directory. | Submit the maintained `hive-sdk` public surface rather than the private core MCP repo after logging in with Smithery and confirming the right auth mode for Hive's hosted API-key flow. Smithery URL publishing expects Streamable HTTP and OAuth support when auth is required. | Not listed as of 2026-06-01; needs login and auth-mode decision. |
-| Glama MCP Servers | MCP metadata and discovery directory at `glama.ai/mcp/servers`. | Sign in to Glama as `rishabhng` and rerun the claim ownership flow for `hive-intel/hive-sdk`. Glama's `glama.json` docs say updates are synced only after the claim flow runs again; org-owned repos must use `glama.json` rather than simple GitHub-account ownership. | Listed at slug `hive-intel/hive-sdk`. Remediation merged in `hive-sdk` PRs https://github.com/hive-intel/hive-sdk/pull/10 and https://github.com/hive-intel/hive-sdk/pull/11: Dockerfile, stdio wrapper, optional `HIVE_API_KEY` metadata, and the active GitHub maintainer in `glama.json`. Public page now links the new Dockerfile commit, but the Glama API still shows the old description, empty env schema, and no tools as of 2026-06-01; needs owner-run claim/refresh. |
+| Glama MCP Servers | MCP metadata and discovery directory at `glama.ai/mcp/servers`. | Sign in to Glama as `rishabhng` and rerun the claim ownership flow for `hive-intel/hive-sdk`. Glama's `glama.json` docs say updates are synced only after the claim flow runs again; org-owned repos must use `glama.json` rather than simple GitHub-account ownership. | Listed at slug `hive-intel/hive-sdk`. Remediation merged in `hive-sdk` PRs https://github.com/hive-intel/hive-sdk/pull/10 and https://github.com/hive-intel/hive-sdk/pull/11: Dockerfile, stdio wrapper, optional `HIVE_API_KEY` metadata, and the active GitHub maintainer in `glama.json`. As of 2026-06-02, the score page and score badge are live, profile completion is 75%, and the badge endpoint returns HTTP 200. The Glama API still shows the old description, empty env schema, and no tools, so this still needs owner-run claim/refresh for current README/tool metadata. |
 | [GitHub Topics](https://github.com/topics/mcp-server) | Native GitHub discovery surface. | Keep repository topics accurate: `awesome`, `awesome-list`, `mcp`, `mcp-server`, `crypto`, `web3`, `model-context-protocol`. | Updated. |
 
 ## Earned Mentions
@@ -90,10 +90,11 @@ before sending anything so Hive does not create duplicate submissions.
 ### Priority 0
 
 - **Glama MCP Servers:** Sign in as `rishabhng` and rerun the claim or refresh
-  flow for `hive-intel/hive-sdk`. Confirm the public page and API show the
-  current description, optional `HIVE_API_KEY` metadata, Dockerfile, stdio
-  wrapper, and non-empty tool metadata. This refresh also supports downstream
-  aggregators that ingest Glama.
+  flow for `hive-intel/hive-sdk`. The score page and score badge are live, so
+  the remaining work is to make the public page and API show the current
+  description, optional `HIVE_API_KEY` metadata, Dockerfile, stdio wrapper, and
+  non-empty tool metadata. This refresh also supports downstream aggregators
+  that ingest Glama.
 - **Smithery:** Submit or claim the maintained `hive-sdk` public surface after
   deciding whether the listing should represent local stdio through
   `hive-intelligence` or hosted Streamable HTTP. Avoid publishing a 0-tool
