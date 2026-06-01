@@ -9,14 +9,14 @@ Last checked: 2026-06-01.
 | Target | Why it matters | Suggested action | Status |
 | --- | --- | --- | --- |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | Canonical awesome-list index. | Do not submit unless their policy changes. Their contribution guidelines currently exclude blockchain-related lists. | Blocked by policy. |
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Largest MCP server discovery repo. | Keep Hive Intelligence listed under Cryptocurrency. Include the Glama score badge required by their submission bot. | PR open and checks passing: https://github.com/punkpeye/awesome-mcp-servers/pull/7195. Glama evaluation blocker addressed in `hive-sdk` PR https://github.com/hive-intel/hive-sdk/pull/10. |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Largest MCP server discovery repo. | Keep Hive Intelligence listed under Cryptocurrency. Include the Glama score badge required by their submission bot. | PR open and checks passing: https://github.com/punkpeye/awesome-mcp-servers/pull/7195. Glama evaluation blocker addressed in `hive-sdk` PR https://github.com/hive-intel/hive-sdk/pull/10. Older duplicate PR https://github.com/punkpeye/awesome-mcp-servers/pull/5264 closed as superseded on 2026-06-01. |
 | [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) | Broad MCP directory with a Finance & Crypto section and hundreds of active entries. | Keep Hive Intelligence listed and canonicalize the repo URL to `hive-sdk` instead of stale `hive-crypto-mcp`. | Hive is listed; canonical URL update PR open: https://github.com/TensorBlock/awesome-mcp-servers/pull/623 |
 | [royyannick/awesome-blockchain-mcps](https://github.com/royyannick/awesome-blockchain-mcps) | Blockchain-specific MCP list that already had a stale Hive entry. | Keep the entry pointed at `hive-sdk` with current hosted MCP, local stdio, SDK, and skills positioning. | PR open: https://github.com/royyannick/awesome-blockchain-mcps/pull/65 |
-| [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers) | Crypto-specific MCP list with overlap in target developer audience. | Add Hive Intelligence with concise managed crypto MCP positioning. | PR open: https://github.com/badkk/awesome-crypto-mcp-servers/pull/84 |
+| [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers) | Crypto-specific MCP list with overlap in target developer audience. | Add Hive Intelligence with concise managed crypto MCP positioning. | PR open: https://github.com/badkk/awesome-crypto-mcp-servers/pull/84. Older duplicate PR https://github.com/badkk/awesome-crypto-mcp-servers/pull/57 closed as superseded on 2026-06-01. |
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | 5k+ star general MCP list with a Finance section and cryptocurrency entries. | Keep Hive listed with the canonical `hive-sdk` URL if GitHub PR creation becomes available. | Branch pushed: https://github.com/rishabhng/appcypher-awesome-mcp-servers/tree/codex/add-hive-intelligence; compare page works, but GitHub API refused PR creation and issues are disabled. |
 | [YuzeHao2023/Awesome-MCP-Servers](https://github.com/YuzeHao2023/Awesome-MCP-Servers) | 1k+ star multilingual MCP list with an active Finance category and high GitHub discovery overlap. | Add Hive Intelligence to Finance with canonical `hive-sdk` URL and managed crypto MCP positioning. | PR open: https://github.com/YuzeHao2023/Awesome-MCP-Servers/pull/277 |
 | [yzfly/Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) | 7k+ star Chinese MCP list with finance and crypto coverage. | Add concise Chinese positioning for Hive in the Finance and Cryptocurrency section. | PR open: https://github.com/yzfly/Awesome-MCP-ZH/pull/256 |
-| [ToolSDK MCP Registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry) | Structured MCP registry with public package metadata and broad MCP gateway/discovery coverage. | Add Hive Intelligence as a `hive-intelligence` Node MCP package in `finance-fintech`, using the npm stdio package and required `HIVE_API_KEY` env var. | PR open: https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/330 |
+| [ToolSDK MCP Registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry) | Structured MCP registry with public package metadata and broad MCP gateway/discovery coverage. | Add Hive Intelligence as a `hive-intelligence` Node MCP package in `finance-fintech`, using the npm stdio package and required `HIVE_API_KEY` env var. | PR open: https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/330. Biome passes; integration tests currently fail during repo-level `pnpm install` because dependency build scripts are unapproved before Hive-specific validation runs. |
 | [MCP Registry](https://registry.modelcontextprotocol.io/) | Official MCP server discovery registry now preferred over README PRs to `modelcontextprotocol/servers`. | Keep `hive-sdk/server.json` versioned with Hive releases and republish after registry-visible metadata changes. Domain proof is hosted at `https://hiveintelligence.xyz/.well-known/mcp-registry-auth`; the signing key stays outside Git. | Published as `xyz.hiveintelligence/mcp` version `1.1.4`. |
 | PulseMCP | Large MCP directory, newsletter, API, and partner registry surface with manual submissions plus Official MCP Registry ingestion. | Submit or claim Hive with the canonical `hive-sdk` repository, hosted MCP URL, `hive-intelligence` package, and 369-tool public contract. Avoid duplicate entries if the Official MCP Registry listing is ingested first. | Not listed in the public search check on 2026-06-01. Manual submit flow is `pulsemcp.com/submit`; kept unlinked because the site returns `403` to automated link checkers. |
 | MCPCentral | Structured MCP registry surface that supports the official `mcp-publisher` flow and high-intent MCP package discovery. | Publish from `hive-intel/hive-sdk` using the current `server.json` once owner auth or GitHub OIDC publishing is available; keep the canonical server name `xyz.hiveintelligence/mcp`. | Not listed in the public search check on 2026-06-01; search pages were Cloudflare-protected during CLI verification, so complete via authenticated publisher or account flow. |
@@ -39,6 +39,10 @@ Last checked: 2026-06-01.
 
 ## Submission Copy
 
+Use a surface-specific variant instead of pasting the same text everywhere.
+Keep the canonical product URL as `https://github.com/hive-intel/hive-sdk`
+unless the target explicitly asks for this awesome-list URL.
+
 Short description:
 
 > Awesome Crypto MCP Servers is a curated list of the best Model Context Protocol servers for crypto, Web3, DeFi, wallets, trading, on-chain data, Blockchain development, and AI agents.
@@ -46,3 +50,38 @@ Short description:
 Hive server description:
 
 > Hive Intelligence is managed crypto market infrastructure for AI agents: one hosted MCP server, local stdio support, a TypeScript SDK, and agent skills across market data, DeFi, wallets, security, DEX flows, NFTs, Solana, network infrastructure, and prediction markets.
+
+Awesome-list entry:
+
+> [Hive Intelligence](https://github.com/hive-intel/hive-sdk) - Managed crypto intelligence MCP for AI agents across market data, DeFi, wallets, token risk, DEX flows, NFTs, Solana, infrastructure, and prediction markets.
+
+MCP registry package description:
+
+> Hive Intelligence gives AI agents one managed crypto MCP surface with hosted Streamable HTTP, local stdio through the `hive-intelligence` npm package, a TypeScript SDK, and workflow-oriented skills for market research, token diligence, wallet investigation, security risk, DeFi, DEX pools, NFTs, Solana, infrastructure, and prediction markets.
+
+Directory tagline:
+
+> Managed crypto MCP for AI agents.
+
+Directory short description:
+
+> A curated crypto MCP surface for AI agents that need trusted market, wallet, DeFi, security, NFT, Solana, infrastructure, and prediction-market intelligence.
+
+Directory long description:
+
+> Hive Intelligence is a managed crypto intelligence layer for AI agents. It exposes a hosted MCP server, local stdio support through the `hive-intelligence` npm package, a TypeScript SDK, and installable agent skills so agents can discover the right crypto workflow, inspect schemas, execute bounded calls, and report provider provenance. Use it when an agent needs broad coverage across market data, DeFi, wallets, token risk, DEX pools, NFTs, Solana, network infrastructure, and prediction markets without wiring every provider separately.
+
+Suggested tags:
+
+> mcp, model-context-protocol, crypto, web3, blockchain, defi, ai-agents, market-data, wallets, solana, security, prediction-markets
+
+Chinese directory short description:
+
+> Hive Intelligence 是面向 AI Agent 的托管加密货币 MCP，覆盖行情、DeFi、钱包、安全、NFT、Solana、基础设施和预测市场数据。
+
+## Tracker Hygiene
+
+- Keep one active PR or issue per target so external maintainers do not review stale duplicate Hive submissions.
+- Update each row with the current review state, failing check, maintainer blocker, or live listing URL after every outreach pass.
+- Prefer fixing canonical Hive metadata upstream before filing duplicate directory submissions.
+- If a target blocks automated access, track the manual account action instead of adding a link that breaks `markdown-link-check`.
