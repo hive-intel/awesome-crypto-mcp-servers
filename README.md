@@ -63,6 +63,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Smart-money and wallet labels:** Start with Nansen MCP when the agent needs institutional on-chain intelligence, smart-money labels, token flows, wallet PnL, or multi-chain research workflows.
 
+**Institutional on-chain metrics:** Start with Glassnode MCP Server when the agent needs asset and metric discovery, metric metadata, single or bulk Glassnode metric retrieval, market intelligence, or 30-day public-access analytics with optional API-key authentication.
+
 **On-chain analytics and dashboards:** Start with Dune MCP when the agent needs DuneSQL query creation, execution, results, visualizations, dashboards, and dataset-aware on-chain research.
 
 **The Graph token and subgraph data:** Start with The Graph Token API MCP or Subgraph MCP Server when the agent needs token metadata, balances, transfers, holder statistics, subgraph discovery, schemas, or GraphQL query execution.
@@ -153,6 +155,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Smart-money labels and institutional on-chain research:** Nansen MCP.
 
+**On-chain metrics, asset discovery, and market intelligence:** Glassnode MCP Server.
+
 **Enterprise on-chain SQL and real-time data:** Allium MCP.
 
 **Token, wallet, NFT, and block-level API data:** Chainbase MCP.
@@ -232,6 +236,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Allium MCP](https://docs.allium.so/assistant/mcp) - Official Allium MCP for Explorer SQL, saved queries, schema introspection, documentation search, and historical or real-time Blockchain data across 80+ chains.
 - [Chainbase MCP](https://docs.chainbase.com/resources/ai/mcp) - Official Chainbase HTTP MCP for token balances, holders, metadata, prices, NFT ownership, transfers, transaction history, blocks, and Web3 account analytics.
 - [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
+- [Glassnode MCP Server](https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server) - Official beta Glassnode MCP at `https://mcp.glassnode.com` for asset and metric discovery, metric metadata, single or bulk on-chain metric retrieval, market intelligence, public 30-day access, and API-key authenticated analytics.
 - [Dune MCP](https://docs.dune.com/api-reference/agents/mcp/) - Official Dune remote MCP for DuneSQL query generation, execution, result retrieval, visualizations, dashboards, dataset discovery, and on-chain analytics workflows.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 - [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
