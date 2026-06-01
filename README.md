@@ -101,6 +101,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Production Solana APIs:** Start with Helius MCP Server or Solana MCP by Vybe when the agent needs Solana RPC, DAS, transfers, webhooks, streaming, wallet analysis, priority fees, live API calls, schemas, and OAuth-backed remote access.
 
+**Solana swap and order execution:** Start with TradeRouter MCP when the agent needs Solana swaps, limit orders, trailing orders, TWAP, DCA, combo orders, holdings, or token market-cap checks through a local non-custodial MCP. Treat private-key, signing, and order tools as high-risk actions.
+
 **BNB Chain development:** Start with BNBChain MCP for BSC, opBNB, Greenfield, token, contract, wallet, and ERC-8004 agent identity workflows.
 
 **Aptos app development:** Start with Aptos MCP when the agent needs Aptos APIs, Move app scaffolding, prompts, resources, Cursor or Claude Code setup, and Geomi-backed app-building workflows.
@@ -190,6 +192,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Secure smart-contract generation:** OpenZeppelin MCP Servers.
 
 **Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
+
+**Solana swaps and advanced order execution:** TradeRouter MCP.
 
 **Aptos APIs, Move apps, and Geomi workflows:** Aptos MCP.
 
@@ -292,6 +296,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Helius MCP Server](https://www.helius.dev/docs/helius-mcp) - Official Helius MCP with 60+ Solana tools across DAS, RPC, transfers, webhooks, streaming, wallet analysis, priority fees, onboarding, and docs.
 - [Solana MCP by Vybe](https://github.com/vybenetwork/solana-mcp-vybe) - Vybe Network remote Solana MCP for schema browsing and live API calls across Solana wallets, trades, markets, PnL, transfers, on-chain data, and swaps.
 - [SendAI Solana MCP](https://github.com/sendaifun/solana-mcp) - Solana Agent Kit powered MCP for interacting with the Solana Blockchain.
+- [TradeRouter MCP](https://github.com/TradeRouter/trade-router-mcp) - MCP Registry-listed `@traderouter/trade-router-mcp` package for non-custodial Solana swaps, limit orders, trailing orders, TWAP, DCA, combo orders, holdings, and token market-cap checks across Raydium, PumpSwap, Orca, and Meteora; private-key, signing, submission, and order tools are high-risk and should use a dedicated wallet plus explicit user control.
 - [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
 - [Jupiter MCP](https://github.com/kukapay/jupiter-mcp) - Solana swap MCP using Jupiter's Ultra API.
 - [Solana MCP Directory](https://github.com/sendaifun/awesome-solana-mcp-servers) - Solana-specific MCP list for deeper Solana ecosystem discovery.
