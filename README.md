@@ -98,7 +98,7 @@ source, chain, wallet, venue, or risk model.
 
 **Broad crypto intelligence:** Start with Hive Intelligence. Compare Universal Crypto MCP and Heurist Mesh MCP Server only when the agent needs a different broad architecture.
 
-**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
+**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, AkTools MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
 **Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare aTars MCP for a registry-backed remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
@@ -358,6 +358,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Cross-asset market data, crypto aggregates, derivatives, and SQL-style analysis:** Massive.com MCP Server or Lambda Finance MCP.
 
+**A-share, Hong Kong, US stock, and crypto data:** AkTools MCP Server.
+
 **Tokenized real-world assets, treasury tokens, and RWA risk signals:** RWA Pipe MCP.
 
 **DeFi swaps, bridges, zaps, and execution-ready route planning:** DZap MCP Server or LI.FI MCP Server.
@@ -604,6 +606,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 - [Massive.com MCP Server](https://github.com/massive-com/mcp_massive) - Official experimental Massive.com MCP for crypto, stock, options, forex, futures, news, reference data, market snapshots, technical functions, and in-memory SQLite analysis through three composable search, call, and query tools using a Massive.com API key.
 - [Lambda Finance MCP](https://www.lambdafin.com/financial-mcp-server) - Hosted Streamable HTTP financial MCP for real-time market research across stocks, options, futures, crypto, bonds, macro, filings, and related datasets, including crypto derivatives, funding/open-interest context, exchange flows, whale transfers, and wallet tracking. Requires a Lambda Finance account/API key or OAuth flow.
+- [AkTools MCP Server](https://github.com/aahl/mcp-aktools) - MIT-licensed AkShare-backed MCP for A-share, Hong Kong, US stock, and crypto market data, including historical crypto prices, related news, OKX long/short ratios, OKX taker volume, and Binance AI reports; use its `trading_suggest` style outputs as research signals, not financial advice.
 - [RWA Pipe MCP](https://docs.rwapipe.com/mcp/) - Tokenized real-world asset MCP for AI agents that need RWA token discovery, treasury comparisons, TVL, APY, issuer and chain filters, wallet holdings, whale flows, risk signals, and contract-control intelligence across tokenized treasuries, private credit, commodities, equities, stablecoins, and real estate. Requires `RWAPIPE_API_KEY`; contract scans and admin-oriented tooling require stronger user control.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
