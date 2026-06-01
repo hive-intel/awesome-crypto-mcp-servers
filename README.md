@@ -667,6 +667,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [MCPRepository](https://mcprepository.com/) - MCP server directory with GitHub-indexed server pages, search, and an npm-backed submission CLI.
 - [MCP.so](https://mcp.so/) - Large community MCP directory with indexed server pages, category browsing, and search traffic around Claude MCP and Awesome MCP Servers.
 - [FindMCP](https://findmcp.dev/) - Large web MCP directory with category pages, server search, and an MCP installer companion CLI.
+- [MCPList.ai](https://www.mcplist.ai/) - Broad MCP directory with verified/community server browsing, function categories, comparison content, and a contact-based contribution path.
 - ServeMCP (`servemcp[.]com`) - Broad MCP directory with granular crypto, DeFi, Solana, risk, exchange, and trading categories.
 - MCP Server Directory (`mcpserverdirectory[.]org`) - MCP resource directory with a public submit form and indexed server pages.
 - [MCP Server Info](https://www.mcpserver.info/) - MCP directory with server detail pages, source links, and category browsing.
