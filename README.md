@@ -55,6 +55,8 @@ detailed notes are in the sections below.
 
 **Wallet portfolios, DeFi positions, snapshots, and NFTs:** Start with Zerion API MCP or Octav API MCP.
 
+**Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, or CoW MCP depending on the route and execution model.
+
 **Node, RPC, endpoint, and infrastructure operations:** Start with Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
 
 **Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or TradeRouter MCP.
@@ -91,6 +93,8 @@ source, chain, wallet, venue, or risk model.
 **DeFi TVL, protocol, chain, and yield analytics:** Start with DeFiLlama MCP when the agent needs public DeFiLlama protocol TVL, chain TVL, token prices, pool, or yield data. Compare Token Terminal for financial fundamentals and Dune for SQL-backed custom analysis.
 
 **DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
+
+**Swap, bridge, zap, and route construction:** Start with DZap MCP Server or LI.FI MCP Server when the agent needs cross-chain routes, token discovery, balances, allowances, or execution-ready transaction data. Compare 1inch Business MCP for 1inch APIs and CoW MCP for CoW Protocol order flows.
 
 **On-chain analytics, SQL, and financial metrics:** Start with Dune MCP, Token Terminal MCP, or CryptoQuant MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
 
@@ -137,6 +141,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Oracle-grade market data:** Start with Pyth MCP Server when the agent needs Pyth feed discovery, real-time prices, historical prices, or chart-ready candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 
 **Cross-asset financial market data:** Start with Massive.com MCP Server when the agent needs crypto, stock, options, forex, futures, news, reference data, or technical-analysis functions through a single API-key-backed search/call/query MCP.
+
+**DeFi swap, bridge, and zap routing:** Start with DZap MCP Server when the agent needs a hosted public MCP for swaps, bridges, zaps, token and pool data, wallet balances, price/sentiment/news tools, or DZap documentation search. Treat calldata, execution links, and transaction preparation as high-risk.
 
 **Exchange order books and candles:** Start with Cryptohopper MCP when the agent needs live market data, order-book depth, and candle analysis through a remote MCP endpoint.
 
@@ -299,6 +305,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Pyth market feeds, historical prices, and candles:** Pyth MCP Server.
 
 **Cross-asset market data, crypto aggregates, and SQL-style analysis:** Massive.com MCP Server.
+
+**DeFi swaps, bridges, zaps, and execution-ready route planning:** DZap MCP Server or LI.FI MCP Server.
 
 **Token discovery, DEX analytics, wallet PnL, and safety signals:** Birdeye MCP Server.
 
@@ -529,6 +537,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
 - [1inch Business MCP](https://business.1inch.com/1inch-mcp) - Official 1inch MCP for docs search, code examples, 1inch Business API access, portfolio and balance data, orderbook flows, spot prices, classic swaps, Fusion intent swaps, and cross-chain swaps; protected tools use API key or OAuth and require explicit transaction controls.
+- [DZap MCP Server](https://docs.dzap.io/ai/mcp) - Official DZap MCP documentation for 17 DeFi, NLP, and analytics tools covering prices, trends, sentiment, wallet balances, DeFi positions, token and pool data, swaps, bridges, zaps, and DZap docs search; treat calldata, execution links, and transaction preparation as high-risk.
 - [LI.FI MCP Server](https://docs.li.fi/mcp-server/overview) - Official hosted LI.FI MCP at `https://mcp.li.quest/mcp` for read-only cross-chain swap quotes, routes, chain and token discovery, allowance and balance checks, gas suggestions, and transfer status tracking; returns unsigned transaction requests for external wallet signing.
 - [CoW MCP](https://github.com/krzysu/cow-mcp) - Hosted and local MCP for CoW Protocol quotes, supported chain and token lookup, wallet trade history, EIP-712 order and cancellation payloads, external wallet signing, and order submission; treat approvals, signed orders, cancellations, and host-wallet broadcasts as high-risk actions.
 - [DeFiLlama MCP](https://github.com/demcp/demcp-defillama-mcp) - Community DeFiLlama API wrapper exposing protocol TVL, chain TVL, token prices, pools, yield data, and public DeFi analytics through MCP; useful for TVL and yield research, not an official DeFiLlama server.
