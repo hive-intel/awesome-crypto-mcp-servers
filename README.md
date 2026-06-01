@@ -51,7 +51,7 @@ detailed notes are in the sections below.
 
 **Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or TradeRouter MCP.
 
-**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, or Fireblocks MCP Server.
+**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
 **Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, or PMXT.
 
@@ -78,7 +78,7 @@ source, chain, wallet, venue, or risk model.
 
 **Solana data, development, and execution:** Start with Helius MCP Server or Solana MCP by Vybe. Compare Solana MCP Official and TradeRouter MCP. Treat swaps, order tools, and private-key flows as high-risk.
 
-**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
+**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
 
 **Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
 
@@ -159,6 +159,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Multi-chain account, transfer, and staking operations:** Start with Adamik MCP Server when the agent needs API-key-backed balances, transaction history, native or token transfers, staking, unstaking, rewards, swaps, or bridges across many chains. Treat transfers, staking, swaps, and bridges as high-risk actions.
 
 **Consumer wallet signing and swaps:** Start with Phantom MCP Server when the agent needs Phantom wallet authentication, addresses, balances, Solana/EVM signing, token transfers, swaps, payments, or Hyperliquid perps access through a local stdio MCP.
+
+**Institutional custody integration docs:** Start with BitGo MCP Server when the agent needs docs-grounded help for BitGo wallets, policies, webhooks, staking, trading, or API integration. It is a documentation MCP, not a custody-execution MCP.
 
 **Enterprise custody operations:** Start with Fireblocks MCP Server when the agent needs vault accounts, assets, transaction history, policies, exchange accounts, external wallets, or internal workspace-user data from Fireblocks.
 
@@ -318,7 +320,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Circle Wallets, CCTP, Contracts, and Gateway codegen:** Circle MCP Server.
 
-**Enterprise custody and Fireblocks workspace data:** Fireblocks MCP Server.
+**Institutional custody docs and workspace data:** BitGo MCP Server for BitGo docs-grounded integration help; Fireblocks MCP Server for Fireblocks workspace data and custody operations.
 
 **DeFi execution, hardware-wallet verification, or vault risk:** Haiku DeFi MCP, VaultPilot MCP, or Philidor DeFi Vault Risk Analytics.
 
