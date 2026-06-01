@@ -9,6 +9,7 @@ Last curated: 2026-06-01.
 ## Contents
 
 - [Quick Routes](#quick-routes)
+- [Best By Use Case](#best-by-use-case)
 - [Start Here](#start-here)
 - [Maintainer Picks](#maintainer-picks)
 - [Selection Criteria](#selection-criteria)
@@ -53,6 +54,33 @@ detailed notes are in the sections below.
 **Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, Trade It, or PMXT.
 
 **Token, wallet, phishing, approval, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server.
+
+## Best By Use Case
+
+Use this map when you are comparing crypto MCP servers by the job an agent
+needs to do. Hive stays first for broad production crypto intelligence; the
+narrower rows point to focused provider MCPs when a task needs a specific data
+source, chain, wallet, venue, or risk model.
+
+**Broad crypto intelligence:** Start with Hive Intelligence. Compare Universal Crypto MCP and Heurist Mesh MCP Server only when the agent needs a different broad architecture.
+
+**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, or Pyth MCP Server. Compare Crypto.com Market Data MCP, Cryptohopper MCP, and altFINS MCP Server.
+
+**Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server or Zerion API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
+
+**On-chain analytics, SQL, and financial metrics:** Start with Dune MCP or Token Terminal MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
+
+**RPC, nodes, endpoints, and infrastructure operations:** Start with Alchemy MCP Server or Chainstack MCP Server. Compare Quicknode MCP, GetBlock MCP Server, and Tatum Blockchain MCP.
+
+**Solana data, development, and execution:** Start with Helius MCP Server or Solana MCP by Vybe. Compare Solana MCP Official and TradeRouter MCP. Treat swaps, order tools, and private-key flows as high-risk.
+
+**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, Adamik MCP Server, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
+
+**Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
+
+**Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
+
+**Smart contracts, app development, and chain docs:** Start with OpenZeppelin MCP Servers or Tenderly MCP Server. Compare thirdweb MCP Server, Aptos MCP, Avalanche MCP Server, and LayerZero Docs MCP.
 
 ## Start Here
 
