@@ -702,11 +702,13 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Kukapay MCP Servers](https://github.com/kukapay/kukapay-mcp-servers) - Crypto MCP suite index covering DeFi, DEX, market data, news, on-chain analysis, bridges, NFTs, and utilities.
 - [Awesome Lists](https://github.com/szabgab/awesome-lists) - General index of awesome lists across domains.
 - [MCP Registry](https://registry.modelcontextprotocol.io/) - Official MCP server registry for production server discovery.
+- PulseMCP (`pulsemcp[.]com`) - Large MCP server directory, newsletter, API, and partner registry surface that ingests from the Official MCP Registry.
 - [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [MCP Catalogs](https://mcpcatalogs.com/en) - Independent bilingual MCP directory with AI-evaluated server pages and side-by-side comparison.
 - [MCPRepository](https://mcprepository.com/) - MCP server directory with GitHub-indexed server pages, search, and an npm-backed submission CLI.
 - [MCPpedia](https://mcppedia.org/) - Open MCP catalog with server scoring, security signals, community submissions, API access, and daily official-registry sync.
 - [MCP Showcase](https://mcpshowcase.com/p/mcp-server-directory) - Interactive MCP server directory and playground pages for testing and presenting MCP endpoints.
+- [MCP Server Spot](https://www.mcpserverspot.com/) - Modern MCP server directory with category pages, server detail pages, structured metadata, and a public submit flow.
 - [MCP Bundles](https://www.mcpbundles.com/) - MCP marketplace and bundling directory with provider pages, publish flow, and SKILL.md-oriented discovery.
 - [MCP.so](https://mcp.so/) - Large community MCP directory with indexed server pages, category browsing, and search traffic around Claude MCP and Awesome MCP Servers.
 - [FindMCP](https://findmcp.dev/) - Large web MCP directory with category pages, server search, and an MCP installer companion CLI.
