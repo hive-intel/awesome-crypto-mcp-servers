@@ -63,6 +63,8 @@ detailed notes are in the sections below.
 
 **Trading-agent memory, risk gates, and audit trails:** Start with TradeMemory Protocol when an agent needs to remember prior crypto, stock, forex, or futures decisions without touching funds.
 
+**Verified crypto-perps signals and funding arbitrage:** Start with AlgoVault MCP when the agent needs registry-listed BUY/SELL/HOLD research signals, market-regime classification, cross-venue funding arbitrage, or verifiable signal history; treat outputs as research, not automatic execution.
+
 **Cross-asset market data, crypto aggregates, derivatives, and SQL-style analysis:** Start with Massive.com MCP Server or Lambda Finance MCP depending on whether the agent needs composable API querying or hosted financial research with crypto derivatives and exchange-flow coverage.
 
 **Messari research, AI intelligence, signals, and timeseries:** Start with Messari MCP Server when the agent needs hosted OAuth access to Messari AI, research reports, news, token unlocks, fundraising, mindshare signals, and direct timeseries data.
@@ -70,6 +72,8 @@ detailed notes are in the sections below.
 **Santiment on-chain, social, and trend intelligence:** Start with Santiment MCP Connector when the agent needs OAuth-backed Sanbase metrics, social sentiment, trending narratives, analyst insights, token screeners, or timeseries context.
 
 **Wallet portfolios, DeFi positions, snapshots, and NFTs:** Start with Zerion API MCP or Octav API MCP.
+
+**CryptoPunks traits, listings, bids, and Merkle proofs:** Start with Lightyear CryptoPunks when the agent needs focused CryptoPunks discovery, trait filtering, bid analysis, or proof generation.
 
 **Tokenized real-world assets, treasury tokens, and RWA risk signals:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, gold, equity, or real-estate data with contract-control and risk-signal context.
 
@@ -135,11 +139,13 @@ source, chain, wallet, venue, or risk model.
 
 **Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare Messari MCP Server, Santiment MCP Connector, CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, AkTools MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
-**Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare aTars MCP for a registry-backed remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
+**Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare AlgoVault MCP for registry-listed crypto-perps trade-call research, aTars MCP for a remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
 **Real-time social intelligence and attention signals:** Start with LunarCrush MCP Server when the agent needs hosted or stdio access to LunarCrush social intelligence, creator/post context, social-market trend discovery, or API-backed attention signals. Compare Santiment MCP Connector when the task needs Sanbase metrics plus on-chain/social timeseries.
 
 **Trading-agent memory and audit trails:** Start with TradeMemory Protocol when a crypto-capable trading agent needs pre-trade memory, risk gates, strategy reflection, or tamper-evident decision exports without handing over exchange credentials.
+
+**Verifiable trading-agent signals:** Start with AlgoVault MCP when the task needs registry-listed crypto-perps BUY/SELL/HOLD research signals, cross-venue funding arbitrage, market-regime classification, webhook delivery, or Merkle/on-chain-verifiable signal history. Treat it as signal research and keep execution in a separate user-approved venue.
 
 **AI-powered crypto research, news, signals, and timeseries:** Start with Messari MCP Server when the agent needs hosted OAuth access to Messari AI, deep research, market data, on-chain metrics, token unlocks, fundraising, news, social mindshare, sentiment, or direct timeseries data.
 
@@ -271,7 +277,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Wallet portfolios and DeFi positions:** Start with Zerion API MCP when the agent needs normalized wallet balances, labeled transaction history, DeFi positions, NFT holdings, collection metadata, or PnL across EVM chains and Solana. Use Octav API MCP when the agent needs portfolio, NAV, transaction history, historical snapshots, airdrop, or Polymarket position views across several wallets.
 
-**NFT marketplace data and actions:** Start with OpenSea MCP when the agent needs OpenSea collection stats, NFT metadata, ownership, listings, offers, drops, portfolio data, token swaps, or ready-to-sign marketplace actions across supported chains.
+**NFT marketplace data and actions:** Start with OpenSea MCP when the agent needs OpenSea collection stats, NFT metadata, ownership, listings, offers, drops, portfolio data, token swaps, or ready-to-sign marketplace actions across supported chains. Use Lightyear CryptoPunks when the task is specifically CryptoPunks discovery, trait filtering, listings, bids, Merkle roots, or bid proofs.
 
 **Smart-money and wallet labels:** Start with Nansen MCP when the agent needs institutional on-chain intelligence, smart-money labels, token flows, wallet PnL, or multi-chain research workflows.
 
@@ -437,6 +443,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Trading-agent memory and audit trail:** TradeMemory Protocol.
 
+**Verifiable crypto-perps signals and funding arbitrage:** AlgoVault MCP.
+
 **Pyth market feeds, historical prices, and candles:** Pyth MCP Server.
 
 **Cross-asset market data, crypto aggregates, derivatives, and SQL-style analysis:** Massive.com MCP Server or Lambda Finance MCP.
@@ -490,6 +498,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Broad multi-chain API access and fee estimation:** Tatum Blockchain MCP.
 
 **NFT marketplace analytics and actions:** OpenSea MCP.
+
+**CryptoPunks trait, listing, bid, and proof workflows:** Lightyear CryptoPunks.
 
 **On-chain SQL analytics and dashboards:** Dune MCP.
 
@@ -721,6 +731,7 @@ deployments, private keys, or elevated API-key permissions.
 - [LunarCrush MCP Server](https://github.com/lunarcrush/mcp-server) - Official LunarCrush MCP with preferred remote Streamable HTTP endpoint `https://lunarcrush.ai/mcp`, SSE endpoint, and `@lunarcrush/mcp-server` stdio proxy for API-key-backed real-time social intelligence, community attention, creator/post context, and crypto social-market trend discovery.
 - [aTars MCP](https://github.com/aarna-ai/atars-fts-mcp) - Official MCP Registry-listed remote MCP from aarna for cryptocurrency trading signals and sentiment analysis, including technical-indicator-based buy/sell signals, daily sentiment scoring, and rolling sentiment trends; use as a research signal feed, not financial advice or trade execution.
 - [TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol) - MCP-native memory and audit layer for AI trading agents across crypto, stocks, forex, and futures, with outcome-weighted recall, risk gates, strategy reflection, and SHA-256 decision records; it records and recalls decisions but does not execute trades or access wallets.
+- [AlgoVault MCP](https://github.com/AlgoVaultLabs/crypto-quant-signal-mcp) - Official MCP Registry-listed remote and npm MCP for crypto-perps BUY/SELL/HOLD research signals, cross-venue funding arbitrage, market-regime classification, webhook delivery, and Merkle/on-chain-verifiable signal history across Hyperliquid, Binance, Bybit, OKX, and Bitget; use as research input, not automatic execution.
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 - [Massive.com MCP Server](https://github.com/massive-com/mcp_massive) - Official experimental Massive.com MCP for crypto, stock, options, forex, futures, news, reference data, market snapshots, technical functions, and in-memory SQLite analysis through three composable search, call, and query tools using a Massive.com API key.
 - [Lambda Finance MCP](https://www.lambdafin.com/financial-mcp-server) - Hosted Streamable HTTP financial MCP for real-time market research across stocks, options, futures, crypto, bonds, macro, filings, and related datasets, including crypto derivatives, funding/open-interest context, exchange flows, whale transfers, and wallet tracking. Requires a Lambda Finance account/API key or OAuth flow.
@@ -764,6 +775,7 @@ deployments, private keys, or elevated API-key permissions.
 ## NFTs and Marketplaces
 
 - [OpenSea MCP](https://docs.opensea.io/reference/mcp) - Official OpenSea MCP for AI access to NFTs, tokens, collections, accounts, portfolio analytics, marketplace listings, offers, drops, swaps, and ready-to-sign trading actions across supported chains.
+- [Lightyear CryptoPunks](https://punks.lightyear.build) - Official MCP Registry-listed remote CryptoPunks MCP for trait discovery, filtering 10,000 punks, listings, bids, Merkle roots, bid pricing, and bid-proof workflows.
 
 For NFT data beyond marketplace actions, use the broader infrastructure entries:
 Alchemy MCP Server, Chainbase MCP, Moralis Cortex MCP, Zerion API MCP, The
