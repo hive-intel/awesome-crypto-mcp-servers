@@ -794,6 +794,14 @@ entries for narrower chain, attestation, wallet, or protocol-specific checks.
 
 ## Agent Wallets and On-chain Actions
 
+Use this section by custody and approval model: Base and Coinbase for
+approved hosted account flows; Phantom, MoonPay, Polygon, Tether WDK, and
+Adamik for local or API-key-backed user wallets; Cobo, Fireblocks, and BitGo
+for MPC or institutional custody; Bitrefill and CryptoRefills for merchant
+commerce; x402 MCP for paid API routing; and TensorFeed for read-only payment
+verification. Anything that can sign, transfer, swap, bridge, ramp, or spend
+must stay behind explicit user confirmation and tight limits.
+
 - [Base MCP](https://docs.base.org/ai-agents) - Official remote MCP at `https://mcp.base.org` for Base Account wallets, balances, token sends, swaps, signatures, contract calls, and x402 payments with user approval.
 - [Circle MCP Server](https://developers.circle.com/ai/mcp) - Official Circle hosted MCP at `https://api.circle.com/v1/codegen/mcp` for AI-assisted code generation and fixes across Circle Wallets, Contracts, CCTP, Gateway, and crypto app integrations.
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
