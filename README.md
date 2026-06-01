@@ -767,13 +767,18 @@ ownership, portfolio, collection, and explorer workflows.
 
 ## Security and Risk
 
+Use this section by risk layer: GoPlus for pre-trade token, address, phishing,
+NFT, and approval screening; Phalcon for transaction trace and balance/state
+analysis; VaultPilot for hardware-verified DeFi execution; and the remaining
+entries for narrower chain, attestation, wallet, or protocol-specific checks.
+
 - [GoPlus MCP Server](https://github.com/GoPlusSecurity/goplus-mcp) - Official GoPlus Security MCP for EVM token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, and Sui token security using GoPlus API credentials.
 - [Phalcon MCP Server](https://github.com/mark3labs/phalcon-mcp) - BlockSec Phalcon integration for transaction tracing, profiling, address labels, balance changes, state changes, and chain ID lookup.
 - [VaultPilot MCP](https://github.com/szhygulin/vaultpilot-mcp) - Hardware-wallet-verified DeFi MCP for portfolio reads and Ledger-approved prepares, sends, swaps, staking, lending, LP management, bridges, approvals, and verification artifacts across EVM, TRON, Solana, Bitcoin, and Litecoin; signing, blind-signing, approvals, bridges, and broadcasts are high-risk and require explicit device confirmation.
 - [Insumer MCP Server](https://github.com/douglasborthwick-crypto/mcp-server-insumer) - MCP for condition-based access and signed boolean attestations across 37 chains without exposing balances.
-- [Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp) - Wallet and swap workflows with strategic planning and risk-aware interactions.
+- [Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp) - Alpha wallet and trading MCP for Solana-first wallet management, swaps, DCA, scheduled orders, limit orders, staking, token search, and strategy workflows; API keys, wallet actions, swaps, and automated orders are high-risk.
 - [SolanaShield MCP](https://github.com/ElromEvedElElyon/solanashield-mcp) - Solana smart-contract security MCP with vulnerability-pattern checks.
-- [Sperax Crypto MCP](https://github.com/Sperax/sperax-crypto-mcp) - Protocol-specific MCP for USDs, SPA, veSPA, and Demeter workflows on Arbitrum and BNB Chain.
+- [Sperax Crypto MCP](https://github.com/Sperax/sperax-crypto-mcp) - Protocol-specific MCP for USDs, SPA, veSPA, Demeter, peg health, collateral, strategy, yield, and vault-risk workflows on Arbitrum and BNB Chain.
 
 ## Web3 Social, News, Sentiment, and Research Signals
 
