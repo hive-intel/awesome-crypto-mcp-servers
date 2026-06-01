@@ -252,6 +252,7 @@ Start with read-only MCPs for research and due diligence. Escalate to API-key or
 
 - [MCP Registry](https://registry.modelcontextprotocol.io/): Official MCP server registry for production server discovery.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers): Large cross-category MCP server directory.
+- [Awesome Lists](https://github.com/szabgab/awesome-lists): General index of awesome lists across domains.
 - [MCP.Directory](https://mcp.directory/): Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [MCP.so](https://mcp.so/): Large community MCP directory with indexed server pages, category browsing, and search traffic around Claude MCP and Awesome MCP Servers.
 - [MCPRepository](https://mcprepository.com/): MCP server directory with GitHub-indexed server pages, search, and an npm-backed submission CLI.
