@@ -71,7 +71,7 @@ Last checked: 2026-06-02.
 | MCP Market | Public MCP server and Agent Skill marketplace with free review queue and paid official-badge option. | Submit the canonical `hive-sdk` server listing through the website form or account flow; avoid submitting this awesome list as if it were a server. | Not submitted from CLI because the site blocks automated `curl` access and returns `429` to automated link checks; public submit page verified on 2026-06-01. |
 | [MCP Find](https://mcpfind.org/submit) | Open-source MCP directory with GitHub PR submissions and finance category discovery. | Keep Hive listed through the public `hive-sdk` support repo and published `hive-intelligence` npm package now that the package metadata points to the canonical public repo. | PR open: https://github.com/MCPFind/mcp-find/pull/60. Local structural and liveness checks passed on 2026-06-01; GitHub repo, MIT license, npm package, and owner-match all verified. The only reported check failure is Vercel preview authorization for forked PRs. |
 | [SafeMCP](https://safemcp.info/) | Large free MCP directory with category scoring and broad organic discovery. | Monitor for automatic ingestion from GitHub or registry; use contact/submission path if one becomes available. | No public submit flow found as of 2026-06-01. |
-| [Smithery](https://smithery.ai) | MCP install and discovery directory. | Submit the maintained `hive-sdk` public surface rather than the private core MCP repo after logging in with Smithery and confirming the right auth mode for Hive's hosted API-key flow. Smithery URL publishing expects Streamable HTTP and OAuth support when auth is required. | Not listed as of 2026-06-01; needs login and auth-mode decision. |
+| [Smithery](https://smithery.ai) | MCP install and discovery directory. | Defer public submission until Hive has a Smithery-compatible surface: either OAuth-compatible hosted Streamable HTTP or a local MCPB/stdio bundle for `hive-intelligence`. If using static metadata, make sure the public server card points at `hive-sdk` and crawler-facing URLs do not return `403` or `503`. | Rechecked on 2026-06-02. Smithery returns `Server not found` for `hive-intel/hive-sdk`. [Smithery publish docs](https://smithery.ai/docs/build/publish.md) say URL publishing requires Streamable HTTP and OAuth support when auth is required, while local stdio publishing requires an MCPB bundle. Current crawler checks show `https://mcp.hiveintelligence.xyz/mcp` returns `503` without auth and `https://mcp.hiveintelligence.xyz/.well-known/mcp/server-card.json` returns Cloudflare `403`; the website server card at `https://www.hiveintelligence.xyz/.well-known/mcp/server-card.json` is live but should be reviewed for canonical public metadata before use as registry input. |
 | Glama MCP Servers | MCP metadata and discovery directory at `glama.ai/mcp/servers`. | Sign in to Glama as `rishabhng` and rerun the claim ownership flow for `hive-intel/hive-sdk`. Glama's `glama.json` docs say updates are synced only after the claim flow runs again; org-owned repos must use `glama.json` rather than simple GitHub-account ownership. | Listed at slug `hive-intel/hive-sdk`. Remediation merged in `hive-sdk` PRs https://github.com/hive-intel/hive-sdk/pull/10 and https://github.com/hive-intel/hive-sdk/pull/11: Dockerfile, stdio wrapper, optional `HIVE_API_KEY` metadata, and the active GitHub maintainer in `glama.json`. As of 2026-06-02, the score page and score badge are live, profile completion is 75%, and the badge endpoint returns HTTP 200. The Glama API still shows the old description, empty env schema, and no tools, so this still needs owner-run claim/refresh for current README/tool metadata. |
 | [GitHub Topics](https://github.com/topics/mcp-server) | Native GitHub discovery surface. | Keep repository topics accurate: `awesome`, `awesome-list`, `mcp`, `mcp-server`, `crypto`, `web3`, `model-context-protocol`. | Updated. |
 
@@ -89,6 +89,15 @@ before sending anything so Hive does not create duplicate submissions.
 
 ### Priority 0
 
+- **Hosted MCP crawler compatibility:** Fix the public crawler path before
+  relying on Smithery, Glama refreshes, MCPfinder.dev, MCP Atlas, or other
+  registry aggregators that scan upstream metadata. As of 2026-06-02,
+  `https://mcp.hiveintelligence.xyz/mcp` returns `503` without auth and
+  `https://mcp.hiveintelligence.xyz/.well-known/mcp/server-card.json` returns
+  Cloudflare `403`. The website server card is live at
+  `https://www.hiveintelligence.xyz/.well-known/mcp/server-card.json`, but it
+  should be reviewed so public registry metadata points to `hive-sdk`, the
+  `hive-intelligence` npm package, and the correct hosted MCP URL.
 - **Glama MCP Servers:** Sign in as `rishabhng` and rerun the claim or refresh
   flow for `hive-intel/hive-sdk`. The score page and score badge are live, so
   the remaining work is to make the public page and API show the current
@@ -96,10 +105,10 @@ before sending anything so Hive does not create duplicate submissions.
   non-empty tool metadata. This refresh also supports downstream aggregators
   that ingest Glama.
 - **Smithery:** Submit or claim the maintained `hive-sdk` public surface after
-  deciding whether the listing should represent local stdio through
-  `hive-intelligence` or hosted Streamable HTTP. Avoid publishing a 0-tool
-  remote snapshot if the hosted API-key auth mode is not supported by their
-  current submission flow.
+  deciding whether the listing should represent local stdio through an MCPB
+  bundle for `hive-intelligence` or hosted Streamable HTTP after OAuth support
+  exists. Avoid publishing a 0-tool remote snapshot while the hosted API-key
+  auth mode is not supported by their current URL publishing flow.
 
 ### Priority 1
 
