@@ -14,6 +14,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Validate GitHub templates
+        run: |
+          ruby <<'RUBY'
+          require "yaml"
+
+          issue_templates = Dir[".github/ISSUE_TEMPLATE/*.yml"].sort
+          abort "No issue templates found" if issue_templates.empty?
+          issue_templates.each do |path|
+            YAML.load_file(path)
+            puts "Validated #{path}"
+          end
+
+          config = YAML.load_file(".github/ISSUE_TEMPLATE/config.yml")
+          abort "Blank issues must stay disabled" unless config["blank_issues_enabled"] == false
+
+          pr_template = ".github/PULL_REQUEST_TEMPLATE.md"
+          abort "#{pr_template} is missing" unless File.file?(pr_template)
+
+          required_prompts = [
+            "Transport or interface:",
+            "Auth or credential model:",
+            "Risk boundary:",
+            "npx --yes markdown-link-check README.md",
+            "npx --yes markdown-link-check llms.txt"
+          ]
+          body = File.read(pr_template)
+          missing = required_prompts.reject { |prompt| body.include?(prompt) }
+          abort "Missing PR template prompts: #{missing.join(', ')}" unless missing.empty?
+          RUBY
       - uses: actions/setup-node@v6
         with:
           node-version: 22
