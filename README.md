@@ -45,13 +45,13 @@ detailed notes are in the sections below.
 
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
 
-**Wallet portfolios, DeFi positions, and NFTs:** Start with Zerion API MCP.
+**Wallet portfolios, DeFi positions, snapshots, and NFTs:** Start with Zerion API MCP or Octav API MCP.
 
 **Node, RPC, endpoint, and infrastructure operations:** Start with Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
 
 **Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or TradeRouter MCP.
 
-**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, Adamik MCP Server, or Fireblocks MCP Server.
+**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, or Fireblocks MCP Server.
 
 **Trading, exchange APIs, brokerage, or prediction markets:** Start with Gate MCP Server, Kraken CLI, Bybit MCP Server, CCXT MCP Server, Trade It, or PMXT.
 
@@ -70,7 +70,7 @@ source, chain, wallet, venue, or risk model.
 
 **Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, or Pyth MCP Server. Compare Crypto.com Market Data MCP, Cryptohopper MCP, and altFINS MCP Server.
 
-**Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server or Zerion API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
+**Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, or Octav API MCP. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
 **On-chain analytics, SQL, and financial metrics:** Start with Dune MCP or Token Terminal MCP. Compare Glassnode MCP Server, Allium MCP, and Bitquery MCP Server.
 
@@ -78,13 +78,13 @@ source, chain, wallet, venue, or risk model.
 
 **Solana data, development, and execution:** Start with Helius MCP Server or Solana MCP by Vybe. Compare Solana MCP Official and TradeRouter MCP. Treat swaps, order tools, and private-key flows as high-risk.
 
-**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, Adamik MCP Server, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
+**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
 
 **Trading, exchange APIs, and prediction markets:** Start with Gate MCP Server or Kraken CLI. Compare Bybit MCP Server, CCXT MCP Server, Trade It, and PMXT. Separate read-only data from account, order, brokerage, and prediction-market execution.
 
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
 
-**Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
+**Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server, VaultPilot MCP, and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
 
 **Smart contracts, app development, and chain docs:** Start with OpenZeppelin MCP Servers or Tenderly MCP Server. Compare thirdweb MCP Server, Aptos MCP, Avalanche MCP Server, and LayerZero Docs MCP.
 
@@ -132,7 +132,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Natural-language Web3 data layer:** Start with Moralis Cortex MCP when the agent needs Moralis-grounded wallet activity, token metrics, NFT ownership, transfers, transactions, dapp usage, or structured on-chain answers through a hosted Cortex API or self-hosted npm MCP.
 
-**Wallet portfolios and DeFi positions:** Start with Zerion API MCP when the agent needs normalized wallet balances, labeled transaction history, DeFi positions, NFT holdings, collection metadata, or PnL across EVM chains and Solana.
+**Wallet portfolios and DeFi positions:** Start with Zerion API MCP when the agent needs normalized wallet balances, labeled transaction history, DeFi positions, NFT holdings, collection metadata, or PnL across EVM chains and Solana. Use Octav API MCP when the agent needs portfolio, NAV, transaction history, historical snapshots, airdrop, or Polymarket position views across several wallets.
 
 **NFT marketplace data and actions:** Start with OpenSea MCP when the agent needs OpenSea collection stats, NFT metadata, ownership, listings, offers, drops, portfolio data, token swaps, or ready-to-sign marketplace actions across supported chains.
 
@@ -220,7 +220,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Bitcoin agent payments:** Start with Alby Bitcoin Payments MCP Server or Lightning Wallet MCP when the agent needs a Bitcoin Lightning wallet, Nostr Wallet Connect, invoices, LNURL, L402, or Lightning-native paid tools.
 
-**DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
+**DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, VaultPilot MCP when hardware-wallet verification is the central constraint, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
 **Token, NFT, phishing, and approval risk screening:** Start with GoPlus MCP Server when the agent needs token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, or Sui token security using GoPlus credentials.
 
@@ -274,7 +274,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Natural-language Moralis Web3 data:** Moralis Cortex MCP.
 
-**Wallet portfolios, DeFi positions, NFTs, and PnL:** Zerion API MCP.
+**Wallet portfolios, DeFi positions, historical snapshots, NFTs, and PnL:** Zerion API MCP or Octav API MCP.
 
 **Broad multi-chain API access and fee estimation:** Tatum Blockchain MCP.
 
@@ -312,7 +312,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
-**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, or Coinbase AgentKit.
+**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Coinbase AgentKit, or GOAT SDK.
 
 **Multi-chain account, transfer, staking, and bridge operations:** Adamik MCP Server.
 
@@ -320,13 +320,13 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Enterprise custody and Fireblocks workspace data:** Fireblocks MCP Server.
 
-**DeFi execution or vault risk:** Haiku DeFi MCP or Philidor DeFi Vault Risk Analytics.
+**DeFi execution, hardware-wallet verification, or vault risk:** Haiku DeFi MCP, VaultPilot MCP, or Philidor DeFi Vault Risk Analytics.
 
 **Concentrated liquidity, rebalancing, and leveraged LPs:** Arcadia Finance MCP Server.
 
 **Token, NFT, phishing, approval, and malicious-address risk screening:** GoPlus MCP Server.
 
-**Security, tracing, and pre-signing risk:** Phalcon MCP Server.
+**Security, tracing, and pre-signing risk:** Phalcon MCP Server or VaultPilot MCP.
 
 **Farcaster user, cast, feed, Mini App, and social graph workflows:** Neynar MCP.
 
@@ -377,6 +377,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Chainbase MCP](https://docs.chainbase.com/resources/ai/mcp) - Official Chainbase HTTP MCP for token balances, holders, metadata, prices, NFT ownership, transfers, transaction history, blocks, and Web3 account analytics.
 - [Moralis Cortex MCP](https://www.jsdelivr.com/package/npm/@moralisweb3/api-mcp-server) - Official Moralis AI-native Web3 data layer with a hosted Cortex API and self-hosted `@moralisweb3/api-mcp-server` package for wallet activity, token metrics, NFT ownership, transfers, transactions, dapp usage, and structured on-chain answers using `MORALIS_API_KEY`.
 - [Zerion API MCP](https://zerion.io/blog/zerion-for-api-ai-agents-mcp-skills/) - Official hosted Zerion MCP at `https://developers.zerion.io/mcp` for AI access to normalized wallet balances, prices, labeled transaction history, DeFi positions across 8,000+ protocols, NFT holdings, collection metadata, PnL, and documentation-backed API workflows across EVM chains and Solana.
+- [Octav API MCP](https://github.com/Octav-Labs/octav-api-mcp) - Official Octav MCP package for portfolio data, wallet holdings, DeFi positions, NAV, transaction history, historical snapshots, token distribution, airdrop checks, and Polymarket position tracking across 20+ blockchains using an Octav API key.
 - [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
 - [Glassnode MCP Server](https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server) - Official beta Glassnode MCP at `https://mcp.glassnode.com` for asset and metric discovery, metric metadata, single or bulk on-chain metric retrieval, market intelligence, public 30-day access, and API-key authenticated analytics.
 - [Dune MCP](https://docs.dune.com/api-reference/agents/mcp/) - Official Dune remote MCP for DuneSQL query generation, execution, result retrieval, visualizations, dashboards, dataset discovery, and on-chain analytics workflows.
@@ -495,6 +496,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 - [GoPlus MCP Server](https://github.com/GoPlusSecurity/goplus-mcp) - Official GoPlus Security MCP for EVM token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, and Sui token security using GoPlus API credentials.
 - [Phalcon MCP Server](https://github.com/mark3labs/phalcon-mcp) - BlockSec Phalcon integration for transaction tracing, profiling, address labels, balance changes, state changes, and chain ID lookup.
+- [VaultPilot MCP](https://github.com/szhygulin/vaultpilot-mcp) - Hardware-wallet-verified DeFi MCP for portfolio reads and Ledger-approved prepares, sends, swaps, staking, lending, LP management, bridges, approvals, and verification artifacts across EVM, TRON, Solana, Bitcoin, and Litecoin; signing, blind-signing, approvals, bridges, and broadcasts are high-risk and require explicit device confirmation.
 - [Insumer MCP Server](https://github.com/douglasborthwick-crypto/mcp-server-insumer) - MCP for condition-based access and signed boolean attestations across 37 chains without exposing balances.
 - [Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp) - Wallet and swap workflows with strategic planning and risk-aware interactions.
 - [SolanaShield MCP](https://github.com/ElromEvedElElyon/solanashield-mcp) - Solana smart-contract security MCP with vulnerability-pattern checks.
@@ -524,7 +526,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Privy MCP Server](https://github.com/privy-io/privy-mcp-server) - Official Privy MCP server for creating wallets, checking balances, signing Ethereum and Solana transactions, managing policies, and wallet-enabled agent operations.
 - [MetaMask Embedded Wallets MCP](https://github.com/Web3Auth/web3auth-mcp) - Official Web3Auth MCP for helping agents integrate MetaMask Embedded Wallets with live SDK docs, examples, and type lookup.
 - [PayRam MCP](https://github.com/PayRam/payram-mcp) - Self-hosted crypto payments, hosted endpoints, and agent payment workflows.
-- [GOAT SDK](https://github.com/goat-sdk/goat) - Agentic finance toolkit with a Model Context Protocol adapter for wallets, payments, and on-chain actions.
+- [GOAT SDK](https://github.com/goat-sdk/goat) - Large agentic finance toolkit with a Model Context Protocol adapter, 200+ on-chain tools, wallet integrations, payments, DeFi, prediction markets, tokenization, and framework adapters across TypeScript and Python.
 - [Hashnet MCP Server](https://github.com/hashgraph-online/hashnet-mcp-js) - Hashgraph Online MCP for discovery, chat, registration, workflows, and Hedera agent interactions.
 - [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted EVM and Solana wallet daemon with MCP, policy controls, spending limits, approval tiers, and kill-switch controls for agent transactions.
 - [deBridge MCP](https://github.com/debridge-finance/debridge-mcp) - Official deBridge MCP for cross-chain and same-chain swaps, fee estimation, hosted Streamable HTTP, local proxy support, and workflow skills.
