@@ -683,6 +683,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [MCP.Directory](https://mcp.directory/) - Broad MCP directory with server pages, category pages, publisher pages, and client install surfaces.
 - [MCP Catalogs](https://mcpcatalogs.com/en) - Independent bilingual MCP directory with AI-evaluated server pages and side-by-side comparison.
 - [MCPRepository](https://mcprepository.com/) - MCP server directory with GitHub-indexed server pages, search, and an npm-backed submission CLI.
+- [MCPpedia](https://mcppedia.org/) - Open MCP catalog with server scoring, security signals, community submissions, API access, and daily official-registry sync.
 - [MCP.so](https://mcp.so/) - Large community MCP directory with indexed server pages, category browsing, and search traffic around Claude MCP and Awesome MCP Servers.
 - [FindMCP](https://findmcp.dev/) - Large web MCP directory with category pages, server search, and an MCP installer companion CLI.
 - [MCPList.ai](https://www.mcplist.ai/) - Broad MCP directory with verified/community server browsing, function categories, comparison content, and a contact-based contribution path.
