@@ -53,9 +53,11 @@ detailed notes are in the sections below.
 
 **Technical screening, sentiment, signals, and backtesting:** Start with TradingView MCP Server or aTars MCP depending on whether the agent needs broader analysis/backtesting or a focused remote signal feed.
 
-**Cross-asset market data, crypto aggregates, and SQL-style analysis:** Start with Massive.com MCP Server.
+**Cross-asset market data, crypto aggregates, derivatives, and SQL-style analysis:** Start with Massive.com MCP Server or Lambda Finance MCP depending on whether the agent needs composable API querying or hosted financial research with crypto derivatives and exchange-flow coverage.
 
 **Wallet portfolios, DeFi positions, snapshots, and NFTs:** Start with Zerion API MCP or Octav API MCP.
+
+**Tokenized real-world assets, treasury tokens, and RWA risk signals:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, gold, equity, or real-estate data with contract-control and risk-signal context.
 
 **Swap, bridge, zap, and calldata planning:** Start with DZap MCP Server, LI.FI MCP Server, 1inch Business MCP, or CoW MCP depending on the route and execution model.
 
@@ -94,13 +96,15 @@ source, chain, wallet, venue, or risk model.
 
 **Broad crypto intelligence:** Start with Hive Intelligence. Compare Universal Crypto MCP and Heurist Mesh MCP Server only when the agent needs a different broad architecture.
 
-**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
+**Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
 **Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare aTars MCP for a registry-backed remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
 **Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, Octav API MCP, or CoinStats MCP Server. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
 **DeFi TVL, protocol, chain, and yield analytics:** Start with DeFiLlama MCP when the agent needs public DeFiLlama protocol TVL, chain TVL, token prices, pool, or yield data. Compare Token Terminal for financial fundamentals and Dune for SQL-backed custom analysis.
+
+**Tokenized RWA and treasury intelligence:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, commodity, equity, or real-estate tokens, wallet RWA holdings, whale flows, contract-control profiles, or issuer/category comparisons. Treat contract scans and admin-token workflows as higher risk than read-only market lookups.
 
 **DEX token, pool, and trading activity:** Start with DexPaprika MCP when the agent needs token details, liquidity pools, DEXes, pool OHLCV, recent transactions, or cross-chain DEX analytics. Compare Birdeye MCP Server for broader token discovery and safety signals.
 
@@ -164,7 +168,9 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Oracle-grade market data:** Start with Pyth MCP Server when the agent needs Pyth feed discovery, real-time prices, historical prices, or chart-ready candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 
-**Cross-asset financial market data:** Start with Massive.com MCP Server when the agent needs crypto, stock, options, forex, futures, news, reference data, or technical-analysis functions through a single API-key-backed search/call/query MCP.
+**Cross-asset financial market data:** Start with Massive.com MCP Server when the agent needs crypto, stock, options, forex, futures, news, reference data, or technical-analysis functions through a single API-key-backed search/call/query MCP. Use Lambda Finance MCP when the task is hosted financial research that needs crypto derivatives, funding/open-interest context, exchange flows, whale transfers, or wallet tracking alongside broader market data.
+
+**Tokenized real-world assets:** Start with RWA Pipe MCP when the agent needs tokenized treasury, private-credit, commodity, equity, real-estate, or stablecoin data with TVL, APY, issuer, chain, holder, whale-flow, risk-signal, and contract-control context.
 
 **DeFi swap, bridge, and zap routing:** Start with DZap MCP Server when the agent needs a hosted public MCP for swaps, bridges, zaps, token and pool data, wallet balances, price/sentiment/news tools, or DZap documentation search. Treat calldata, execution links, and transaction preparation as high-risk.
 
@@ -344,7 +350,9 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Pyth market feeds, historical prices, and candles:** Pyth MCP Server.
 
-**Cross-asset market data, crypto aggregates, and SQL-style analysis:** Massive.com MCP Server.
+**Cross-asset market data, crypto aggregates, derivatives, and SQL-style analysis:** Massive.com MCP Server or Lambda Finance MCP.
+
+**Tokenized real-world assets, treasury tokens, and RWA risk signals:** RWA Pipe MCP.
 
 **DeFi swaps, bridges, zaps, and execution-ready route planning:** DZap MCP Server or LI.FI MCP Server.
 
@@ -588,6 +596,8 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [aTars MCP](https://github.com/aarna-ai/atars-fts-mcp) - Official MCP Registry-listed remote MCP from aarna for cryptocurrency trading signals and sentiment analysis, including technical-indicator-based buy/sell signals, daily sentiment scoring, and rolling sentiment trends; use as a research signal feed, not financial advice or trade execution.
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 - [Massive.com MCP Server](https://github.com/massive-com/mcp_massive) - Official experimental Massive.com MCP for crypto, stock, options, forex, futures, news, reference data, market snapshots, technical functions, and in-memory SQLite analysis through three composable search, call, and query tools using a Massive.com API key.
+- [Lambda Finance MCP](https://www.lambdafin.com/financial-mcp-server) - Hosted Streamable HTTP financial MCP for real-time market research across stocks, options, futures, crypto, bonds, macro, filings, and related datasets, including crypto derivatives, funding/open-interest context, exchange flows, whale transfers, and wallet tracking. Requires a Lambda Finance account/API key or OAuth flow.
+- [RWA Pipe MCP](https://docs.rwapipe.com/mcp/) - Tokenized real-world asset MCP for AI agents that need RWA token discovery, treasury comparisons, TVL, APY, issuer and chain filters, wallet holdings, whale flows, risk signals, and contract-control intelligence across tokenized treasuries, private credit, commodities, equities, stablecoins, and real estate. Requires `RWAPIPE_API_KEY`; contract scans and admin-oriented tooling require stronger user control.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
 - [1inch Business MCP](https://business.1inch.com/1inch-mcp) - Official 1inch MCP for docs search, code examples, 1inch Business API access, portfolio and balance data, orderbook flows, spot prices, classic swaps, Fusion intent swaps, and cross-chain swaps; protected tools use API key or OAuth and require explicit transaction controls.
