@@ -753,6 +753,11 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 
 - [OpenSea MCP](https://docs.opensea.io/reference/mcp) - Official OpenSea MCP for AI access to NFTs, tokens, collections, accounts, portfolio analytics, marketplace listings, offers, drops, swaps, and ready-to-sign trading actions across supported chains.
 
+For NFT data beyond marketplace actions, use the broader infrastructure entries:
+Alchemy MCP Server, Chainbase MCP, Moralis Cortex MCP, Zerion API MCP, The
+Graph Token API MCP, and Blockscout MCP Server already cover NFT metadata,
+ownership, portfolio, collection, and explorer workflows.
+
 ## Prediction Markets
 
 - [PMXT](https://github.com/pmxt-dev/pmxt) - Open-source unified prediction-market API with hosted MCP at `https://api.pmxt.dev/mcp` and local `@pmxt/mcp` setup for market search, events, order books, price history, cross-venue comparison, and trading across Polymarket, Kalshi, Limitless, and related venues; treat order creation, cancellation, private keys, and exchange credentials as high-risk actions requiring explicit confirmation.
