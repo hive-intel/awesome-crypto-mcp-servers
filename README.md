@@ -125,6 +125,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **DeFi execution and risk:** Start with Haiku DeFi MCP for swaps, lending, bridges, and yield execution, and Philidor DeFi Vault Risk Analytics when the agent needs vault-level risk due diligence.
 
+**Token, NFT, phishing, and approval risk screening:** Start with GoPlus MCP Server when the agent needs token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, or Sui token security using GoPlus credentials.
+
 **Embedded wallet infrastructure:** Start with Privy Docs MCP for Privy integration guidance, Privy MCP Server for wallet operations, MetaMask Embedded Wallets MCP for Web3Auth/MetaMask Embedded Wallets docs, and PayRam MCP for self-hosted crypto payments.
 
 ## Maintainer Picks
@@ -188,6 +190,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **DeFi execution or vault risk:** Haiku DeFi MCP or Philidor DeFi Vault Risk Analytics.
 
 **Concentrated liquidity, rebalancing, and leveraged LPs:** Arcadia Finance MCP Server.
+
+**Token, NFT, phishing, approval, and malicious-address risk screening:** GoPlus MCP Server.
 
 **Security, tracing, and pre-signing risk:** Phalcon MCP Server.
 
@@ -324,6 +328,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 ## Security and Risk
 
+- [GoPlus MCP Server](https://github.com/GoPlusSecurity/goplus-mcp) - Official GoPlus Security MCP for EVM token security, malicious-address checks, phishing URL checks, NFT contract risk, approval risk, Solana token security, and Sui token security using GoPlus API credentials.
 - [Phalcon MCP Server](https://github.com/mark3labs/phalcon-mcp) - BlockSec Phalcon integration for transaction tracing, profiling, address labels, balance changes, state changes, and chain ID lookup.
 - [Insumer MCP Server](https://github.com/douglasborthwick-crypto/mcp-server-insumer) - MCP for condition-based access and signed boolean attestations across 37 chains without exposing balances.
 - [Armor Crypto MCP](https://github.com/armorwallet/armor-crypto-mcp) - Wallet and swap workflows with strategic planning and risk-aware interactions.
