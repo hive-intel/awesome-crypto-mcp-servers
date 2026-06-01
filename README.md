@@ -37,6 +37,10 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Market cap, narratives, and x402:** Start with CoinMarketCap MCP when the agent needs CMC quotes, technical analysis, global metrics, crypto news, semantic search, or pay-per-call x402 access.
 
+**Keyless exchange market data:** Start with Crypto.com Market Data MCP when the agent needs free live prices, market caps, trading volumes, and market trend data without managing API keys.
+
+**Crypto screeners and technical analysis:** Start with altFINS MCP Server when the agent needs crypto screeners, technical indicators, curated technical analysis, signal feeds, news, calendar events, OHLCV, or portfolio analytics from an API-key-backed analytics platform.
+
 **Oracle-grade market data:** Start with Pyth MCP Server when the agent needs Pyth feed discovery, real-time prices, historical prices, or chart-ready candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 
 **Exchange order books and candles:** Start with Cryptohopper MCP when the agent needs live market data, order-book depth, and candle analysis through a remote MCP endpoint.
@@ -158,6 +162,10 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Public crypto prices, market charts, and DEX pools:** CoinGecko MCP Server.
 
 **Market cap, narratives, news, and x402 pay-per-call data:** CoinMarketCap MCP.
+
+**Keyless Crypto.com prices, market caps, volumes, and trends:** Crypto.com Market Data MCP.
+
+**Crypto screeners, technical indicators, signals, news, and portfolio analytics:** altFINS MCP Server.
 
 **Pyth market feeds, historical prices, and candles:** Pyth MCP Server.
 
@@ -336,6 +344,8 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Trade It](https://github.com/trade-it-inc/trade-it-mcp) - Official MCP Registry-listed remote MCP for draft-first stock, crypto, and options trading through linked brokerages, including Coinbase and Kraken for crypto; supports Streamable HTTP, SSE, OAuth login, account lookup, draft order creation, and explicit execution tools.
 - [CoinGecko MCP Server](https://docs.coingecko.com/docs/ai-agent-hub/mcp-server) - Official CoinGecko MCP for prices, historical market data, DEX pools, NFT collections, metadata, keyless public access, authenticated Pro access, and local npm setup.
 - [CoinMarketCap MCP](https://coinmarketcap.com/api/mcp/) - Official CoinMarketCap hosted MCP for quotes, technical analysis, on-chain metrics, global market data, trending narratives, news, semantic search, and x402 pay-per-call access.
+- [Crypto.com Market Data MCP](https://mcp.crypto.com/docs) - Official Crypto.com hosted MCP for keyless live cryptocurrency prices, market caps, trading volumes, market trends, ChatGPT setup, and Claude setup.
+- [altFINS MCP Server](https://altfins.com/crypto-market-and-analytical-data-api/documentation/mcp-server/) - Official altFINS Streamable HTTP MCP for crypto screeners, technical analysis, OHLCV, historical indicators, signal feeds, news, calendar events, and portfolio data using altFINS API-key authentication.
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
 - [Birdeye MCP Server](https://docs.birdeye.so/docs/birdeye-ai) - Official beta Birdeye MCP at `https://mcp.birdeye.so/mcp` for real-time market data, token discovery, new listings, top movers, DEX liquidity, token metadata, safety signals, OHLCV, wallet net worth, wallet PnL, and authenticated production access through a Birdeye API key.
