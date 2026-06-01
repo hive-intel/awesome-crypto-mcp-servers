@@ -50,6 +50,8 @@ detailed notes are in the sections below.
 
 **x402 paid API discovery and auto-payment:** Start with x402 MCP when the agent needs to discover and pay for x402 APIs from CDP Bazaar; use burner wallets, spending caps, and explicit approval.
 
+**x402 payment verification:** Start with TensorFeed x402 Base MCP when the agent needs read-only verification of Base USDC settlements, x402 publisher manifests, or payment receipts without holding a private key.
+
 **Structured local token research reports:** Start with Hive Intelligence for managed token diligence, or Web3 Research MCP when the agent needs a free local research workspace with saved resources.
 
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
@@ -160,6 +162,8 @@ source, chain, wallet, venue, or risk model.
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
 
 **x402 paid API discovery and routing:** Start with x402 MCP when the agent needs automatic x402 payment handling across CDP Bazaar endpoints. Compare BlockRun MCP or CoinMarketCap MCP when the task needs crypto-specific data rather than a general paid-API router. Use a fresh funded wallet, `MAX_PRICE_USD`, and explicit payment approval.
+
+**x402 settlement verification and publisher manifests:** Start with TensorFeed x402 Base MCP when the agent needs to independently verify Base USDC payment receipts, inspect `/.well-known/x402` manifests, or check x402 publisher health without signing or broadcasting transactions.
 
 **Token research reports and source collection:** Start with Hive Intelligence when the agent needs managed provider-backed token diligence. Compare Web3 Research MCP when the task is a local research dossier with a plan, web/news search, saved resources, CoinGecko data, DeFiLlama protocol data, and progress tracking.
 
@@ -387,6 +391,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **x402 paid API discovery and micropayments:** x402 MCP.
 
+**x402 receipt and settlement verification:** TensorFeed x402 Base MCP.
+
 **Local token research plans and saved resources:** Web3 Research MCP.
 
 **Keyless Crypto.com prices, market caps, volumes, and trends:** Crypto.com Market Data MCP.
@@ -500,6 +506,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
 **Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, Tether WDK MCP Toolkit, Coinbase AgentKit, or GOAT SDK.
+
+**Read-only x402 settlement verification:** TensorFeed x402 Base MCP.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP or CryptoRefills MCP.
 
@@ -751,6 +759,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [CryptoRefills MCP](https://www.cryptorefills.com/insights/cryptorefills-mcp) - Official CryptoRefills MCP integration at `https://api.cryptorefills.com/mcp/http` for AI-agent commerce flows across gift cards, mobile top-ups, eSIMs, catalog, pricing, checkout preparation, and payments. Keep final payment confirmation under explicit user control.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [x402 MCP](https://github.com/x402node/x402-mcp) - MCP server for discovering x402-paid APIs from CDP Bazaar and automatically handling USDC micropayments on Base through the `x402node-mcp` package; use a fresh burner wallet, set `MAX_PRICE_USD`, and treat `X402_PRIVATE_KEY` as a spend-capable secret.
+- [TensorFeed x402 Base MCP](https://github.com/RipperMercs/tensorfeed-x402-base-mcp) - Read-only Base mainnet MCP for verifying x402 USDC settlements, parsing publisher `/.well-known/x402` manifests, probing x402 endpoints, decoding payment payloads, and checking TensorFeed/AFTA publisher health; it does not hold private keys, sign, or broadcast transactions.
 - [Adamik MCP Server](https://github.com/AdamikHQ/adamik-mcp-server) - Official `@adamik/mcp-server` package for API-key-backed balances, transaction history, native and token transfers, staking, unstaking, rewards, swaps, and bridge workflows across 60+ blockchains; treat transfer, staking, swap, bridge, and premium operations as high-risk actions requiring explicit user control.
 - [Phantom MCP Server](https://github.com/phantom/phantom-connect-sdk/tree/main/packages/mcp-server) - Official `@phantom/mcp-server` package exposing Phantom wallet authentication, addresses, balances, Solana and EVM signing, token transfers, swaps, token prices, payments, and Hyperliquid perps through a local stdio MCP; treat signing, transfer, swap, and perps tools as high-risk wallet actions.
 - [BitGo MCP Server](https://developers.bitgo.com/docs/get-started-mcp-server) - BitGo Developer Portal MCP for natural-language access to institutional crypto wallet, custody, and API documentation.
