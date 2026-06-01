@@ -56,6 +56,8 @@ detailed notes are in the sections below.
 
 **Technical screening, sentiment, signals, and backtesting:** Start with TradingView MCP Server or aTars MCP depending on whether the agent needs broader analysis/backtesting or a focused remote signal feed.
 
+**Real-time crypto social intelligence:** Start with LunarCrush MCP Server when the agent needs live social intelligence, community attention, creator/post context, or social-market trend discovery through LunarCrush.
+
 **Trading-agent memory, risk gates, and audit trails:** Start with TradeMemory Protocol when an agent needs to remember prior crypto, stock, forex, or futures decisions without touching funds.
 
 **Cross-asset market data, crypto aggregates, derivatives, and SQL-style analysis:** Start with Massive.com MCP Server or Lambda Finance MCP depending on whether the agent needs composable API querying or hosted financial research with crypto derivatives and exchange-flow coverage.
@@ -112,6 +114,8 @@ source, chain, wallet, venue, or risk model.
 **Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare Messari MCP Server, Santiment MCP Connector, CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Lambda Finance MCP, AkTools MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
 **Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare aTars MCP for a registry-backed remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
+
+**Real-time social intelligence and attention signals:** Start with LunarCrush MCP Server when the agent needs hosted or stdio access to LunarCrush social intelligence, creator/post context, social-market trend discovery, or API-backed attention signals. Compare Santiment MCP Connector when the task needs Sanbase metrics plus on-chain/social timeseries.
 
 **Trading-agent memory and audit trails:** Start with TradeMemory Protocol when a crypto-capable trading agent needs pre-trade memory, risk gates, strategy reflection, or tamper-evident decision exports without handing over exchange credentials.
 
@@ -192,6 +196,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **TradingView-style analysis and backtesting:** Start with TradingView MCP Server when the agent needs multi-exchange crypto screening, technical indicators, sentiment/news confluence, candlestick patterns, or strategy backtests without order execution.
 
 **Registry-backed signal and sentiment feed:** Start with aTars MCP when the agent needs a free remote MCP for technical-indicator-based crypto signals, daily sentiment scoring, and rolling sentiment trends. Treat outputs as research signals, not financial advice or trade execution.
+
+**LunarCrush real-time social intelligence:** Start with LunarCrush MCP Server when the agent needs API-key-backed access to LunarCrush's remote MCP for social intelligence and community attention signals, or the `@lunarcrush/mcp-server` stdio proxy for desktop clients.
 
 **Oracle-grade market data:** Start with Pyth MCP Server when the agent needs Pyth feed discovery, real-time prices, historical prices, or chart-ready candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 
@@ -388,6 +394,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Crypto screeners, technical indicators, signals, news, and portfolio analytics:** altFINS MCP Server.
 
 **TradingView-style screeners, technicals, sentiment, and backtesting:** TradingView MCP Server.
+
+**Real-time crypto social intelligence and attention signals:** LunarCrush MCP Server.
 
 **Remote crypto signals and sentiment scoring:** aTars MCP.
 
@@ -655,6 +663,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Crypto.com Market Data MCP](https://mcp.crypto.com/docs) - Official Crypto.com hosted MCP for keyless live cryptocurrency prices, market caps, trading volumes, market trends, ChatGPT setup, and Claude setup.
 - [altFINS MCP Server](https://altfins.com/crypto-market-and-analytical-data-api/documentation/mcp-server/) - Official altFINS Streamable HTTP MCP for crypto screeners, technical analysis, OHLCV, historical indicators, signal feeds, news, calendar events, and portfolio data using altFINS API-key authentication.
 - [TradingView MCP Server](https://github.com/atilaahmettaner/tradingview-mcp) - MIT-licensed Python/PyPI MCP for TradingView-style crypto and stock screening, Binance/KuCoin/Bybit+ market coverage, 30+ technical-analysis tools, candlestick patterns, Reddit/news sentiment, Yahoo Finance prices, and strategy backtesting; analysis-only and does not execute trades.
+- [LunarCrush MCP Server](https://github.com/lunarcrush/mcp-server) - Official LunarCrush MCP with preferred remote Streamable HTTP endpoint `https://lunarcrush.ai/mcp`, SSE endpoint, and `@lunarcrush/mcp-server` stdio proxy for API-key-backed real-time social intelligence, community attention, creator/post context, and crypto social-market trend discovery.
 - [aTars MCP](https://github.com/aarna-ai/atars-fts-mcp) - Official MCP Registry-listed remote MCP from aarna for cryptocurrency trading signals and sentiment analysis, including technical-indicator-based buy/sell signals, daily sentiment scoring, and rolling sentiment trends; use as a research signal feed, not financial advice or trade execution.
 - [TradeMemory Protocol](https://github.com/mnemox-ai/tradememory-protocol) - MCP-native memory and audit layer for AI trading agents across crypto, stocks, forex, and futures, with outcome-weighted recall, risk gates, strategy reflection, and SHA-256 decision records; it records and recalls decisions but does not execute trades or access wallets.
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
@@ -720,6 +729,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 ## Web3 Social, News, Sentiment, and Research Signals
 
 - [Neynar MCP](https://docs.neynar.com/docs/neynar-farcaster-with-cursor) - Official Neynar hosted MCP at `https://docs.neynar.com/mcp` for Farcaster development workflows, users, casts, feeds, social graphs, Mini Apps, notifications, signers, on-chain/social data, and API-backed agent setup in Cursor, VS Code, Claude Code, and Claude.
+- [LunarCrush MCP Server](https://lunarcrush.com/products/lunarcrush-mcpserver) - Official LunarCrush MCP for connecting agents to real-time social intelligence through remote Streamable HTTP, SSE, or stdio proxy setup with a LunarCrush API key.
 - [Web3 Research MCP](https://github.com/aaronjmars/web3-research-mcp) - Local npm MCP for structured cryptocurrency token research plans, web/news/image/video search, source collection, saved research resources, status tracking, CoinGecko market data, exchange listings, and DeFiLlama protocol lookups; use it for research dossiers and verify claims against primary sources before acting.
 - [CryptoPanic MCP Server](https://github.com/kukapay/cryptopanic-mcp-server) - Crypto news MCP using CryptoPanic data.
 - [Crypto Sentiment MCP](https://github.com/kukapay/crypto-sentiment-mcp) - Sentiment-analysis MCP for cryptocurrency agents.
