@@ -105,6 +105,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **On-chain analytics and dashboards:** Start with Dune MCP when the agent needs DuneSQL query creation, execution, results, visualizations, dashboards, and dataset-aware on-chain research.
 
+**On-chain fundamentals and financial metrics:** Start with Token Terminal MCP when the agent needs project, product, chain, sector, market, methodology, or financial-metric data through a hosted OAuth remote MCP.
+
 **The Graph token and subgraph data:** Start with The Graph Token API MCP or Subgraph MCP Server when the agent needs token metadata, balances, transfers, holder statistics, subgraph discovery, schemas, or GraphQL query execution.
 
 **Direct EVM chain actions:** Start with EVM MCP Server for contract calls, ENS, transfers, and multi-network support.
@@ -229,6 +231,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **On-chain SQL analytics and dashboards:** Dune MCP.
 
+**On-chain fundamentals and financial metrics:** Token Terminal MCP.
+
 **The Graph token and subgraph workflows:** The Graph Token API MCP or Subgraph MCP Server.
 
 **Secure smart-contract generation:** OpenZeppelin MCP Servers.
@@ -309,6 +313,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Nansen MCP](https://docs.nansen.ai/mcp/overview) - Official Nansen MCP for smart-money labels, wallet activity, DEX trades, token flows, portfolio intelligence, and on-chain research across 25+ blockchains.
 - [Glassnode MCP Server](https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server) - Official beta Glassnode MCP at `https://mcp.glassnode.com` for asset and metric discovery, metric metadata, single or bulk on-chain metric retrieval, market intelligence, public 30-day access, and API-key authenticated analytics.
 - [Dune MCP](https://docs.dune.com/api-reference/agents/mcp/) - Official Dune remote MCP for DuneSQL query generation, execution, result retrieval, visualizations, dashboards, dataset discovery, and on-chain analytics workflows.
+- [Token Terminal MCP](https://tokenterminal.com/docs/mcp/introduction) - Official hosted remote MCP at `https://mcp.tokenterminal.com/mcp` for Token Terminal on-chain datasets, projects, products, chains, market sectors, financial metrics, methodologies, time series, breakdowns, chart creation, and OAuth 2.1 authenticated access.
 - [Crypto APIs MCP Servers](https://github.com/CryptoAPIs-io/cryptoapis-mcp-hub) - Official Crypto APIs MCP suite with a hosted Streamable HTTP endpoint and package-level servers for balances, blocks, transactions, fees, events, contracts, market data, HD wallets, signing, simulation, and transaction preparation.
 - [GoldRush MCP Server](https://goldrush.dev/docs/goldrush-mcp-server) - Covalent GoldRush MCP for multichain wallet balances, token holdings, transaction histories, chain metadata, and standardized Blockchain data tools.
 - [dRPC Agent Skills](https://github.com/drpcorg/drpc-agent-skills) - dRPC-maintained Blockchain RPC skill and MCP surface for agent access across 200+ networks.
