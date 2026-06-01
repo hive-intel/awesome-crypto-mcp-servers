@@ -81,7 +81,7 @@ detailed notes are in the sections below.
 
 **Hedera build-only transactions and mirror-node reads:** Start with Hedera MCP.
 
-**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
+**Wallet-backed payments, signing, swaps, or custody:** Start with Phantom MCP Server, Base MCP, Tether WDK MCP Toolkit, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
 
@@ -130,7 +130,7 @@ source, chain, wallet, venue, or risk model.
 
 **Tari wallet and node workflows:** Start with Tari MCP Servers when the agent needs local Minotari wallet balances, transaction history, address info, transfers, burn transactions, coin splits, node/network information, blocks, mempool, peers, or sync status. Use read-only mode by default; control operations require explicit enablement, confirmation, and audit logging.
 
-**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server or Base MCP. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
+**Wallets, signing, payments, swaps, and custody:** Start with Phantom MCP Server, Base MCP, or Tether WDK MCP Toolkit. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write or custody actions.
 
 **Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
 
@@ -456,7 +456,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Bitcoin L1, Stacks, sBTC, NFTs, DeFi yield, and x402 wallet workflows:** AIBTC MCP Server.
 
-**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Coinbase AgentKit, or GOAT SDK.
+**Wallet-backed on-chain actions and agent payments:** Phantom MCP Server, Base MCP, Tether WDK MCP Toolkit, Coinbase Agentic Wallet MCP, Coinbase AgentKit, or GOAT SDK.
 
 **Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP or CryptoRefills MCP.
 
@@ -684,6 +684,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Base MCP](https://docs.base.org/ai-agents) - Official remote MCP at `https://mcp.base.org` for Base Account wallets, balances, token sends, swaps, signatures, contract calls, and x402 payments with user approval.
 - [Circle MCP Server](https://developers.circle.com/ai/mcp) - Official Circle hosted MCP at `https://api.circle.com/v1/codegen/mcp` for AI-assisted code generation and fixes across Circle Wallets, Contracts, CCTP, Gateway, and crypto app integrations.
 - [Coinbase Agentic Wallet MCP](https://docs.cdp.coinbase.com/agentic-wallet/mcp/welcome) - Official Coinbase MCP server and companion wallet app for agent wallets, onramps, x402 payments on Base, Polygon, and Solana, spending limits, and agentic commerce workflows.
+- [Tether WDK MCP Toolkit](https://docs.wdk.tether.io/ai/mcp-toolkit) - Official Wallet Development Kit MCP toolkit from Tether for building self-custodial wallet MCP servers across EVM chains, Bitcoin, Solana, Spark, TON, and Tron, with 35 built-in tools for wallets, pricing, indexer queries, swaps, bridges, lending, and fiat on/off-ramps; beta package, local seed handling, and all write operations require explicit human confirmation before broadcasting.
 - [Bitrefill eCommerce MCP](https://docs.bitrefill.com/docs/ecommerce-mcp) - Official hosted Bitrefill MCP at `https://api.bitrefill.com/mcp` for ChatGPT, Claude, Cursor, and other MCP clients to search products, inspect product details, and buy from Bitrefill's crypto-commerce catalog; use the [sample implementation](https://github.com/bitrefill/bitrefill-mcp-server) for self-hosted or forked API-key experiments. Treat invoices, account data, purchases, eSIMs, and payments as high-risk actions.
 - [CryptoRefills MCP](https://www.cryptorefills.com/insights/cryptorefills-mcp) - Official CryptoRefills MCP integration at `https://api.cryptorefills.com/mcp/http` for AI-agent commerce flows across gift cards, mobile top-ups, eSIMs, catalog, pricing, checkout preparation, and payments. Keep final payment confirmation under explicit user control.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
