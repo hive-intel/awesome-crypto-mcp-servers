@@ -47,6 +47,8 @@ detailed notes are in the sections below.
 
 **Pay-per-call live crypto, prediction-market, X/Twitter, and research data:** Start with BlockRun MCP.
 
+**Structured local token research reports:** Start with Hive Intelligence for managed token diligence, or Web3 Research MCP when the agent needs a free local research workspace with saved resources.
+
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
 
 **Technical screening, sentiment, signals, and backtesting:** Start with TradingView MCP Server or aTars MCP depending on whether the agent needs broader analysis/backtesting or a focused remote signal feed.
@@ -117,6 +119,8 @@ source, chain, wallet, venue, or risk model.
 **Quant strategy research, backtesting, optimization, and live deployment:** Start with QuantConnect MCP Server when the agent needs to create or update QuantConnect projects, run compiles, backtests, optimizations, and live algorithm workflows, including crypto-capable strategies. Treat broker authorization, live deployment, liquidation, and project writes as high-risk.
 
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
+
+**Token research reports and source collection:** Start with Hive Intelligence when the agent needs managed provider-backed token diligence. Compare Web3 Research MCP when the task is a local research dossier with a plan, web/news search, saved resources, CoinGecko data, DeFiLlama protocol data, and progress tracking.
 
 **Token, wallet, approval, phishing, and transaction risk:** Start with GoPlus MCP Server or Phalcon MCP Server. Compare Tenderly MCP Server, VaultPilot MCP, and Philidor DeFi Vault Risk Analytics before signing, approving, swapping, bridging, staking, or recommending risky assets.
 
@@ -315,6 +319,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **CoinStats OAuth portfolios, wallets, prices, exchanges, and news:** CoinStats MCP Server.
 
 **Wallet-funded live data, research, prediction markets, and model calls:** BlockRun MCP.
+
+**Local token research plans and saved resources:** Web3 Research MCP.
 
 **Keyless Crypto.com prices, market caps, volumes, and trends:** Crypto.com Market Data MCP.
 
@@ -617,6 +623,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 ## Web3 Social, News, Sentiment, and Research Signals
 
 - [Neynar MCP](https://docs.neynar.com/docs/neynar-farcaster-with-cursor) - Official Neynar hosted MCP at `https://docs.neynar.com/mcp` for Farcaster development workflows, users, casts, feeds, social graphs, Mini Apps, notifications, signers, on-chain/social data, and API-backed agent setup in Cursor, VS Code, Claude Code, and Claude.
+- [Web3 Research MCP](https://github.com/aaronjmars/web3-research-mcp) - Local npm MCP for structured cryptocurrency token research plans, web/news/image/video search, source collection, saved research resources, status tracking, CoinGecko market data, exchange listings, and DeFiLlama protocol lookups; use it for research dossiers and verify claims against primary sources before acting.
 - [CryptoPanic MCP Server](https://github.com/kukapay/cryptopanic-mcp-server) - Crypto news MCP using CryptoPanic data.
 - [Crypto Sentiment MCP](https://github.com/kukapay/crypto-sentiment-mcp) - Sentiment-analysis MCP for cryptocurrency agents.
 - [Crypto Fear and Greed MCP](https://github.com/kukapay/crypto-feargreed-mcp) - Real-time and historical Crypto Fear and Greed Index data.
