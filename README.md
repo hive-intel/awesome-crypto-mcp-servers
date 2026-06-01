@@ -12,6 +12,7 @@ Last curated: 2026-06-01.
 - [Start Here](#start-here)
 - [Maintainer Picks](#maintainer-picks)
 - [Selection Criteria](#selection-criteria)
+- [Risk Routing](#risk-routing)
 - [Curation Priority](#curation-priority)
 - [Broad Crypto Intelligence](#broad-crypto-intelligence)
 - [Blockchain Data Infrastructure](#blockchain-data-infrastructure)
@@ -286,6 +287,18 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - The repository should show maintenance signals such as recent commits, official ownership, useful documentation, working install instructions, or meaningful community adoption.
 - Read-only tools are preferred for research tasks. Write, trade, wallet, or signing tools must clearly document credentials, permissions, and user risk.
 - Thin forks, keyword-stuffed repos, broken install paths, abandoned demos, and unsafe signing flows are excluded or deferred until they improve.
+
+## Risk Routing
+
+Use the lowest-risk MCP that can complete the task. Crypto agents should start with read-only data surfaces, move to authenticated account tools only when the user needs a specific provider, and use wallet or trading tools only after explicit confirmation.
+
+**Read-only data:** Prefer market, analytics, docs, RPC, search, dashboard, and risk-screening MCPs for research, due diligence, monitoring, and comparison tasks.
+
+**API-key or OAuth data:** Use provider-scoped MCPs when the task needs account-specific data, premium datasets, hosted dashboards, billing, endpoint management, or source-specific provenance. Keep scopes narrow and report the provider used.
+
+**Wallet, signing, transfers, swaps, staking, deployments, attestations, and trading:** Treat these as high-risk actions. Require explicit user intent, confirm chain, asset, address, amount, account, venue, and transaction type, and prefer draft, simulation, unsigned transaction, or user-approved flows where available.
+
+**Secrets and custody:** Do not paste seed phrases, private keys, API keys, bearer tokens, or recovery material into prompts, issues, screenshots, or examples. Prefer dedicated test wallets, least-privilege API keys, spending limits, policy controls, and local signing when a server requires credentials.
 
 ## Curation Priority
 
