@@ -33,6 +33,8 @@ jobs:
           abort "#{pr_template} is missing" unless File.file?(pr_template)
 
           required_prompts = [
+            "Official or maintenance evidence:",
+            "Coverage gap or stronger alternative:",
             "Transport or interface:",
             "Auth or credential model:",
             "Risk boundary:",
