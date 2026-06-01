@@ -49,7 +49,7 @@ detailed notes are in the sections below.
 
 **Token discovery, top movers, and wallet PnL:** Start with Birdeye MCP Server.
 
-**Technical screening, sentiment, and backtesting:** Start with TradingView MCP Server.
+**Technical screening, sentiment, signals, and backtesting:** Start with TradingView MCP Server or aTars MCP depending on whether the agent needs broader analysis/backtesting or a focused remote signal feed.
 
 **Cross-asset market data, crypto aggregates, and SQL-style analysis:** Start with Massive.com MCP Server.
 
@@ -88,7 +88,7 @@ source, chain, wallet, venue, or risk model.
 
 **Public prices, charts, feeds, and market metadata:** Start with CoinGecko MCP Server, CoinMarketCap MCP, CoinPaprika MCP, or Pyth MCP Server. Compare CoinStats MCP Server, Crypto.com Market Data MCP, Massive.com MCP Server, Cryptohopper MCP, altFINS MCP Server, and TradingView MCP Server.
 
-**Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
+**Technical analysis, screening, sentiment, and backtesting:** Start with TradingView MCP Server when the agent needs analysis-only TradingView-style research. Compare aTars MCP for a registry-backed remote signal and sentiment feed, or altFINS MCP Server when an API-key-backed crypto analytics platform is preferable.
 
 **Token discovery, wallet PnL, and portfolio intelligence:** Start with Birdeye MCP Server, Zerion API MCP, Octav API MCP, or CoinStats MCP Server. Compare Nansen MCP, Moralis Cortex MCP, and Chainbase MCP.
 
@@ -143,6 +143,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 **Crypto screeners and technical analysis:** Start with altFINS MCP Server when the agent needs crypto screeners, technical indicators, curated technical analysis, signal feeds, news, calendar events, OHLCV, or portfolio analytics from an API-key-backed analytics platform.
 
 **TradingView-style analysis and backtesting:** Start with TradingView MCP Server when the agent needs multi-exchange crypto screening, technical indicators, sentiment/news confluence, candlestick patterns, or strategy backtests without order execution.
+
+**Registry-backed signal and sentiment feed:** Start with aTars MCP when the agent needs a free remote MCP for technical-indicator-based crypto signals, daily sentiment scoring, and rolling sentiment trends. Treat outputs as research signals, not financial advice or trade execution.
 
 **Oracle-grade market data:** Start with Pyth MCP Server when the agent needs Pyth feed discovery, real-time prices, historical prices, or chart-ready candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 
@@ -311,6 +313,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Crypto screeners, technical indicators, signals, news, and portfolio analytics:** altFINS MCP Server.
 
 **TradingView-style screeners, technicals, sentiment, and backtesting:** TradingView MCP Server.
+
+**Remote crypto signals and sentiment scoring:** aTars MCP.
 
 **Pyth market feeds, historical prices, and candles:** Pyth MCP Server.
 
@@ -548,6 +552,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 - [Crypto.com Market Data MCP](https://mcp.crypto.com/docs) - Official Crypto.com hosted MCP for keyless live cryptocurrency prices, market caps, trading volumes, market trends, ChatGPT setup, and Claude setup.
 - [altFINS MCP Server](https://altfins.com/crypto-market-and-analytical-data-api/documentation/mcp-server/) - Official altFINS Streamable HTTP MCP for crypto screeners, technical analysis, OHLCV, historical indicators, signal feeds, news, calendar events, and portfolio data using altFINS API-key authentication.
 - [TradingView MCP Server](https://github.com/atilaahmettaner/tradingview-mcp) - MIT-licensed Python/PyPI MCP for TradingView-style crypto and stock screening, Binance/KuCoin/Bybit+ market coverage, 30+ technical-analysis tools, candlestick patterns, Reddit/news sentiment, Yahoo Finance prices, and strategy backtesting; analysis-only and does not execute trades.
+- [aTars MCP](https://github.com/aarna-ai/atars-fts-mcp) - Official MCP Registry-listed remote MCP from aarna for cryptocurrency trading signals and sentiment analysis, including technical-indicator-based buy/sell signals, daily sentiment scoring, and rolling sentiment trends; use as a research signal feed, not financial advice or trade execution.
 - [Pyth MCP Server](https://docs.pyth.network/price-feeds/pro/mcp) - Official Pyth hosted Streamable HTTP MCP at `https://mcp.pyth.network/mcp` for feed discovery, latest prices, historical prices, and OHLC candles across crypto, FX, equities, metals, rates, commodities, and funding rates.
 - [Massive.com MCP Server](https://github.com/massive-com/mcp_massive) - Official experimental Massive.com MCP for crypto, stock, options, forex, futures, news, reference data, market snapshots, technical functions, and in-memory SQLite analysis through three composable search, call, and query tools using a Massive.com API key.
 - [Cryptohopper MCP](https://www.cryptohopper.com/features/cryptohopper-mcp) - Cryptohopper remote MCP for live exchange market data, real-time candles, order-book depth, spread analysis, and MCP-compatible trading research workflows.
