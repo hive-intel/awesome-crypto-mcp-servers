@@ -85,7 +85,7 @@ detailed notes are in the sections below.
 
 **Node, RPC, endpoint, and infrastructure operations:** Start with Alchemy MCP Server, Chainstack MCP Server, Quicknode MCP, or GetBlock MCP Server.
 
-**Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or TradeRouter MCP.
+**Solana production APIs and execution:** Start with Helius MCP Server, Solana MCP by Vybe, DFlow MCP Server, or TradeRouter MCP.
 
 **TON address, transaction, jetton, and trend analysis:** Start with TON Blockchain MCP.
 
@@ -103,7 +103,7 @@ detailed notes are in the sections below.
 
 **Wallet-backed payments, signing, swaps, x402, ramps, or custody:** Start with Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, Tether WDK MCP Toolkit, Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, or Fireblocks MCP Server.
 
-**Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP or CryptoRefills MCP depending on the merchant catalog, hosted endpoint, and checkout model.
+**Crypto commerce, gift cards, eSIMs, and top-ups:** Start with Bitrefill eCommerce MCP, CryptoRefills MCP, or AsterPay MCP Server depending on the merchant catalog, hosted endpoint, payment rail, and checkout model.
 
 **Agent-payment merchant discovery:** Start with Agentic Terminal Directory when the agent needs to find merchants that accept Lightning, BOLT12, L402, or USDT before handing payment off to the merchant.
 
@@ -169,7 +169,7 @@ source, chain, wallet, venue, or risk model.
 
 **RPC, nodes, endpoints, and infrastructure operations:** Start with Alchemy MCP Server or Chainstack MCP Server. Compare Quicknode MCP, GetBlock MCP Server, and Tatum Blockchain MCP.
 
-**Solana data, development, and execution:** Start with Helius MCP Server or Solana MCP by Vybe. Compare Solana MCP Official and TradeRouter MCP. Treat swaps, order tools, and private-key flows as high-risk.
+**Solana data, development, and execution:** Start with Helius MCP Server, Solana MCP by Vybe, or DFlow MCP Server. Compare Solana MCP Official and TradeRouter MCP. Treat swaps, order tools, prediction-market actions, and private-key flows as high-risk.
 
 **TON address, transaction, and jetton analytics:** Start with TON Blockchain MCP when the agent needs TON address analysis, transaction details, hot trends, trading-pattern analysis, TON prices, or jetton prices through TON API. Treat its beta warning and financial-advice caveat seriously.
 
@@ -181,7 +181,7 @@ source, chain, wallet, venue, or risk model.
 
 **Wallets, signing, payments, swaps, ramps, and custody:** Start with Phantom MCP Server, Base MCP, Coinbase Agentic Wallet MCP, Cobo Agentic Wallet MCP, MoonPay CLI MCP, Polygon LLM Wallet MCP Server, or Tether WDK MCP Toolkit. Compare Coinbase AgentKit, GOAT SDK, Adamik MCP Server, BitGo MCP Server, VaultPilot MCP, and Fireblocks MCP Server. Require explicit user confirmation for write, payment, ramp, trading, or custody actions.
 
-**Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows. Treat checkout, invoice, payment, account, and order actions as high-risk.
+**Crypto commerce, gift cards, mobile top-ups, and eSIMs:** Start with Bitrefill eCommerce MCP when the agent needs Bitrefill product search, details, hosted OAuth, or purchase workflows. Compare CryptoRefills MCP when the task needs CryptoRefills catalog, pricing, payments, and agentic commerce flows, or AsterPay MCP Server when the task needs x402 merchant discovery, order placement, EUR settlement context, and buyer-side spending limits. Treat checkout, invoice, payment, account, and order actions as high-risk.
 
 **Agent-payment merchant discovery:** Start with Agentic Terminal Directory when the agent needs to search or verify merchants that accept Lightning, BOLT12, L402, or USDT rails. It is a discovery layer rather than a payment custodian; agents still pay merchants directly.
 
@@ -191,7 +191,7 @@ source, chain, wallet, venue, or risk model.
 
 **Pay-per-call agent data and x402-funded research:** Start with BlockRun MCP when the agent needs crypto prices, prediction-market data, DEX data, X/Twitter intelligence, web research, or model calls behind one funded wallet.
 
-**x402 paid API discovery and routing:** Start with x402 MCP when the agent needs automatic x402 payment handling across CDP Bazaar endpoints. Compare BlockRun MCP or CoinMarketCap MCP when the task needs crypto-specific data rather than a general paid-API router. Use a fresh funded wallet, `MAX_PRICE_USD`, and explicit payment approval.
+**x402 paid API discovery and routing:** Start with x402 MCP when the agent needs automatic x402 payment handling across CDP Bazaar endpoints. Compare BlockRun MCP or CoinMarketCap MCP when the task needs crypto-specific data rather than a general paid-API router, or AsterPay MCP Server when the task is merchant commerce with EUR settlement and buyer/seller modes. Use a fresh funded wallet, `MAX_PRICE_USD`, and explicit payment approval.
 
 **x402 settlement verification and publisher manifests:** Start with TensorFeed x402 Base MCP when the agent needs to independently verify Base USDC payment receipts, inspect `/.well-known/x402` manifests, or check x402 publisher health without signing or broadcasting transactions.
 
@@ -319,7 +319,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Polygon x402 wallet and paid-API flows:** Start with Polygon LLM Wallet MCP Server when the agent needs encrypted Polygon wallets, spending limits, x402 buyer/seller tools, payment history, or dynamic paid-API registration. It is documented by Polygon's Agentic Payments docs; prefer Polygon Amoy/testnet and keep mainnet usage small and explicitly approved.
 
-**Crypto commerce and gift-card purchases:** Start with Bitrefill eCommerce MCP for hosted OAuth-backed product search, product details, and purchase workflows across Bitrefill's crypto-commerce catalog. Use CryptoRefills MCP when the agent needs CryptoRefills gift cards, mobile top-ups, eSIMs, catalog, pricing, or checkout-preparation workflows. Treat checkout, invoices, payments, account data, and order placement as high-risk.
+**Crypto commerce and gift-card purchases:** Start with Bitrefill eCommerce MCP for hosted OAuth-backed product search, product details, and purchase workflows across Bitrefill's crypto-commerce catalog. Use CryptoRefills MCP when the agent needs CryptoRefills gift cards, mobile top-ups, eSIMs, catalog, pricing, or checkout-preparation workflows, and AsterPay MCP Server when the agent needs x402 merchant discovery, order placement, EUR settlement context, and buyer-side spending caps. Treat checkout, invoices, payments, account data, and order placement as high-risk.
 
 **USDC, CCTP, and Circle app codegen:** Start with Circle MCP Server when the agent needs Circle Wallets, Contracts, Cross-Chain Transfer Protocol, or Gateway integration guidance inside an MCP-compatible IDE.
 
@@ -327,7 +327,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Official Solana developer help:** Start with Solana MCP Official for documentation, expert help, and developer workflows.
 
-**Production Solana APIs:** Start with Helius MCP Server or Solana MCP by Vybe when the agent needs Solana RPC, DAS, transfers, webhooks, streaming, wallet analysis, priority fees, live API calls, schemas, and OAuth-backed remote access.
+**Production Solana APIs:** Start with Helius MCP Server or Solana MCP by Vybe when the agent needs Solana RPC, DAS, transfers, webhooks, streaming, wallet analysis, priority fees, live API calls, schemas, and OAuth-backed remote access. Use DFlow MCP Server for DFlow trading infrastructure docs, prediction-market API references, routing parameters, and integration debugging.
 
 **Solana swap and order execution:** Start with TradeRouter MCP when the agent needs Solana swaps, limit orders, trailing orders, TWAP, DCA, combo orders, holdings, or token market-cap checks through a local non-custodial MCP. Treat private-key, signing, and order tools as high-risk actions.
 
@@ -509,9 +509,9 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Secure smart-contract generation:** OpenZeppelin MCP Servers.
 
-**Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, or Solana MCP Official.
+**Solana production data and developer help:** Helius MCP Server, Solana MCP by Vybe, DFlow MCP Server, or Solana MCP Official.
 
-**Solana swaps and advanced order execution:** TradeRouter MCP.
+**Solana swaps and advanced order execution:** DFlow MCP Server or TradeRouter MCP.
 
 **TON address, transaction, jetton, and trend analysis:** TON Blockchain MCP.
 
@@ -549,7 +549,7 @@ Use this quick routing guide when the category list is too broad. Canonical link
 
 **Read-only x402 settlement verification:** TensorFeed x402 Base MCP.
 
-**Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP or CryptoRefills MCP.
+**Crypto commerce, gift cards, eSIMs, and top-ups:** Bitrefill eCommerce MCP, CryptoRefills MCP, or AsterPay MCP Server.
 
 **Agent-payment merchant discovery:** Agentic Terminal Directory.
 
@@ -662,6 +662,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Solana MCP Official](https://github.com/solana-foundation/solana-mcp-official) - Official Solana developer MCP for documentation search, expert help, and program autofix workflows.
 - [Helius MCP Server](https://www.helius.dev/docs/helius-mcp) - Official Helius MCP with 60+ Solana tools across DAS, RPC, transfers, webhooks, streaming, wallet analysis, priority fees, onboarding, and docs.
 - [Solana MCP by Vybe](https://github.com/vybenetwork/solana-mcp-vybe) - Vybe Network remote Solana MCP for schema browsing and live API calls across Solana wallets, trades, markets, PnL, transfers, on-chain data, and swaps.
+- [DFlow MCP Server](https://pond.dflow.net/ai/mcp) - Official hosted DFlow MCP at `https://pond.dflow.net/mcp` for Solana trading infrastructure docs, API references, code recipes, routing parameters, prediction-market mechanics, websockets, and integration debugging; companion Agent CLI workflows can sign and execute locally, so wallet, KYC, geoblocking, order, and private-key paths are high-risk.
 - [SendAI Solana MCP](https://github.com/sendaifun/solana-mcp) - Solana Agent Kit powered MCP for interacting with the Solana Blockchain.
 - [TradeRouter MCP](https://github.com/TradeRouter/trade-router-mcp) - MCP Registry-listed `@traderouter/trade-router-mcp` package for non-custodial Solana swaps, limit orders, trailing orders, TWAP, DCA, combo orders, holdings, and token market-cap checks across Raydium, PumpSwap, Orca, and Meteora; private-key, signing, submission, and order tools are high-risk and should use a dedicated wallet plus explicit user control.
 - [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
@@ -712,7 +713,7 @@ CoinPaprika, Pyth, and Crypto.com for public market data; Messari, Santiment,
 LunarCrush, altFINS, TradingView, and aTars for research and signals;
 Birdeye, DexPaprika, DexScreener, DeFiLlama, Philidor, RWA Pipe, and
 TRUF.NETWORK for on-chain, DeFi, RWA, and vault analysis; DZap, LI.FI, 1inch,
-CoW, OpenOcean, Arcadia, and Haiku for quote, route, vault, or transaction
+CoW, OpenOcean, DFlow, Arcadia, and Haiku for quote, route, vault, or transaction
 construction; and Gate, Bitget, Kraken, Bybit, CCXT, Hummingbot, OKX,
 Hyperliquid, Trade It, and QuantConnect for account, bot, brokerage, or
 exchange execution. Keep research calls read-only by default and require
@@ -821,7 +822,7 @@ entries for narrower chain, attestation, wallet, or protocol-specific checks.
 Use this section by custody and approval model: Base and Coinbase for
 approved hosted account flows; Phantom, MoonPay, Polygon, Tether WDK, and
 Adamik for local or API-key-backed user wallets; Cobo, Fireblocks, and BitGo
-for MPC or institutional custody; Bitrefill and CryptoRefills for merchant
+for MPC or institutional custody; Bitrefill, CryptoRefills, and AsterPay for merchant
 commerce; x402 MCP for paid API routing; and TensorFeed for read-only payment
 verification. Anything that can sign, transfer, swap, bridge, ramp, or spend
 must stay behind explicit user confirmation and tight limits.
@@ -835,6 +836,7 @@ must stay behind explicit user confirmation and tight limits.
 - [Tether WDK MCP Toolkit](https://docs.wdk.tether.io/ai/mcp-toolkit) - Official Wallet Development Kit MCP toolkit from Tether for building self-custodial wallet MCP servers across EVM chains, Bitcoin, Solana, Spark, TON, and Tron, with 35 built-in tools for wallets, pricing, indexer queries, swaps, bridges, lending, and fiat on/off-ramps; beta package, local seed handling, and all write operations require explicit human confirmation before broadcasting.
 - [Bitrefill eCommerce MCP](https://docs.bitrefill.com/docs/ecommerce-mcp) - Official hosted Bitrefill MCP at `https://api.bitrefill.com/mcp` for ChatGPT, Claude, Cursor, and other MCP clients to search products, inspect product details, and buy from Bitrefill's crypto-commerce catalog; use the [sample implementation](https://github.com/bitrefill/bitrefill-mcp-server) for self-hosted or forked API-key experiments. Treat invoices, account data, purchases, eSIMs, and payments as high-risk actions.
 - [CryptoRefills MCP](https://www.cryptorefills.com/insights/cryptorefills-mcp) - Official CryptoRefills MCP integration at `https://api.cryptorefills.com/mcp/http` for AI-agent commerce flows across gift cards, mobile top-ups, eSIMs, catalog, pricing, checkout preparation, and payments. Keep final payment confirmation under explicit user control.
+- [AsterPay MCP Server](https://asterpay.io/docs/) - Official `@asterpay/mcp-server` package for AI-agent merchant discovery, seller catalogs, buyer mode, order placement, x402 payment details, EUR settlement context, trust resources, and mock-mode demos; buyer mode needs AsterPay API keys and spending caps, while order and x402 payment flows require explicit user control.
 - [Agentic Terminal Directory](https://github.com/observer-protocol/at-directory) - MCP Registry-listed merchant directory for agents to search and verify OP-attested merchants that accept Lightning, BOLT12, L402, or USDT; hosted MCP runs at `https://mcp.agenticterminal.ai/mcp`, local stdio is available through `@agenticterminal/mcp-server`, and the directory is not in the payment path.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Coinbase Developer Platform toolkit with a Model Context Protocol extension for wallet-backed agents, payments, testnet funding, and on-chain actions.
 - [x402 MCP](https://github.com/x402node/x402-mcp) - MCP server for discovering x402-paid APIs from CDP Bazaar and automatically handling USDC micropayments on Base through the `x402node-mcp` package; use a fresh burner wallet, set `MAX_PRICE_USD`, and treat `X402_PRIVATE_KEY` as a spend-capable secret.
