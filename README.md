@@ -143,6 +143,8 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Avalanche builder workflows:** Start with Avalanche MCP Server when the agent needs Avalanche docs, code search, RPC lookup, CLI guidance, ACPs, or public network data through a hosted read-only endpoint.
 
+**Rootstock wallet, contract, and attestation workflows:** Start with Rootstock MCP Server when the agent needs RBTC balances, ERC-20 transfers, Rootstock contract deployment, verification, reads, transaction history, or Rootstock Attestation Service workflows. Treat wallet import, transfers, deployment, and attestations as high-risk actions.
+
 **Cross-chain bridge intelligence:** Start with Across MCP Server when the agent needs Across docs, supported chains, API references, SDK examples, or live bridge-fee quotes through a hosted MCP endpoint.
 
 **Cross-chain bridge execution:** Start with Allbridge MCP when the agent needs to plan, build, locally sign, broadcast, and track stablecoin bridge transfers across several chain families with explicit signer handoff.
@@ -244,6 +246,8 @@ Use this quick routing guide when the category list is too broad. Canonical link
 **Aptos APIs, Move apps, and Geomi workflows:** Aptos MCP.
 
 **Avalanche docs, RPC, CLI, and ACP lookup:** Avalanche MCP Server.
+
+**Rootstock wallets, contracts, transfers, and attestations:** Rootstock MCP Server.
 
 **Cross-chain bridge docs, fees, SDK examples, and execution:** Across MCP Server or Allbridge MCP.
 
@@ -362,6 +366,7 @@ This list is ordered for agent usefulness, not sponsorship, GitHub stars, or key
 
 - [Aptos MCP](https://aptos.dev/build/ai/aptos-mcp) - Official Aptos MCP at `npx @aptos-labs/aptos-mcp` with tools, prompts, resources, Cursor and Claude Code setup, Aptos API access, and Geomi-backed app-building workflows using `APTOS_BOT_KEY`.
 - [Avalanche MCP Server](https://build.avax.network/docs/tooling/ai-llm/mcp-server) - Official hosted read-only Avalanche Builder Hub MCP for documentation search, GitHub code lookup, RPC and CLI task lookup, ACPs, public network data, resources, and `https://build.avax.network/api/mcp`.
+- [Rootstock MCP Server](https://github.com/rsksmart/rsk-mcp-server) - Official `@rsksmart/rsk-mcp-server` package for Rootstock wallet management, RBTC and ERC-20 balances, transfers, transaction status, contract deployment, contract verification, contract reads, transaction history, and Rootstock Attestation Service workflows; wallet import, transfers, deployments, and attestations are high-risk actions.
 - [Across MCP Server](https://docs.across.to/ai-agents/mcp-server) - Official Across Protocol hosted MCP at `https://mcp.across.to/mcp` with documentation search, page retrieval, REST API references, supported-chain lookup, live bridge-fee queries, and SDK code examples.
 - [Allbridge MCP](https://allbridge.io/ai/) - Official Allbridge AI MCP suite for planning, quoting, building, locally signing, broadcasting, and tracking cross-chain stablecoin transfers across EVM, Solana, Tron, Algorand, Stacks, Soroban/Stellar, and Sui, with keys kept in a local signer.
 - [LayerZero Docs MCP](https://docs.layerzero.network/v2/tools/mcp/overview) - Official hosted LayerZero documentation MCP at `https://docs.layerzero.network/mcp` with Streamable HTTP search for LayerZero docs, OApps, OFTs, DVNs, endpoints, and cross-chain messaging workflows.
