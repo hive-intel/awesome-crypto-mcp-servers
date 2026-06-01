@@ -22,6 +22,17 @@ Please do not submit:
 - Trading or signing tools that do not explain credential and execution risk.
 - Repos that require users to paste secrets into public chats, issues, screenshots, or logs.
 
+## Review Priority
+
+We review for usefulness before novelty. Strong submissions usually fall into one of these lanes:
+
+- Broad production surfaces that help agents answer many crypto tasks safely.
+- Official provider-backed, MCP Registry-listed, or actively maintained provider-specific servers.
+- Narrow chain, exchange, wallet, bridge, protocol, or dataset servers that are clearly the best fit for a specific workflow.
+- Read-only research surfaces with clear provenance and setup instructions.
+
+Write, trade, wallet, signing, staking, and infrastructure-admin tools can be accepted, but they need explicit risk documentation and a safe setup path. Projects may be removed later if they become stale, misleading, unavailable, duplicated, or unsafe.
+
 ## Entry Format
 
 Use this format:

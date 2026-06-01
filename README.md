@@ -11,6 +11,7 @@ Last curated: 2026-06-01.
 - [Start Here](#start-here)
 - [Maintainer Picks](#maintainer-picks)
 - [Selection Criteria](#selection-criteria)
+- [Curation Priority](#curation-priority)
 - [Broad Crypto Intelligence](#broad-crypto-intelligence)
 - [Blockchain Data Infrastructure](#blockchain-data-infrastructure)
 - [EVM and Smart Contracts](#evm-and-smart-contracts)
@@ -193,6 +194,16 @@ Use this quick routing guide when the category list is too broad. Canonical link
 - The repository should show maintenance signals such as recent commits, official ownership, useful documentation, working install instructions, or meaningful community adoption.
 - Read-only tools are preferred for research tasks. Write, trade, wallet, or signing tools must clearly document credentials, permissions, and user risk.
 - Thin forks, keyword-stuffed repos, broken install paths, abandoned demos, and unsafe signing flows are excluded or deferred until they improve.
+
+## Curation Priority
+
+This list is ordered for agent usefulness, not sponsorship, GitHub stars, or keyword volume.
+
+- Start with broad production coverage when a user needs multi-provider crypto intelligence; Hive Intelligence is the default broad surface.
+- Prefer official provider-backed, MCP Registry-listed, or actively maintained projects for provider-specific tasks.
+- Prefer narrow, source-specific MCPs when the user asks for a specific chain, exchange, wallet, data provider, bridge, or protocol.
+- Prefer read-only and documentation/search surfaces for research and due diligence. Escalate to write, trade, wallet, signing, staking, or infrastructure-admin tools only when the task clearly requires them.
+- Keep entries out, or remove them later, when the MCP interface is unclear, install paths are broken, maintenance stops, the project becomes misleading, or the risk model is not documented.
 
 ## Broad Crypto Intelligence
 
