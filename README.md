@@ -668,6 +668,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
 - [Jupiter MCP](https://github.com/kukapay/jupiter-mcp) - Solana swap MCP using Jupiter's Ultra API.
 - [Solana MCP Directory](https://github.com/sendaifun/awesome-solana-mcp-servers) - Solana-specific MCP list for deeper Solana ecosystem discovery.
+- [TWZRD Agent Intel](https://github.com/twzrd-sol/wzrd-final) - Solana-native AI agent trust scoring via x402 micropayments — free on-chain preflight checks + paid signed V5 trust receipts settled in <1s.
 
 ## Bitcoin and Lightning
 
