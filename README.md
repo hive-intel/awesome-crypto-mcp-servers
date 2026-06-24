@@ -643,6 +643,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Blockscout MCP Server](https://github.com/blockscout/mcp-server) - Explorer-backed MCP for balances, tokens, NFTs, contract metadata, and chain data.
 - [Tatum Blockchain MCP](https://github.com/tatumio/blockchain-mcp) - Official Tatum MCP package for balances, transactions, token metadata, fee estimation, address activity, exchange rates, and Tatum Blockchain API access across 130+ networks using a Tatum API key.
 - [Pocket Network MCP](https://github.com/pokt-network/mcp) - Pocket/Grove-powered MCP for natural-language Blockchain data across EVM, Solana, Sui, Cosmos, and other public RPC networks.
+- [SQD Portal MCP](https://github.com/subsquid-labs/portal-mcp-server) - Official subsquid-labs MCP wrapping the SQD Portal API for multi-chain onchain data across EVM, Solana, Bitcoin, Substrate, and Hyperliquid, with logs, transactions, token transfers, OHLC, wallet summaries, and analytics over a hosted Streamable HTTP endpoint and local stdio.
 - [Boar Blockchain MCP](https://github.com/boar-network/blockchain-mcp) - Blockchain infrastructure MCP with setup guides and free access paths.
 
 ## EVM and Smart Contracts
