@@ -857,6 +857,7 @@ must stay behind explicit user confirmation and tight limits.
 
 ## Related Lists and Directories
 
+- [OnchainAI](https://www.onchain-ai.xyz) — Crypto tool directory MCP (`https://www.onchain-ai.xyz/mcp`): search, trust, and install-risk before agents install tools. Remote MCP `tools/call` is x402 pay-per-call; website browse may be free. Claude Code plugin + skill. Repo: [Coinyak/onchainai](https://github.com/Coinyak/onchainai).
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Large cross-category MCP server directory.
 - [TensorBlock Awesome MCP Servers](https://github.com/TensorBlock/awesome-mcp-servers) - Broad MCP directory with a Finance & Crypto section and high-volume MCP discovery surface.
 - [Awesome Blockchain MCPs](https://github.com/royyannick/awesome-blockchain-mcps) - Blockchain and crypto MCP list with broad Web3 coverage.
