@@ -614,6 +614,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Hive Intelligence](https://github.com/hive-intel/hive-sdk) - Managed crypto market infrastructure for AI agents, combining hosted MCP, local stdio, SDKs, and skills across multiple providers and crypto workflows.
 - [Universal Crypto MCP](https://github.com/nirholas/universal-crypto-mcp) - Multi-chain crypto MCP with swaps, bridges, gas, staking, lending, and plugin-based Blockchain interactions.
 - [Heurist Mesh MCP Server](https://github.com/heurist-network/heurist-mesh-mcp-server) - Web3 agent and analytics MCP surface for Heurist's mesh of specialized agents.
+- [AgentServices](https://agentservices.to) - Production x402-paid API marketplace for AI agents with 54+ crypto/market data services, 37 MCP tools, DeFi yields, whale tracking, exchange flows, social sentiment, and on-chain USDC settlement on Base.
 
 ## Blockchain Data Infrastructure
 
