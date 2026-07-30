@@ -707,6 +707,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [ZetaChain CLI MCP](https://github.com/zeta-chain/cli) - ZetaChain CLI with MCP installation support for universal smart-contract workflows across connected chains.
 
 ## DeFi, Markets, and Trading
+- [PnL Labs](https://pnllabs.com) - Trust & risk verdicts for AI trading agents on Solana via x402 (USDC, no keys): real realized-PnL wallet trust (not peak scores), wallet funding forensics, token safety, and trade execution cost. Machine-first JSON + MCP server. ([API](https://api.pnllabs.com)) ([MCP](https://github.com/PnLlabs/pnllabs-mcp))
 
 Use this section by execution boundary: CoinGecko, CoinMarketCap,
 CoinPaprika, Pyth, and Crypto.com for public market data; Messari, Santiment,
