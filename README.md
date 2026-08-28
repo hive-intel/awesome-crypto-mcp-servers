@@ -789,7 +789,8 @@ ownership, portfolio, collection, and explorer workflows.
 - [Polymarket MCP Server](https://github.com/caiovicentino/polymarket-mcp-server) - Active Polymarket-specific MCP with 45 tools across market discovery, analysis, trading, portfolio management, WebSocket monitoring, dashboard workflows, and configurable safety limits; private keys, orders, exposure, and automated strategies are high-risk.
 - [Polymarket MCP](https://github.com/berlinbra/polymarket-mcp) - Smithery-listed Python MCP for lightweight Polymarket market data, including market info, market lists, current prices, and historical price or volume data.
 - [Polymarket Rust MCP](https://github.com/ozgureyilmaz/polymarket-mcp) - Rust CLI and MCP server for active/trending Polymarket markets, search, market details, prices, JSON output, table output, and local compiled workflows.
-
+- [PolymarketScan MCP](https://polymarketscan.org/agents) - Free hosted Polymarket MCP endpoint with 8 read-only tools for whale trades, market odds, trader profiles, leaderboards, market summaries, search, movers, and site stats; no API key, no wallet access, and no order placement, so it stays read-only research rather than execution.
+  
 ## Security and Risk
 
 Use this section by risk layer: GoPlus for pre-trade token, address, phishing,
