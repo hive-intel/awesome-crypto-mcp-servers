@@ -20,6 +20,7 @@ Last curated: 2026-06-02.
 - [Broad Crypto Intelligence](#broad-crypto-intelligence)
 - [Blockchain Data Infrastructure](#blockchain-data-infrastructure)
 - [EVM and Smart Contracts](#evm-and-smart-contracts)
+- [Developer Docs and Integration Recipes](#developer-docs-and-integration-recipes)
 - [Solana](#solana)
 - [Bitcoin and Lightning](#bitcoin-and-lightning)
 - [Layer-1 and Cross-Chain](#layer-1-and-cross-chain)
@@ -656,6 +657,10 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Web3 MCP Server](https://github.com/EmanuelJr/web3-mcp-server) - EVM smart-contract interaction MCP for developer-oriented Web3 workflows.
 - [Strangelove Web3 MCP](https://github.com/strangelove-ventures/web3-mcp) - Multi-chain MCP spanning Solana, Ethereum, THORChain, XRP, TON, Cardano, and UTXO chains.
 - [Etherscan MCP](https://github.com/xiaok/etherscan-mcp) - Etherscan API MCP for Ethereum account, transaction, contract, token, and explorer data.
+
+## Developer Docs and Integration Recipes
+
+- [web3ctx](https://github.com/FarseenSh/web3ctx) - MCP Registry-listed remote MCP at `https://mcp.scarai.xyz/mcp` serving human-validated, chain-run web3 integration recipes with on-chain receipts plus version-pinned docs, EIP/ERC texts, ABIs, and deployment addresses for coding agents; read-only tools, free access without keys, optional GitHub OAuth for higher limits.
 
 ## Solana
 
