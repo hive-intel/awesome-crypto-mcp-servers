@@ -891,7 +891,7 @@ must stay behind explicit user confirmation and tight limits.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
 - Glama MCP Servers - MCP server directory with metadata, badges, and discovery pages.
-- [minia2a](https://minia2a.uk) - Live x402 micropayment marketplace with 173 MCP services across DeFi, security, and utility categories. Agents discover and pay for services using USDC on Base L2 — instant settlement, no API keys, no signup. 34 registered agents, 301K+ requests processed.
+- [minia2a](https://minia2a.uk) - Live x402 micropayment marketplace with 1,680+ pay-per-call services (MCP-accessible) across DeFi, security, AI, crypto data, and utility categories. Agents discover and pay for services using USDC on Base — instant settlement, no API keys, no signup. 5 free trial calls per signed wallet (no registration), 1.83M+ requests processed.
 
 ## AI Discovery
 
