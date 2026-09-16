@@ -890,6 +890,7 @@ must stay behind explicit user confirmation and tight limits.
 - [Qorua](https://www.qorua.com/) - Early-access MCP registry focused on capability search, trust scores, and USDC pay-per-call settlement.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations; new production servers should publish to the MCP Registry instead.
 - [Smithery](https://smithery.ai) - MCP server registry and installation directory.
+- [HostDeFi](https://hostdefi.com/api/v1/mcp) - Hosted token-safety MCP grading tokens A+–F on Solana + 7 EVM chains (keyless, 100 calls/day/IP).
 - Glama MCP Servers - MCP server directory with metadata, badges, and discovery pages.
 
 ## AI Discovery
