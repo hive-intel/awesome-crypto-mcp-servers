@@ -817,6 +817,8 @@ entries for narrower chain, attestation, wallet, or protocol-specific checks.
 - [Crypto Whitepapers MCP](https://github.com/kukapay/crypto-whitepapers-mcp) - Structured whitepaper knowledge base for crypto research agents.
 - [BlockBeats MCP](https://github.com/BlockBeatsOfficial/blockbeats-MCP) - Official BlockBeats MCP for crypto newsflashes, articles, market metrics, ETF flows, stablecoins, macro signals, and derivatives research.
 
+- [Penny Press](https://www.pennypress.org) - Pay-per-read essays on freedom, economics and philosophy for AI agents: free for humans to read, x402-micropaid per essay (USDC on Base, $0.01–$0.05). Remote MCP at `https://www.pennypress.org/mcp` (streamable HTTP, no key); unpaid reads return HTTP 402 with x402 terms.
+
 ## Agent Wallets and On-chain Actions
 
 Use this section by custody and approval model: Base and Coinbase for
