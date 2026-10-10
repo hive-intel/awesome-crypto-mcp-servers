@@ -644,6 +644,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [Tatum Blockchain MCP](https://github.com/tatumio/blockchain-mcp) - Official Tatum MCP package for balances, transactions, token metadata, fee estimation, address activity, exchange rates, and Tatum Blockchain API access across 130+ networks using a Tatum API key.
 - [Pocket Network MCP](https://github.com/pokt-network/mcp) - Pocket/Grove-powered MCP for natural-language Blockchain data across EVM, Solana, Sui, Cosmos, and other public RPC networks.
 - [Boar Blockchain MCP](https://github.com/boar-network/blockchain-mcp) - Blockchain infrastructure MCP with setup guides and free access paths.
+- [BlockVectra MCP](https://github.com/blockvectra/mcp) - Official hosted Streamable HTTP MCP at `https://docs.blockvectra.com/mcp`, usable without an API key for multi-chain EVM JSON-RPC calls, chain status and limits, CU pricing, and documentation search, with an optional API key adding Data API queries and account tools, and signed transactions broadcast only through an explicit `send_raw_transaction` tool.
 
 ## EVM and Smart Contracts
 
