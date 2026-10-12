@@ -667,6 +667,7 @@ This is a curated list, not an add-only catalog. Entries should stay useful to a
 - [TradeRouter MCP](https://github.com/TradeRouter/trade-router-mcp) - MCP Registry-listed `@traderouter/trade-router-mcp` package for non-custodial Solana swaps, limit orders, trailing orders, TWAP, DCA, combo orders, holdings, and token market-cap checks across Raydium, PumpSwap, Orca, and Meteora; private-key, signing, submission, and order tools are high-risk and should use a dedicated wallet plus explicit user control.
 - [OpenSVM Solana MCP Server](https://github.com/openSVM/solana-mcp-server) - Rust-based Solana MCP focused on RPC methods.
 - [Jupiter MCP](https://github.com/kukapay/jupiter-mcp) - Solana swap MCP using Jupiter's Ultra API.
+- [MadeOnSol MCP Server](https://github.com/MadeOnSol/mcp-server-madeonsol) - MCP Registry-listed `mcp-server-madeonsol` stdio package for Solana trading research: KOL wallet trades, Pump.fun deployer reputation, token risk evidence, holders, wallet PnL, and DEX trade data through a MadeOnSol API key (free tier available); rule and webhook tools write to the user's MadeOnSol account, and the optional keyless x402 mode signs Solana USDC payments under required per-call and lifetime caps, so the payer key is high-risk and should be a dedicated low-balance wallet.
 - [Solana MCP Directory](https://github.com/sendaifun/awesome-solana-mcp-servers) - Solana-specific MCP list for deeper Solana ecosystem discovery.
 
 ## Bitcoin and Lightning
