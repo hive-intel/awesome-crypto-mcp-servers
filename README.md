@@ -283,7 +283,7 @@ If you are building an AI agent that needs crypto intelligence, start with the s
 
 **Institutional on-chain metrics:** Start with Glassnode MCP Server when the agent needs asset and metric discovery, metric metadata, single or bulk Glassnode metric retrieval, market intelligence, or 30-day public-access analytics with optional API-key authentication.
 
-**CryptoQuant on-chain signals:** Start with CryptoQuant MCP when the agent needs MVRV, SOPR, exchange flows, funding rates, whale activity, metric descriptions, endpoint discovery, or API-key-backed CryptoQuant data.
+**CryptoQuant on-chain signals:** Start with CryptoQuant MCP when the agent needs MVRV, SOPR, exchange flows, funding rates, whale activity, metric descriptions, endpoint discovery, or CryptoQuant Research and QuickTake content, through the hosted OAuth remote MCP or the API-key-backed npm package.
 
 **DeFiLlama protocol and yield data:** Start with DeFiLlama MCP when the agent needs public protocol TVL, chain TVL, token prices, liquidity pools, or yield analytics from DeFiLlama. Treat it as a community wrapper around public DeFiLlama APIs.
 
