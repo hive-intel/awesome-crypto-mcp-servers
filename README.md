@@ -777,6 +777,7 @@ deployments, private keys, or elevated API-key permissions.
 
 - [OpenSea MCP](https://docs.opensea.io/reference/mcp) - Official OpenSea MCP for AI access to NFTs, tokens, collections, accounts, portfolio analytics, marketplace listings, offers, drops, swaps, and ready-to-sign trading actions across supported chains.
 - [Lightyear CryptoPunks](https://punks.lightyear.build) - Official MCP Registry-listed remote CryptoPunks MCP for trait discovery, filtering 10,000 punks, listings, bids, Merkle roots, bid pricing, and bid-proof workflows.
+- [GONDI MCP](https://github.com/gondixyz/mcp) - Official MCP Registry-listed remote GONDI MCP for read-only NFT marketplace and NFT lending data on Ethereum, HyperEVM, and Robinhood Chain: floor prices, top bids, listings, sales, floor history, loan offers and APRs, borrow and buy-with-loan quotes, lender returns, and wallet holdings, with no API key and no signing.
 
 For NFT data beyond marketplace actions, use the broader infrastructure entries:
 Alchemy MCP Server, Chainbase MCP, Moralis Cortex MCP, Zerion API MCP, The
