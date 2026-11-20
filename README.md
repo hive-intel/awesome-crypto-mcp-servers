@@ -773,6 +773,8 @@ deployments, private keys, or elevated API-key permissions.
 - [Crypto Indicators MCP](https://github.com/kukapay/crypto-indicators-mcp) - Technical-analysis indicators and strategy signals for cryptocurrency agents.
 - [Chainlink Feeds MCP](https://github.com/kukapay/chainlink-feeds-mcp) - Chainlink price-feed MCP for decentralized on-chain market data.
 
+- [Miramarket](https://github.com/miramarket/mcp-server) - Official MCP Registry-listed remote MCP for a Miramarket trading account across Hyperliquid perps (crypto, stocks, indices, commodities, FX, rates), tokenized stocks on Base and Polymarket prediction markets; hosted Streamable HTTP at `https://api.miramarket.org/mcp` with OAuth 2.1 and PKCE, 18 tools for market lookups, strategy generation, validation, simulation and live runs, where the account owner sets the live budget on the approval page, runs above it wait for their approval, and no tool can withdraw funds or place single orders.
+
 ## NFTs and Marketplaces
 
 - [OpenSea MCP](https://docs.opensea.io/reference/mcp) - Official OpenSea MCP for AI access to NFTs, tokens, collections, accounts, portfolio analytics, marketplace listings, offers, drops, swaps, and ready-to-sign trading actions across supported chains.
