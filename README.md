@@ -816,6 +816,7 @@ entries for narrower chain, attestation, wallet, or protocol-specific checks.
 - [Crypto Orderbook MCP](https://github.com/kukapay/crypto-orderbook-mcp) - Order-book depth and imbalance analysis across major crypto exchanges.
 - [Crypto Whitepapers MCP](https://github.com/kukapay/crypto-whitepapers-mcp) - Structured whitepaper knowledge base for crypto research agents.
 - [BlockBeats MCP](https://github.com/BlockBeatsOfficial/blockbeats-MCP) - Official BlockBeats MCP for crypto newsflashes, articles, market metrics, ETF flows, stablecoins, macro signals, and derivatives research.
+- [FlowFeed MCP](https://flowfeed.cc) - Hosted remote MCP with real-time crypto, forex and macro news plus an economic calendar (OAuth).
 
 ## Agent Wallets and On-chain Actions
 
